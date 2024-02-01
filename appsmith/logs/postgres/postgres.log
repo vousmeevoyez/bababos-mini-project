@@ -1,5 +1,0 @@
-2024-02-01 12:16:27.241 UTC [1804] LOG:  starting PostgreSQL 13.13 (Ubuntu 13.13-1.pgdg20.04+1) on aarch64-unknown-linux-gnu, compiled by gcc (Ubuntu 9.4.0-1ubuntu1~20.04.2) 9.4.0, 64-bit
-2024-02-01 12:16:27.241 UTC [1804] LOG:  listening on IPv4 address "127.0.0.1", port 5432
-2024-02-01 12:16:27.248 UTC [1804] LOG:  listening on Unix socket "/tmp/appsmith/pg-runtime/.s.PGSQL.5432"
-2024-02-01 12:16:27.254 UTC [1900] LOG:  database system was shut down at 2024-02-01 12:16:25 UTC
-2024-02-01 12:16:27.260 UTC [1804] LOG:  database system is ready to accept connections
