@@ -1,0 +1,2804 @@
+READY
+RESULT 896
+processname:redis groupname:redis pid:1763 channel:stdout
+1763:C 01 Feb 2024 12:16:27.166 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+1763:C 01 Feb 2024 12:16:27.166 # Redis version=5.0.7, bits=64, commit=00000000, modified=0, pid=1763, just started
+1763:C 01 Feb 2024 12:16:27.166 # Configuration loaded
+1763:M 01 Feb 2024 12:16:27.168 * Running mode=standalone, port=6379.
+1763:M 01 Feb 2024 12:16:27.168 # Server initialized
+1763:M 01 Feb 2024 12:16:27.169 # WARNING you have Transparent Huge Pages (THP) support enabled in your kernel. This will create latency and memory usage issues with Redis. To fix this issue run the command 'echo never > /sys/kernel/mm/transparent_hugepage/enabled' as root, and add it to your /etc/rc.local in order to retain the setting after a reboot. Redis must be restarted after THP is disabled.
+1763:M 01 Feb 2024 12:16:27.169 * Ready to accept connections
+READY
+RESULT 141
+processname:rts groupname:rts pid:1782 channel:stdout
+Load environment configuration
+mkdir: created directory '/appsmith-stacks/git-storage'
+READY
+RESULT 93
+processname:backend groupname:backend pid:1787 channel:stdout
+Load environment configuration
+READY
+RESULT 91
+processname:editor groupname:editor pid:1801 channel:stdout
+Load environment configuration
+READY
+RESULT 91
+processname:backend groupname:backend pid:1787 channel:stdout
+Waiting for RTS to start ...
+READY
+RESULT 342
+processname:postgres groupname:postgres pid:1804 channel:stdout
+2024-02-01 12:16:27.241 UTC [1804] LOG:  starting PostgreSQL 13.13 (Ubuntu 13.13-1.pgdg20.04+1) on aarch64-unknown-linux-gnu, compiled by gcc (Ubuntu 9.4.0-1ubuntu1~20.04.2) 9.4.0, 64-bit
+2024-02-01 12:16:27.241 UTC [1804] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+READY
+RESULT 171
+processname:postgres groupname:postgres pid:1804 channel:stdout
+2024-02-01 12:16:27.248 UTC [1804] LOG:  listening on Unix socket "/tmp/appsmith/pg-runtime/.s.PGSQL.5432"
+READY
+RESULT 162
+processname:postgres groupname:postgres pid:1804 channel:stdout
+2024-02-01 12:16:27.254 UTC [1900] LOG:  database system was shut down at 2024-02-01 12:16:25 UTC
+READY
+RESULT 152
+processname:postgres groupname:postgres pid:1804 channel:stdout
+2024-02-01 12:16:27.260 UTC [1804] LOG:  database system is ready to accept connections
+READY
+RESULT 92
+processname:editor groupname:editor pid:1801 channel:stdout
+/tmp/appsmith/www /opt/appsmith
+READY
+RESULT 74
+processname:editor groupname:editor pid:1801 channel:stdout
+/opt/appsmith
+READY
+RESULT 198
+processname:editor groupname:editor pid:1801 channel:stderr
+{"level":"info","ts":1706789787.4551494,"msg":"using provided configuration","config_file":"/tmp/appsmith/Caddyfile","config_adapter":""}
+READY
+RESULT 198
+processname:editor groupname:editor pid:1801 channel:stderr
+{"level":"info","ts":1706789787.5593197,"msg":"using provided configuration","config_file":"/tmp/appsmith/Caddyfile","config_adapter":""}
+READY
+RESULT 263
+processname:editor groupname:editor pid:1801 channel:stderr
+{"level":"info","ts":1706789787.573854,"logger":"admin","msg":"admin endpoint started","address":"127.0.0.1:2019","enforce_origin":false,"origins":["//localhost:2019","//[::1]:2019","//127.0.0.1:2019"]}
+READY
+RESULT 415
+processname:editor groupname:editor pid:1801 channel:stderr
+{"level":"warn","ts":1706789787.574368,"logger":"http.auto_https","msg":"server is listening only on the HTTP port, so no automatic HTTPS will be applied to this server","server_name":"srv0","http_port":80}
+{"level":"info","ts":1706789787.5746133,"logger":"tls.cache.maintenance","msg":"started background certificate maintenance","cache":"0x4000255e00"}
+READY
+RESULT 187
+processname:editor groupname:editor pid:1801 channel:stderr
+{"level":"info","ts":1706789787.5761943,"logger":"http.log","msg":"server running","name":"srv0","protocols":["h1","h2","h3"]}
+READY
+RESULT 139
+processname:editor groupname:editor pid:1801 channel:stderr
+{"level":"info","ts":1706789787.5862954,"msg":"serving initial configuration"}
+READY
+RESULT 344
+processname:editor groupname:editor pid:1801 channel:stderr
+{"level":"warn","ts":1706789787.5981712,"logger":"tls","msg":"storage cleaning happened too recently; skipping for now","storage":"FileStorage:/appsmith-stacks/data/caddy","instance":"faa01784-a317-4acf-a19c-843d7d95d9da","try_again":1706876187.598168,"try_again_in":86399.999999625}
+READY
+RESULT 155
+processname:editor groupname:editor pid:1801 channel:stderr
+{"level":"info","ts":1706789787.600311,"logger":"tls","msg":"finished cleaning storage units"}
+READY
+RESULT 91
+processname:backend groupname:backend pid:1787 channel:stdout
+Waiting for RTS to start ...
+READY
+RESULT 159
+processname:rts groupname:rts pid:1782 channel:stdout
+2024-02-01T12:16:28.258 server info: ===================================================================
+READY
+RESULT 142
+processname:rts groupname:rts pid:1782 channel:stdout
+2024-02-01T12:16:28.260 server info: server[server] accepting requests from all clients
+READY
+RESULT 146
+processname:rts groupname:rts pid:1782 channel:stdout
+2024-02-01T12:16:28.261 server info: server[server] now listening SCIM 2.0 on port 8886...
+
+READY
+RESULT 105
+processname:rts groupname:rts pid:1782 channel:stdout
+RTS version v1.10 running at http://localhost:8091
+READY
+RESULT 2115
+processname:rts groupname:rts pid:1782 channel:stdout
+[35m2024-02-01T12:16:28.716Z[39m [INFO] Creating worker {
+  options: {
+    namespace: [32m'default'[39m,
+    identity: [32m'1782@5714cbb260bd'[39m,
+    useVersioning: [33mfalse[39m,
+    buildId: [90mundefined[39m,
+    shutdownGraceTime: [33m0[39m,
+    maxConcurrentLocalActivityExecutions: [33m100[39m,
+    enableNonLocalActivities: [33mtrue[39m,
+    maxConcurrentWorkflowTaskPolls: [33m10[39m,
+    maxConcurrentActivityTaskPolls: [33m10[39m,
+    stickyQueueScheduleToStartTimeout: [32m'10s'[39m,
+    maxHeartbeatThrottleInterval: [32m'60s'[39m,
+    defaultHeartbeatThrottleInterval: [32m'30s'[39m,
+    isolateExecutionTimeout: [32m'5s'[39m,
+    workflowThreadPoolSize: [33m1[39m,
+    maxCachedWorkflows: [33m664[39m,
+    showStackTraceSources: [33mfalse[39m,
+    debugMode: [33mfalse[39m,
+    interceptors: { activity: [], workflowModules: [] },
+    nonStickyToStickyPollRatio: [33m0.2[39m,
+    sinks: { __temporal_logger: [36m[Object][39m },
+    connection: NativeConnection {
+      nativeClient: [36m[External: 2c3d0410][39m,
+      referenceHolders: Set(0) {}
+    },
+    taskQueue: [32m'appsmith-queue'[39m,
+    workflowsPath: [32m'/opt/appsmith/rts/bundle/workflows.js'[39m,
+    activities: Map(2) {
+      [32m'createWorkflowRequest'[39m => [36m[AsyncFunction: createWorkflowRequest][39m,
+      [32m'executeActivity'[39m => [36m[AsyncFunction: executeActivity][39m
+    },
+    reuseV8Context: [33mtrue[39m,
+    maxConcurrentWorkflowTaskExecutions: [33m40[39m,
+    maxConcurrentActivityTaskExecutions: [33m100[39m,
+    shutdownGraceTimeMs: [33m0[39m,
+    shutdownForceTimeMs: [90mundefined[39m,
+    stickyQueueScheduleToStartTimeoutMs: [33m10000[39m,
+    isolateExecutionTimeoutMs: [33m5000[39m,
+    maxHeartbeatThrottleIntervalMs: [33m60000[39m,
+    defaultHeartbeatThrottleIntervalMs: [33m30000[39m,
+    loadedDataConverter: {
+      payloadConverter: [36m[DefaultPayloadConverter][39m,
+      failureConverter: [36m[DefaultFailureConverter][39m,
+      payloadCodecs: []
+    }
+  }
+}
+READY
+RESULT 126
+processname:keycloak groupname:keycloak pid:1764 channel:stdout
+Changes detected in configuration. Updating the server image.
+READY
+RESULT 150
+processname:keycloak groupname:keycloak pid:1764 channel:stdout
+Updating the configuration and installing your custom providers, if any. Please wait.
+READY
+RESULT 78
+processname:backend groupname:backend pid:1787 channel:stdout
+{"success":true}READY
+RESULT 75
+processname:backend groupname:backend pid:1787 channel:stdout
+RTS started.
+READY
+RESULT 841
+processname:rts groupname:rts pid:1782 channel:stdout
+[35m2024-02-01T12:16:29.692Z[39m [INFO] asset [1m[32mworkflow-bundle-fa6f5f45567d86aac2b8.js[39m[22m 813 KiB [1m[32m[emitted][39m[22m [1m[32m[immutable][39m[22m (name: main)
+[35m2024-02-01T12:16:29.692Z[39m [INFO] runtime modules 937 bytes 4 modules
+[35m2024-02-01T12:16:29.693Z[39m [INFO] modules by path [1m../node_modules/@temporalio/[39m[22m 196 KiB
+[35m2024-02-01T12:16:29.693Z[39m [INFO]   modules by path [1m../node_modules/@temporalio/common/lib/[39m[22m 79.3 KiB
+[35m2024-02-01T12:16:29.693Z[39m [INFO]     modules by path [1m../node_modules/@temporalio/common/lib/*.js[39m[22m 54.6 KiB 16 modules
+[35m2024-02-01T12:16:29.693Z[39m [INFO]     modules by path [1m../node_modules/@temporalio/common/lib/converter/*.js[39m[22m 24.7 KiB 5 modules
+READY
+RESULT 1001
+processname:rts groupname:rts pid:1782 channel:stdout
+[35m2024-02-01T12:16:29.693Z[39m [INFO]   modules by path [1m../node_modules/@temporalio/workflow/[39m[22m 117 KiB
+[35m2024-02-01T12:16:29.693Z[39m [INFO]     [1m../node_modules/@temporalio/workflow/lib/worker-interface.js[39m[22m 11.7 KiB [1m[33m[built][39m[22m [1m[33m[code generated][39m[22m
+[35m2024-02-01T12:16:29.693Z[39m [INFO]     + 15 modules
+[35m2024-02-01T12:16:29.693Z[39m [INFO] modules by path [1m./[39m[22m 4.45 KiB
+[35m2024-02-01T12:16:29.693Z[39m [INFO]   [1m./workflows-autogenerated-entrypoint.cjs[39m[22m 343 bytes [1m[33m[built][39m[22m [1m[33m[code generated][39m[22m
+[35m2024-02-01T12:16:29.693Z[39m [INFO]   [1m./workflows.js[39m[22m 4.11 KiB [1m[33m[built][39m[22m [1m[33m[code generated][39m[22m
+[35m2024-02-01T12:16:29.693Z[39m [INFO] [1m__temporal_custom_payload_converter (ignored)[39m[22m 15 bytes [1m[33m[built][39m[22m [1m[33m[code generated][39m[22m
+READY
+RESULT 660
+processname:rts groupname:rts pid:1782 channel:stdout
+[35m2024-02-01T12:16:29.694Z[39m [INFO] [1m__temporal_custom_failure_converter (ignored)[39m[22m 15 bytes [1m[33m[built][39m[22m [1m[33m[code generated][39m[22m
+[35m2024-02-01T12:16:29.694Z[39m [INFO] [1m../node_modules/long/umd/index.js[39m[22m 43.1 KiB [1m[33m[built][39m[22m [1m[33m[code generated][39m[22m
+[35m2024-02-01T12:16:29.694Z[39m [INFO] [1m../node_modules/ms/dist/index.cjs[39m[22m 3.41 KiB [1m[33m[built][39m[22m [1m[33m[code generated][39m[22m
+[35m2024-02-01T12:16:29.694Z[39m [INFO] webpack 5.90.0 compiled [1m[32msuccessfully[39m[22m in 623 ms
+READY
+RESULT 149
+processname:rts groupname:rts pid:1782 channel:stdout
+[35m2024-02-01T12:16:29.697Z[39m [INFO] Workflow bundle created { size: [32m'0.79MB'[39m }
+READY
+RESULT 148
+processname:rts groupname:rts pid:1782 channel:stdout
+[35m2024-02-01T12:16:29.971Z[39m [INFO] Worker state changed { state: [32m'RUNNING'[39m }
+READY
+RESULT 198
+processname:backend groupname:backend pid:1787 channel:stdout
+SLF4J: Class path contains multiple SLF4J providers.
+SLF4J: Found provider [ch.qos.logback.classic.spi.LogbackServiceProvider@5a2e4553]
+READY
+RESULT 219
+processname:backend groupname:backend pid:1787 channel:stdout
+SLF4J: Found provider [org.slf4j.reload4j.Reload4jServiceProvider@28c97a5]
+SLF4J: See https://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+READY
+RESULT 157
+processname:backend groupname:backend pid:1787 channel:stdout
+SLF4J: Actual provider is of type [ch.qos.logback.classic.spi.LogbackServiceProvider@5a2e4553]
+READY
+RESULT 233
+processname:backend groupname:backend pid:1787 channel:stdout
+[2024-02-01 12:16:30,828]  - Starting ServerApplication vv1.10 using Java 17.0.9 with PID 1787 (/opt/appsmith/backend/server.jar started by root in /opt/appsmith/backend)
+READY
+RESULT 139
+processname:backend groupname:backend pid:1787 channel:stdout
+[2024-02-01 12:16:30,830]  - Running with Spring Boot v3.0.9, Spring v6.0.11
+READY
+RESULT 139
+processname:backend groupname:backend pid:1787 channel:stdout
+[2024-02-01 12:16:30,832]  - The following 1 profile is active: "production"
+READY
+RESULT 173
+processname:backend groupname:backend pid:1787 channel:stdout
+[2024-02-01 12:16:33,133]  - Multiple Spring Data modules found, entering strict repository configuration mode
+READY
+RESULT 164
+processname:backend groupname:backend pid:1787 channel:stdout
+[2024-02-01 12:16:33,136]  - Bootstrapping Spring Data Reactive MongoDB repositories in DEFAULT mode.
+READY
+RESULT 192
+processname:backend groupname:backend pid:1787 channel:stdout
+[2024-02-01 12:16:33,603]  - Finished Spring Data repository scanning in 458 ms. Found 56 Reactive MongoDB repository interfaces.
+READY
+RESULT 192
+processname:backend groupname:backend pid:1787 channel:stdout
+[2024-02-01 12:16:37,336]  - Application started with build version v1.10, and commitSha 47449b8083a5a660676484d32ebf5f2b5ab85365
+READY
+RESULT 183
+processname:keycloak groupname:keycloak pid:1764 channel:stdout
+2024-02-01 12:16:37,796 INFO  [io.quarkus.deployment.QuarkusAugmentor] (main) Quarkus augmentation completed in 7748ms
+READY
+RESULT 164
+processname:keycloak groupname:keycloak pid:1764 channel:stdout
+Server configuration updated and persisted. Run the following command to review the configuration:
+
+READY
+RESULT 84
+processname:keycloak groupname:keycloak pid:1764 channel:stdout
+	kc.sh show-config
+
+READY
+RESULT 207
+processname:keycloak groupname:keycloak pid:1764 channel:stdout
+Next time you run the server, just run:
+
+	kc.sh start --optimized --hostname-strict=false --hostname-path=/auth --http-port=8081 --proxy=edge
+
+READY
+RESULT 2695
+processname:backend groupname:backend pid:1787 channel:stdout
+[2024-02-01 12:16:38,835]  - MongoClient with metadata {"driver": {"name": "mongo-java-driver|reactive-streams|spring-boot", "version": "4.8.2"}, "os": {"type": "Linux", "name": "Linux", "architecture": "aarch64", "version": "6.5.13-orbstack-00121-ge428743e4e98"}, "platform": "Java/Eclipse Adoptium/17.0.9+9"} created with settings MongoClientSettings{readPreference=primary, writeConcern=WriteConcern{w=null, wTimeout=null ms, journal=null}, retryWrites=true, retryReads=true, readConcern=ReadConcern{level=null}, credential=MongoCredential{mechanism=null, userName='appsmith', source='appsmith', password=<hidden>, mechanismProperties=<hidden>}, streamFactoryFactory=NettyStreamFactoryFactory{eventLoopGroup=io.netty.channel.nio.NioEventLoopGroup@5a034157, socketChannelClass=class io.netty.channel.socket.nio.NioSocketChannel, allocator=PooledByteBufAllocator(directByDefault: true), sslContext=null}, commandListeners=[io.micrometer.core.instrument.binder.mongodb.MongoMetricsCommandListener@2d64c100], codecRegistry=ProvidersCodecRegistry{codecProviders=[ValueCodecProvider{}, BsonValueCodecProvider{}, DBRefCodecProvider{}, DBObjectCodecProvider{}, DocumentCodecProvider{}, CollectionCodecProvider{}, IterableCodecProvider{}, MapCodecProvider{}, GeoJsonCodecProvider{}, GridFSFileCodecProvider{}, Jsr310CodecProvider{}, JsonObjectCodecProvider{}, BsonCodecProvider{}, EnumCodecProvider{}, com.mongodb.Jep395RecordCodecProvider@2f4ba1ae]}, clusterSettings={hosts=[localhost:27017], srvServiceName=mongodb, mode=SINGLE, requiredClusterType=UNKNOWN, requiredReplicaSetName='null', serverSelector='null', clusterListeners='[]', serverSelectionTimeout='30000 ms', localThreshold='30000 ms'}, socketSettings=SocketSettings{connectTimeoutMS=10000, readTimeoutMS=0, receiveBufferSize=0, sendBufferSize=0}, heartbeatSocketSettings=SocketSettings{connectTimeoutMS=10000, readTimeoutMS=10000, receiveBufferSize=0, sendBufferSize=0}, connectionPoolSettings=ConnectionPoolSettings{maxSize=100, minSize=0, maxWaitTimeMS=120000, maxConnectionLifeTimeMS=0, maxConnectionIdleTimeMS=0, maintenanceInitialDelayMS=0, maintenanceFrequencyMS=60000, connectionPoolListeners=[io.micrometer.core.instrument.binder.mongodb.MongoMetricsConnectionPoolListener@3fd9e827], maxConnecting=2}, serverSettings=ServerSettings{heartbeatFrequencyMS=10000, minHeartbeatFrequencyMS=500, serverListeners='[]', serverMonitorListeners='[]'}, sslSettings=SslSettings{enabled=false, invalidHostNameAllowed=false, context=null}, applicationName='null', compressorList=[], uuidRepresentation=JAVA_LEGACY, serverApi=null, autoEncryptionSettings=null, contextProvider=null}
+READY
+RESULT 731
+processname:backend groupname:backend pid:1787 channel:stdout
+[2024-02-01 12:16:38,988]  - Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=REPLICA_SET_PRIMARY, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=13, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=70887107, setName='mr1', canonicalAddress=localhost:27017, hosts=[localhost:27017], passives=[], arbiters=[], primary='localhost:27017', tagSet=TagSet{[]}, electionId=7fffffff0000000000000002, setVersion=1, topologyVersion=TopologyVersion{processId=65bb8b9b8ce623ba46d7bf27, counter=6}, lastWriteDate=Thu Feb 01 12:16:29 UTC 2024, lastUpdateTimeNanos=710507608529}
+READY
+RESULT 2683
+processname:backend groupname:backend pid:1787 channel:stdout
+[2024-02-01 12:16:39,017]  - MongoClient with metadata {"driver": {"name": "mongo-java-driver|sync|spring-boot", "version": "4.8.2"}, "os": {"type": "Linux", "name": "Linux", "architecture": "aarch64", "version": "6.5.13-orbstack-00121-ge428743e4e98"}, "platform": "Java/Eclipse Adoptium/17.0.9+9"} created with settings MongoClientSettings{readPreference=primary, writeConcern=WriteConcern{w=null, wTimeout=null ms, journal=null}, retryWrites=true, retryReads=true, readConcern=ReadConcern{level=null}, credential=MongoCredential{mechanism=null, userName='appsmith', source='appsmith', password=<hidden>, mechanismProperties=<hidden>}, streamFactoryFactory=NettyStreamFactoryFactory{eventLoopGroup=io.netty.channel.nio.NioEventLoopGroup@2e766822, socketChannelClass=class io.netty.channel.socket.nio.NioSocketChannel, allocator=PooledByteBufAllocator(directByDefault: true), sslContext=null}, commandListeners=[io.micrometer.core.instrument.binder.mongodb.MongoMetricsCommandListener@2d64c100], codecRegistry=ProvidersCodecRegistry{codecProviders=[ValueCodecProvider{}, BsonValueCodecProvider{}, DBRefCodecProvider{}, DBObjectCodecProvider{}, DocumentCodecProvider{}, CollectionCodecProvider{}, IterableCodecProvider{}, MapCodecProvider{}, GeoJsonCodecProvider{}, GridFSFileCodecProvider{}, Jsr310CodecProvider{}, JsonObjectCodecProvider{}, BsonCodecProvider{}, EnumCodecProvider{}, com.mongodb.Jep395RecordCodecProvider@2f4ba1ae]}, clusterSettings={hosts=[localhost:27017], srvServiceName=mongodb, mode=SINGLE, requiredClusterType=UNKNOWN, requiredReplicaSetName='null', serverSelector='null', clusterListeners='[]', serverSelectionTimeout='30000 ms', localThreshold='30000 ms'}, socketSettings=SocketSettings{connectTimeoutMS=10000, readTimeoutMS=0, receiveBufferSize=0, sendBufferSize=0}, heartbeatSocketSettings=SocketSettings{connectTimeoutMS=10000, readTimeoutMS=10000, receiveBufferSize=0, sendBufferSize=0}, connectionPoolSettings=ConnectionPoolSettings{maxSize=100, minSize=0, maxWaitTimeMS=120000, maxConnectionLifeTimeMS=0, maxConnectionIdleTimeMS=0, maintenanceInitialDelayMS=0, maintenanceFrequencyMS=60000, connectionPoolListeners=[io.micrometer.core.instrument.binder.mongodb.MongoMetricsConnectionPoolListener@3fd9e827], maxConnecting=2}, serverSettings=ServerSettings{heartbeatFrequencyMS=10000, minHeartbeatFrequencyMS=500, serverListeners='[]', serverMonitorListeners='[]'}, sslSettings=SslSettings{enabled=false, invalidHostNameAllowed=false, context=null}, applicationName='null', compressorList=[], uuidRepresentation=JAVA_LEGACY, serverApi=null, autoEncryptionSettings=null, contextProvider=null}
+READY
+RESULT 730
+processname:backend groupname:backend pid:1787 channel:stdout
+[2024-02-01 12:16:39,025]  - Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=REPLICA_SET_PRIMARY, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=13, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=9773004, setName='mr1', canonicalAddress=localhost:27017, hosts=[localhost:27017], passives=[], arbiters=[], primary='localhost:27017', tagSet=TagSet{[]}, electionId=7fffffff0000000000000002, setVersion=1, topologyVersion=TopologyVersion{processId=65bb8b9b8ce623ba46d7bf27, counter=6}, lastWriteDate=Thu Feb 01 12:16:29 UTC 2024, lastUpdateTimeNanos=710554064337}
+READY
+RESULT 716
+processname:editor groupname:editor pid:1801 channel:stdout
+{"level":"info","ts":1706789799.4867687,"logger":"http.log.access.log0","msg":"handled request","request":{"remote_ip":"127.0.0.1","remote_port":"58842","client_ip":"127.0.0.1","proto":"HTTP/1.1","method":"GET","host":"localhost","uri":"/","headers":{"User-Agent":["curl/7.68.0"],"Accept":["*/*"]}},"bytes_read":0,"user_id":"","duration":0.008376045,"size":2026,"status":200,"resp_headers":{"Last-Modified":["Thu, 01 Feb 2024 12:13:27 GMT"],"Accept-Ranges":["bytes"],"Content-Length":["2026"],"Content-Security-Policy":["frame-ancestors 'self' *"],"X-Content-Type-Options":["nosniff"],"Etag":["\"s86faf1ka\""],"Content-Type":["text/html; charset=utf-8"]}}
+READY
+RESULT 161
+processname:backend groupname:backend pid:1787 channel:stdout
+[2024-02-01 12:16:42,027]  - Enabled plugins: []
+[2024-02-01 12:16:42,027]  - Disabled plugins: []
+READY
+RESULT 132
+processname:backend groupname:backend pid:1787 channel:stdout
+[2024-02-01 12:16:42,032]  - PF4J version 3.10.0 in 'deployment' mode
+READY
+RESULT 140
+processname:backend groupname:backend pid:1787 channel:stdout
+[2024-02-01 12:16:42,408]  - Plugin 'appsmithai-plugin@1.0-SNAPSHOT' resolved
+READY
+RESULT 2020
+processname:backend groupname:backend pid:1787 channel:stdout
+[2024-02-01 12:16:42,409]  - Plugin 'saas-plugin@1.0-SNAPSHOT' resolved
+[2024-02-01 12:16:42,409]  - Plugin 'google-sheets-plugin@1.0-SNAPSHOT' resolved
+[2024-02-01 12:16:42,409]  - Plugin 'js-plugin@1.0-SNAPSHOT' resolved
+[2024-02-01 12:16:42,409]  - Plugin 'oracle-plugin@1.0-SNAPSHOT' resolved
+[2024-02-01 12:16:42,409]  - Plugin 'smtp-plugin@1.0-SNAPSHOT' resolved
+[2024-02-01 12:16:42,409]  - Plugin 'amazons3-plugin@1.0-SNAPSHOT' resolved
+[2024-02-01 12:16:42,409]  - Plugin 'mysql-plugin@1.0-SNAPSHOT' resolved
+[2024-02-01 12:16:42,409]  - Plugin 'restapi-plugin@1.0-SNAPSHOT' resolved
+[2024-02-01 12:16:42,409]  - Plugin 'postgres-plugin@1.0-SNAPSHOT' resolved
+[2024-02-01 12:16:42,409]  - Plugin 'googleai-plugin@1.0-SNAPSHOT' resolved
+[2024-02-01 12:16:42,409]  - Plugin 'snowflake-plugin@1.0-SNAPSHOT' resolved
+[2024-02-01 12:16:42,409]  - Plugin 'anthropic-plugin@1.0-SNAPSHOT' resolved
+[2024-02-01 12:16:42,409]  - Plugin 'elasticsearch-plugin@1.0-SNAPSHOT' resolved
+[2024-02-01 12:16:42,409]  - Plugin 'mssql-plugin@1.0-SNAPSHOT' resolved
+[2024-02-01 12:16:42,409]  - Plugin 'redshift-plugin@1.0-SNAPSHOT' resolved
+[2024-02-01 12:16:42,410]  - Plugin 'databricks-plugin@1.0-SNAPSHOT' resolved
+[2024-02-01 12:16:42,410]  - Plugin 'mongo-plugin@1.0-SNAPSHOT' resolved
+[2024-02-01 12:16:42,410]  - Plugin 'graphql-plugin@1.0-SNAPSHOT' resolved
+[2024-02-01 12:16:42,410]  - Plugin 'aws-lambda-plugin@1.0-SNAPSHOT' resolved
+[2024-02-01 12:16:42,410]  - Plugin 'openai-plugin@1.0-SNAPSHOT' resolved
+[2024-02-01 12:16:42,410]  - Plugin 'dynamo-plugin@1.0-SNAPSHOT' resolved
+[2024-02-01 12:16:42,410]  - Plugin 'workflow-plugin@1.0-SNAPSHOT' resolved
+[2024-02-01 12:16:42,410]  - Plugin 'arangodb-plugin@1.0-SNAPSHOT' resolved
+[2024-02-01 12:16:42,410]  - Plugin 'redis-plugin@1.0-SNAPSHOT' resolved
+[2024-02-01 12:16:42,410]  - Plugin 'firestore-plugin@1.0-SNAPSHOT' resolved
+[2024-02-01 12:16:42,410]  - Start plugin 'appsmithai-plugin@1.0-SNAPSHOT'
+READY
+RESULT 217
+processname:backend groupname:backend pid:1787 channel:stdout
+SLF4J: A SLF4J service provider failed to instantiate:
+org.slf4j.spi.SLF4JServiceProvider: ch.qos.logback.classic.spi.LogbackServiceProvider not a subtype
+READY
+RESULT 210
+processname:backend groupname:backend pid:1787 channel:stdout
+SLF4J: A SLF4J service provider failed to instantiate:
+org.slf4j.spi.SLF4JServiceProvider: org.slf4j.reload4j.Reload4jServiceProvider not a subtype
+READY
+RESULT 100
+processname:backend groupname:backend pid:1787 channel:stdout
+SLF4J: No SLF4J providers were found.
+READY
+RESULT 124
+processname:backend groupname:backend pid:1787 channel:stdout
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+READY
+RESULT 139
+processname:backend groupname:backend pid:1787 channel:stdout
+SLF4J: See https://www.slf4j.org/codes.html#noProviders for further details.
+READY
+RESULT 131
+processname:backend groupname:backend pid:1787 channel:stdout
+[2024-02-01 12:16:42,423]  - Start plugin 'saas-plugin@1.0-SNAPSHOT'
+READY
+RESULT 140
+processname:backend groupname:backend pid:1787 channel:stdout
+[2024-02-01 12:16:42,425]  - Start plugin 'google-sheets-plugin@1.0-SNAPSHOT'
+READY
+RESULT 217
+processname:backend groupname:backend pid:1787 channel:stdout
+SLF4J: A SLF4J service provider failed to instantiate:
+org.slf4j.spi.SLF4JServiceProvider: ch.qos.logback.classic.spi.LogbackServiceProvider not a subtype
+READY
+RESULT 387
+processname:backend groupname:backend pid:1787 channel:stdout
+SLF4J: A SLF4J service provider failed to instantiate:
+org.slf4j.spi.SLF4JServiceProvider: org.slf4j.reload4j.Reload4jServiceProvider not a subtype
+SLF4J: No SLF4J providers were found.
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See https://www.slf4j.org/codes.html#noProviders for further details.
+READY
+RESULT 129
+processname:backend groupname:backend pid:1787 channel:stdout
+[2024-02-01 12:16:42,444]  - Start plugin 'js-plugin@1.0-SNAPSHOT'
+READY
+RESULT 133
+processname:backend groupname:backend pid:1787 channel:stdout
+[2024-02-01 12:16:42,447]  - Start plugin 'oracle-plugin@1.0-SNAPSHOT'
+READY
+RESULT 217
+processname:backend groupname:backend pid:1787 channel:stdout
+SLF4J: A SLF4J service provider failed to instantiate:
+org.slf4j.spi.SLF4JServiceProvider: ch.qos.logback.classic.spi.LogbackServiceProvider not a subtype
+READY
+RESULT 387
+processname:backend groupname:backend pid:1787 channel:stdout
+SLF4J: A SLF4J service provider failed to instantiate:
+org.slf4j.spi.SLF4JServiceProvider: org.slf4j.reload4j.Reload4jServiceProvider not a subtype
+SLF4J: No SLF4J providers were found.
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See https://www.slf4j.org/codes.html#noProviders for further details.
+READY
+RESULT 131
+processname:backend groupname:backend pid:1787 channel:stdout
+[2024-02-01 12:16:42,479]  - Start plugin 'smtp-plugin@1.0-SNAPSHOT'
+READY
+RESULT 217
+processname:backend groupname:backend pid:1787 channel:stdout
+SLF4J: A SLF4J service provider failed to instantiate:
+org.slf4j.spi.SLF4JServiceProvider: ch.qos.logback.classic.spi.LogbackServiceProvider not a subtype
+READY
+RESULT 387
+processname:backend groupname:backend pid:1787 channel:stdout
+SLF4J: A SLF4J service provider failed to instantiate:
+org.slf4j.spi.SLF4JServiceProvider: org.slf4j.reload4j.Reload4jServiceProvider not a subtype
+SLF4J: No SLF4J providers were found.
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See https://www.slf4j.org/codes.html#noProviders for further details.
+READY
+RESULT 135
+processname:backend groupname:backend pid:1787 channel:stdout
+[2024-02-01 12:16:42,496]  - Start plugin 'amazons3-plugin@1.0-SNAPSHOT'
+READY
+RESULT 217
+processname:backend groupname:backend pid:1787 channel:stdout
+SLF4J: A SLF4J service provider failed to instantiate:
+org.slf4j.spi.SLF4JServiceProvider: ch.qos.logback.classic.spi.LogbackServiceProvider not a subtype
+READY
+RESULT 387
+processname:backend groupname:backend pid:1787 channel:stdout
+SLF4J: A SLF4J service provider failed to instantiate:
+org.slf4j.spi.SLF4JServiceProvider: org.slf4j.reload4j.Reload4jServiceProvider not a subtype
+SLF4J: No SLF4J providers were found.
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See https://www.slf4j.org/codes.html#noProviders for further details.
+READY
+RESULT 132
+processname:backend groupname:backend pid:1787 channel:stdout
+[2024-02-01 12:16:42,516]  - Start plugin 'mysql-plugin@1.0-SNAPSHOT'
+READY
+RESULT 217
+processname:backend groupname:backend pid:1787 channel:stdout
+SLF4J: A SLF4J service provider failed to instantiate:
+org.slf4j.spi.SLF4JServiceProvider: ch.qos.logback.classic.spi.LogbackServiceProvider not a subtype
+READY
+RESULT 387
+processname:backend groupname:backend pid:1787 channel:stdout
+SLF4J: A SLF4J service provider failed to instantiate:
+org.slf4j.spi.SLF4JServiceProvider: org.slf4j.reload4j.Reload4jServiceProvider not a subtype
+SLF4J: No SLF4J providers were found.
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See https://www.slf4j.org/codes.html#noProviders for further details.
+READY
+RESULT 134
+processname:backend groupname:backend pid:1787 channel:stdout
+[2024-02-01 12:16:42,529]  - Start plugin 'restapi-plugin@1.0-SNAPSHOT'
+READY
+RESULT 217
+processname:backend groupname:backend pid:1787 channel:stdout
+SLF4J: A SLF4J service provider failed to instantiate:
+org.slf4j.spi.SLF4JServiceProvider: ch.qos.logback.classic.spi.LogbackServiceProvider not a subtype
+READY
+RESULT 387
+processname:backend groupname:backend pid:1787 channel:stdout
+SLF4J: A SLF4J service provider failed to instantiate:
+org.slf4j.spi.SLF4JServiceProvider: org.slf4j.reload4j.Reload4jServiceProvider not a subtype
+SLF4J: No SLF4J providers were found.
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See https://www.slf4j.org/codes.html#noProviders for further details.
+READY
+RESULT 135
+processname:backend groupname:backend pid:1787 channel:stdout
+[2024-02-01 12:16:42,539]  - Start plugin 'postgres-plugin@1.0-SNAPSHOT'
+READY
+RESULT 217
+processname:backend groupname:backend pid:1787 channel:stdout
+SLF4J: A SLF4J service provider failed to instantiate:
+org.slf4j.spi.SLF4JServiceProvider: ch.qos.logback.classic.spi.LogbackServiceProvider not a subtype
+READY
+RESULT 387
+processname:backend groupname:backend pid:1787 channel:stdout
+SLF4J: A SLF4J service provider failed to instantiate:
+org.slf4j.spi.SLF4JServiceProvider: org.slf4j.reload4j.Reload4jServiceProvider not a subtype
+SLF4J: No SLF4J providers were found.
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See https://www.slf4j.org/codes.html#noProviders for further details.
+READY
+RESULT 135
+processname:backend groupname:backend pid:1787 channel:stdout
+[2024-02-01 12:16:42,549]  - Start plugin 'googleai-plugin@1.0-SNAPSHOT'
+READY
+RESULT 136
+processname:backend groupname:backend pid:1787 channel:stdout
+[2024-02-01 12:16:42,549]  - Start plugin 'snowflake-plugin@1.0-SNAPSHOT'
+READY
+RESULT 217
+processname:backend groupname:backend pid:1787 channel:stdout
+SLF4J: A SLF4J service provider failed to instantiate:
+org.slf4j.spi.SLF4JServiceProvider: ch.qos.logback.classic.spi.LogbackServiceProvider not a subtype
+READY
+RESULT 387
+processname:backend groupname:backend pid:1787 channel:stdout
+SLF4J: A SLF4J service provider failed to instantiate:
+org.slf4j.spi.SLF4JServiceProvider: org.slf4j.reload4j.Reload4jServiceProvider not a subtype
+SLF4J: No SLF4J providers were found.
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See https://www.slf4j.org/codes.html#noProviders for further details.
+READY
+RESULT 136
+processname:backend groupname:backend pid:1787 channel:stdout
+[2024-02-01 12:16:42,563]  - Start plugin 'anthropic-plugin@1.0-SNAPSHOT'
+READY
+RESULT 140
+processname:backend groupname:backend pid:1787 channel:stdout
+[2024-02-01 12:16:42,564]  - Start plugin 'elasticsearch-plugin@1.0-SNAPSHOT'
+READY
+RESULT 132
+processname:backend groupname:backend pid:1787 channel:stdout
+[2024-02-01 12:16:42,565]  - Start plugin 'mssql-plugin@1.0-SNAPSHOT'
+READY
+RESULT 217
+processname:backend groupname:backend pid:1787 channel:stdout
+SLF4J: A SLF4J service provider failed to instantiate:
+org.slf4j.spi.SLF4JServiceProvider: ch.qos.logback.classic.spi.LogbackServiceProvider not a subtype
+READY
+RESULT 387
+processname:backend groupname:backend pid:1787 channel:stdout
+SLF4J: A SLF4J service provider failed to instantiate:
+org.slf4j.spi.SLF4JServiceProvider: org.slf4j.reload4j.Reload4jServiceProvider not a subtype
+SLF4J: No SLF4J providers were found.
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See https://www.slf4j.org/codes.html#noProviders for further details.
+READY
+RESULT 135
+processname:backend groupname:backend pid:1787 channel:stdout
+[2024-02-01 12:16:42,576]  - Start plugin 'redshift-plugin@1.0-SNAPSHOT'
+READY
+RESULT 217
+processname:backend groupname:backend pid:1787 channel:stdout
+SLF4J: A SLF4J service provider failed to instantiate:
+org.slf4j.spi.SLF4JServiceProvider: ch.qos.logback.classic.spi.LogbackServiceProvider not a subtype
+READY
+RESULT 248
+processname:backend groupname:backend pid:1787 channel:stdout
+SLF4J: A SLF4J service provider failed to instantiate:
+org.slf4j.spi.SLF4JServiceProvider: org.slf4j.reload4j.Reload4jServiceProvider not a subtype
+SLF4J: No SLF4J providers were found.
+READY
+RESULT 201
+processname:backend groupname:backend pid:1787 channel:stdout
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See https://www.slf4j.org/codes.html#noProviders for further details.
+READY
+RESULT 137
+processname:backend groupname:backend pid:1787 channel:stdout
+[2024-02-01 12:16:42,585]  - Start plugin 'databricks-plugin@1.0-SNAPSHOT'
+READY
+RESULT 132
+processname:backend groupname:backend pid:1787 channel:stdout
+[2024-02-01 12:16:42,591]  - Start plugin 'mongo-plugin@1.0-SNAPSHOT'
+READY
+RESULT 134
+processname:backend groupname:backend pid:1787 channel:stdout
+[2024-02-01 12:16:42,594]  - Start plugin 'graphql-plugin@1.0-SNAPSHOT'
+READY
+RESULT 137
+processname:backend groupname:backend pid:1787 channel:stdout
+[2024-02-01 12:16:42,595]  - Start plugin 'aws-lambda-plugin@1.0-SNAPSHOT'
+READY
+RESULT 133
+processname:backend groupname:backend pid:1787 channel:stdout
+[2024-02-01 12:16:42,620]  - Start plugin 'openai-plugin@1.0-SNAPSHOT'
+READY
+RESULT 217
+processname:backend groupname:backend pid:1787 channel:stdout
+SLF4J: A SLF4J service provider failed to instantiate:
+org.slf4j.spi.SLF4JServiceProvider: ch.qos.logback.classic.spi.LogbackServiceProvider not a subtype
+READY
+RESULT 387
+processname:backend groupname:backend pid:1787 channel:stdout
+SLF4J: A SLF4J service provider failed to instantiate:
+org.slf4j.spi.SLF4JServiceProvider: org.slf4j.reload4j.Reload4jServiceProvider not a subtype
+SLF4J: No SLF4J providers were found.
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See https://www.slf4j.org/codes.html#noProviders for further details.
+READY
+RESULT 133
+processname:backend groupname:backend pid:1787 channel:stdout
+[2024-02-01 12:16:42,629]  - Start plugin 'dynamo-plugin@1.0-SNAPSHOT'
+READY
+RESULT 217
+processname:backend groupname:backend pid:1787 channel:stdout
+SLF4J: A SLF4J service provider failed to instantiate:
+org.slf4j.spi.SLF4JServiceProvider: ch.qos.logback.classic.spi.LogbackServiceProvider not a subtype
+READY
+RESULT 387
+processname:backend groupname:backend pid:1787 channel:stdout
+SLF4J: A SLF4J service provider failed to instantiate:
+org.slf4j.spi.SLF4JServiceProvider: org.slf4j.reload4j.Reload4jServiceProvider not a subtype
+SLF4J: No SLF4J providers were found.
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See https://www.slf4j.org/codes.html#noProviders for further details.
+READY
+RESULT 135
+processname:backend groupname:backend pid:1787 channel:stdout
+[2024-02-01 12:16:42,638]  - Start plugin 'workflow-plugin@1.0-SNAPSHOT'
+READY
+RESULT 135
+processname:backend groupname:backend pid:1787 channel:stdout
+[2024-02-01 12:16:42,639]  - Start plugin 'arangodb-plugin@1.0-SNAPSHOT'
+READY
+RESULT 132
+processname:backend groupname:backend pid:1787 channel:stdout
+[2024-02-01 12:16:42,640]  - Start plugin 'redis-plugin@1.0-SNAPSHOT'
+READY
+RESULT 217
+processname:backend groupname:backend pid:1787 channel:stdout
+SLF4J: A SLF4J service provider failed to instantiate:
+org.slf4j.spi.SLF4JServiceProvider: ch.qos.logback.classic.spi.LogbackServiceProvider not a subtype
+READY
+RESULT 461
+processname:backend groupname:backend pid:1787 channel:stdout
+SLF4J: A SLF4J service provider failed to instantiate:
+org.slf4j.spi.SLF4JServiceProvider: org.slf4j.reload4j.Reload4jServiceProvider not a subtype
+SLF4J: No SLF4J providers were found.
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See https://www.slf4j.org/codes.html#noProviders for further details.
+[2024-02-01 12:16:42,660]  - Start plugin 'firestore-plugin@1.0-SNAPSHOT'
+READY
+RESULT 347
+processname:keycloak groupname:keycloak pid:1764 channel:stdout
+2024-02-01 12:16:40,781 INFO  [org.keycloak.quarkus.runtime.hostname.DefaultHostnameProvider] (main) Hostname settings: Base URL: <unset>, Hostname: <request>, Strict HTTPS: false, Path: /auth, Strict BackChannel: false, Admin URL: <unset>, Admin: <request>, Port: -1, Proxied: true
+READY
+RESULT 379
+processname:keycloak groupname:keycloak pid:1764 channel:stdout
+2024-02-01 12:16:42,657 WARN  [io.quarkus.agroal.runtime.DataSources] (main) Datasource <default> enables XA but transaction recovery is not enabled. Please enable transaction recovery by setting quarkus.transaction-manager.enable-recovery=true, otherwise data may be lost if the application is terminated abruptly
+READY
+RESULT 542
+processname:backend groupname:backend pid:1787 channel:stdout
+SLF4J: A SLF4J service provider failed to instantiate:
+org.slf4j.spi.SLF4JServiceProvider: ch.qos.logback.classic.spi.LogbackServiceProvider not a subtype
+SLF4J: A SLF4J service provider failed to instantiate:
+org.slf4j.spi.SLF4JServiceProvider: org.slf4j.reload4j.Reload4jServiceProvider not a subtype
+SLF4J: No SLF4J providers were found.
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See https://www.slf4j.org/codes.html#noProviders for further details.
+READY
+RESULT 217
+processname:backend groupname:backend pid:1787 channel:stdout
+SLF4J: A SLF4J service provider failed to instantiate:
+org.slf4j.spi.SLF4JServiceProvider: ch.qos.logback.classic.spi.LogbackServiceProvider not a subtype
+READY
+RESULT 387
+processname:backend groupname:backend pid:1787 channel:stdout
+SLF4J: A SLF4J service provider failed to instantiate:
+org.slf4j.spi.SLF4JServiceProvider: org.slf4j.reload4j.Reload4jServiceProvider not a subtype
+SLF4J: No SLF4J providers were found.
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See https://www.slf4j.org/codes.html#noProviders for further details.
+READY
+RESULT 217
+processname:backend groupname:backend pid:1787 channel:stdout
+SLF4J: A SLF4J service provider failed to instantiate:
+org.slf4j.spi.SLF4JServiceProvider: ch.qos.logback.classic.spi.LogbackServiceProvider not a subtype
+READY
+RESULT 387
+processname:backend groupname:backend pid:1787 channel:stdout
+SLF4J: A SLF4J service provider failed to instantiate:
+org.slf4j.spi.SLF4JServiceProvider: org.slf4j.reload4j.Reload4jServiceProvider not a subtype
+SLF4J: No SLF4J providers were found.
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See https://www.slf4j.org/codes.html#noProviders for further details.
+READY
+RESULT 217
+processname:backend groupname:backend pid:1787 channel:stdout
+SLF4J: A SLF4J service provider failed to instantiate:
+org.slf4j.spi.SLF4JServiceProvider: ch.qos.logback.classic.spi.LogbackServiceProvider not a subtype
+READY
+RESULT 210
+processname:backend groupname:backend pid:1787 channel:stdout
+SLF4J: A SLF4J service provider failed to instantiate:
+org.slf4j.spi.SLF4JServiceProvider: org.slf4j.reload4j.Reload4jServiceProvider not a subtype
+READY
+RESULT 239
+processname:backend groupname:backend pid:1787 channel:stdout
+SLF4J: No SLF4J providers were found.
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See https://www.slf4j.org/codes.html#noProviders for further details.
+READY
+RESULT 217
+processname:backend groupname:backend pid:1787 channel:stdout
+SLF4J: A SLF4J service provider failed to instantiate:
+org.slf4j.spi.SLF4JServiceProvider: ch.qos.logback.classic.spi.LogbackServiceProvider not a subtype
+READY
+RESULT 210
+processname:backend groupname:backend pid:1787 channel:stdout
+SLF4J: A SLF4J service provider failed to instantiate:
+org.slf4j.spi.SLF4JServiceProvider: org.slf4j.reload4j.Reload4jServiceProvider not a subtype
+READY
+RESULT 162
+processname:backend groupname:backend pid:1787 channel:stdout
+SLF4J: No SLF4J providers were found.
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+READY
+RESULT 139
+processname:backend groupname:backend pid:1787 channel:stdout
+SLF4J: See https://www.slf4j.org/codes.html#noProviders for further details.
+READY
+RESULT 217
+processname:backend groupname:backend pid:1787 channel:stdout
+SLF4J: A SLF4J service provider failed to instantiate:
+org.slf4j.spi.SLF4JServiceProvider: ch.qos.logback.classic.spi.LogbackServiceProvider not a subtype
+READY
+RESULT 387
+processname:backend groupname:backend pid:1787 channel:stdout
+SLF4J: A SLF4J service provider failed to instantiate:
+org.slf4j.spi.SLF4JServiceProvider: org.slf4j.reload4j.Reload4jServiceProvider not a subtype
+SLF4J: No SLF4J providers were found.
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See https://www.slf4j.org/codes.html#noProviders for further details.
+READY
+RESULT 213
+processname:keycloak groupname:keycloak pid:1764 channel:stdout
+2024-02-01 12:16:43,829 WARN  [org.infinispan.PERSISTENCE] (keycloak-cache-init) ISPN000554: jboss-marshalling is deprecated and planned for removal
+READY
+RESULT 240
+processname:keycloak groupname:keycloak pid:1764 channel:stdout
+2024-02-01 12:16:44,147 INFO  [org.infinispan.CONTAINER] (keycloak-cache-init) ISPN000556: Starting user marshaller 'org.infinispan.jboss.marshalling.core.JBossUserMarshaller'
+READY
+RESULT 268
+processname:keycloak groupname:keycloak pid:1764 channel:stdout
+2024-02-01 12:16:44,316 INFO  [org.infinispan.CLUSTER] (keycloak-cache-init) ISPN000088: Unable to use any JGroups configuration mechanisms provided in properties {}. Using default JGroups configuration!
+READY
+RESULT 185
+processname:keycloak groupname:keycloak pid:1764 channel:stdout
+2024-02-01 12:16:44,585 INFO  [org.infinispan.CLUSTER] (keycloak-cache-init) ISPN000078: Starting JGroups channel `ISPN`
+READY
+RESULT 214
+processname:keycloak groupname:keycloak pid:1764 channel:stdout
+2024-02-01 12:16:44,591 INFO  [org.jgroups.JChannel] (keycloak-cache-init) local_addr: 6b100f3c-9b60-409b-bc4e-d4009c273bb7, name: 5714cbb260bd-26669
+READY
+RESULT 249
+processname:keycloak groupname:keycloak pid:1764 channel:stdout
+2024-02-01 12:16:44,607 WARN  [org.jgroups.protocols.UDP] (keycloak-cache-init) JGRP000015: the send buffer of socket MulticastSocket was set to 1MB, but the OS only allocated 212.99KB
+READY
+RESULT 253
+processname:keycloak groupname:keycloak pid:1764 channel:stdout
+2024-02-01 12:16:44,608 WARN  [org.jgroups.protocols.UDP] (keycloak-cache-init) JGRP000015: the receive buffer of socket MulticastSocket was set to 20MB, but the OS only allocated 212.99KB
+READY
+RESULT 438
+processname:keycloak groupname:keycloak pid:1764 channel:stdout
+2024-02-01 12:16:44,609 WARN  [org.jgroups.protocols.UDP] (keycloak-cache-init) JGRP000015: the send buffer of socket MulticastSocket was set to 1MB, but the OS only allocated 212.99KB
+2024-02-01 12:16:44,609 WARN  [org.jgroups.protocols.UDP] (keycloak-cache-init) JGRP000015: the receive buffer of socket MulticastSocket was set to 25MB, but the OS only allocated 212.99KB
+READY
+RESULT 177
+processname:keycloak groupname:keycloak pid:1764 channel:stdout
+2024-02-01 12:16:44,628 INFO  [org.jgroups.protocols.FD_SOCK2] (keycloak-cache-init) server listening on *.26154
+READY
+RESULT 476
+processname:keycloak groupname:keycloak pid:1764 channel:stdout
+2024-02-01 12:16:44,806 WARN  [io.quarkus.vertx.http.runtime.VertxHttpRecorder] (main) The X-Forwarded-* and Forwarded headers will be considered when determining the proxy address. This configuration can cause a security issue as clients can forge requests and send a forwarded header that is not overwritten by the proxy. Please consider use one of these headers just to forward the proxy address in requests.
+READY
+RESULT 245
+processname:keycloak groupname:keycloak pid:1764 channel:stdout
+2024-02-01 12:16:44,817 INFO  [org.keycloak.broker.provider.AbstractIdentityProviderMapper] (main) Registering class org.keycloak.broker.provider.mappersync.ConfigSyncEventListener
+READY
+RESULT 547
+processname:backend groupname:backend pid:1787 channel:stdout
+[2024-02-01 12:16:45,900]  - Mongock runner COMMUNITY version[5.1.6]
+[2024-02-01 12:16:45,901]  - Running Mongock with NO metadata
+[2024-02-01 12:16:45,901]  - Property transaction-enabled not provided. It will become true as default in next versions. Set explicit value to false in case transaction are not desired.
+[2024-02-01 12:16:45,901]  - Property transaction-enabled not provided and is unknown if driver is transactionable. BY DEFAULT MONGOCK WILL RUN IN NO-TRANSACTION MODE.
+READY
+RESULT 161
+processname:backend groupname:backend pid:1787 channel:stdout
+[2024-02-01 12:16:45,999]  - Reflections took 81 ms to scan 1 urls, producing 5 keys and 91 values
+READY
+RESULT 161
+processname:backend groupname:backend pid:1787 channel:stdout
+[2024-02-01 12:16:46,094]  - Reflections took 74 ms to scan 1 urls, producing 5 keys and 91 values
+READY
+RESULT 126
+processname:backend groupname:backend pid:1787 channel:stdout
+[2024-02-01 12:16:46,408]  - Mongock trying to acquire the lock
+READY
+RESULT 153
+processname:backend groupname:backend pid:1787 channel:stdout
+[2024-02-01 12:16:46,425]  - Mongock acquired the lock until: Thu Feb 01 12:17:46 UTC 2024
+READY
+RESULT 123
+processname:backend groupname:backend pid:1787 channel:stdout
+[2024-02-01 12:16:46,426]  - Starting mongock lock daemon...
+READY
+RESULT 177
+processname:backend groupname:backend pid:1787 channel:stdout
+[2024-02-01 12:16:46,430]  - Mongock starting the data migration sequence id[2024-02-01T12:16:45.837885576-644]...
+READY
+RESULT 193
+processname:backend groupname:backend pid:1787 channel:stdout
+[2024-02-01 12:16:46,505]  - method[initializeSchemaVersion] with arguments: [org.springframework.data.mongodb.core.MongoTemplate]
+READY
+RESULT 235
+processname:backend groupname:backend pid:1787 channel:stdout
+[2024-02-01 12:16:46,560]  - APPLIED - {"id"="initialize-schema-version", "type"="execution", "author"="", "class"="DatabaseChangelog0", "method"="initializeSchemaVersion"}
+READY
+RESULT 184
+processname:backend groupname:backend pid:1787 channel:stdout
+[2024-02-01 12:16:46,566]  - method[initialPlugins] with arguments: [org.springframework.data.mongodb.core.MongoTemplate]
+READY
+RESULT 216
+processname:backend groupname:backend pid:1787 channel:stdout
+[2024-02-01 12:16:46,588]  - APPLIED - {"id"="initial-plugins", "type"="execution", "author"="", "class"="DatabaseChangelog1", "method"="initialPlugins"}
+READY
+RESULT 187
+processname:backend groupname:backend pid:1787 channel:stdout
+[2024-02-01 12:16:46,593]  - method[addInitialIndexes] with arguments: [org.springframework.data.mongodb.core.MongoTemplate]
+READY
+RESULT 240
+processname:keycloak groupname:keycloak pid:1764 channel:stdout
+2024-02-01 12:16:46,722 INFO  [org.jgroups.protocols.pbcast.GMS] (keycloak-cache-init) 5714cbb260bd-26669: no members discovered after 2087 ms: creating cluster as coordinator
+READY
+RESULT 245
+processname:keycloak groupname:keycloak pid:1764 channel:stdout
+2024-02-01 12:16:46,733 INFO  [org.infinispan.CLUSTER] (keycloak-cache-init) ISPN000094: Received new cluster view for channel ISPN: [5714cbb260bd-26669|0] (1) [5714cbb260bd-26669]
+READY
+RESULT 254
+processname:keycloak groupname:keycloak pid:1764 channel:stdout
+2024-02-01 12:16:46,742 INFO  [org.infinispan.CLUSTER] (keycloak-cache-init) ISPN000079: Channel `ISPN` local address is `5714cbb260bd-26669`, physical addresses are `[192.168.247.2:41690]`
+READY
+RESULT 224
+processname:keycloak groupname:keycloak pid:1764 channel:stdout
+2024-02-01 12:16:46,763 WARN  [org.infinispan.CONFIG] (keycloak-cache-init) ISPN000569: Unable to persist Infinispan internal caches as no global state enabled
+READY
+RESULT 219
+processname:backend groupname:backend pid:1787 channel:stdout
+[2024-02-01 12:16:47,398]  - APPLIED - {"id"="initial-indexes", "type"="execution", "author"="", "class"="DatabaseChangelog1", "method"="addInitialIndexes"}
+READY
+RESULT 201
+processname:backend groupname:backend pid:1787 channel:stdout
+[2024-02-01 12:16:47,411]  - method[setInitialSequenceForDatasource] with arguments: [org.springframework.data.mongodb.core.MongoTemplate]
+READY
+RESULT 253
+processname:backend groupname:backend pid:1787 channel:stdout
+[2024-02-01 12:16:47,443]  - APPLIED - {"id"="set-initial-sequence-for-datasource", "type"="execution", "author"="", "class"="DatabaseChangelog1", "method"="setInitialSequenceForDatasource"}
+READY
+RESULT 195
+processname:backend groupname:backend pid:1787 channel:stdout
+[2024-02-01 12:16:47,449]  - method[setPluginImageAndDocsLink] with arguments: [org.springframework.data.mongodb.core.MongoTemplate]
+READY
+RESULT 242
+processname:backend groupname:backend pid:1787 channel:stdout
+[2024-02-01 12:16:47,497]  - APPLIED - {"id"="set-plugin-image-and-docs-link", "type"="execution", "author"="", "class"="DatabaseChangelog1", "method"="setPluginImageAndDocsLink"}
+READY
+RESULT 181
+processname:backend groupname:backend pid:1787 channel:stdout
+[2024-02-01 12:16:47,503]  - method[mysqlPlugin] with arguments: [org.springframework.data.mongodb.core.MongoTemplate]
+READY
+RESULT 219
+processname:backend groupname:backend pid:1787 channel:stdout
+[2024-02-01 12:16:47,519]  - APPLIED - {"id"="install-mysql-plugins", "type"="execution", "author"="", "class"="DatabaseChangelog1", "method"="mysqlPlugin"}
+READY
+RESULT 202
+processname:backend groupname:backend pid:1787 channel:stdout
+[2024-02-01 12:16:47,523]  - method[updateDatabaseDocumentationLinks] with arguments: [org.springframework.data.mongodb.core.MongoTemplate]
+READY
+RESULT 254
+processname:backend groupname:backend pid:1787 channel:stdout
+[2024-02-01 12:16:47,537]  - APPLIED - {"id"="update-database-documentation-links", "type"="execution", "author"="", "class"="DatabaseChangelog1", "method"="updateDatabaseDocumentationLinks"}
+READY
+RESULT 197
+processname:backend groupname:backend pid:1787 channel:stdout
+[2024-02-01 12:16:47,541]  - method[generateUniqueIdForInstance] with arguments: [org.springframework.data.mongodb.core.MongoTemplate]
+READY
+RESULT 245
+processname:backend groupname:backend pid:1787 channel:stdout
+[2024-02-01 12:16:47,554]  - APPLIED - {"id"="generate-unique-id-for-instance", "type"="execution", "author"="", "class"="DatabaseChangelog1", "method"="generateUniqueIdForInstance"}
+READY
+RESULT 188
+processname:backend groupname:backend pid:1787 channel:stdout
+[2024-02-01 12:16:47,563]  - method[fixTokenExpiration] with arguments: [org.springframework.data.mongodb.core.MongoTemplate]
+READY
+RESULT 240
+processname:backend groupname:backend pid:1787 channel:stdout
+[2024-02-01 12:16:47,590]  - APPLIED - {"id"="fix-password-reset-token-expiration", "type"="execution", "author"="", "class"="DatabaseChangelog1", "method"="fixTokenExpiration"}
+READY
+RESULT 192
+processname:backend groupname:backend pid:1787 channel:stdout
+[2024-02-01 12:16:47,594]  - method[addElasticSearchPlugin] with arguments: [org.springframework.data.mongodb.core.MongoTemplate]
+READY
+RESULT 234
+processname:backend groupname:backend pid:1787 channel:stdout
+[2024-02-01 12:16:47,602]  - APPLIED - {"id"="add-elastic-search-plugin", "type"="execution", "author"="", "class"="DatabaseChangelog1", "method"="addElasticSearchPlugin"}
+READY
+RESULT 185
+processname:backend groupname:backend pid:1787 channel:stdout
+[2024-02-01 12:16:47,607]  - method[addDynamoPlugin] with arguments: [org.springframework.data.mongodb.core.MongoTemplate]
+READY
+RESULT 219
+processname:backend groupname:backend pid:1787 channel:stdout
+[2024-02-01 12:16:47,616]  - APPLIED - {"id"="add-dynamo-plugin", "type"="execution", "author"="", "class"="DatabaseChangelog1", "method"="addDynamoPlugin"}
+READY
+RESULT 181
+processname:backend groupname:backend pid:1787 channel:stdout
+[2024-02-01 12:16:47,621]  - method[usePngLogos] with arguments: [org.springframework.data.mongodb.core.MongoTemplate]
+READY
+RESULT 211
+processname:backend groupname:backend pid:1787 channel:stdout
+[2024-02-01 12:16:47,628]  - APPLIED - {"id"="use-png-logos", "type"="execution", "author"="", "class"="DatabaseChangelog1", "method"="usePngLogos"}
+READY
+RESULT 184
+processname:backend groupname:backend pid:1787 channel:stdout
+[2024-02-01 12:16:47,642]  - method[addRedisPlugin] with arguments: [org.springframework.data.mongodb.core.MongoTemplate]
+READY
+RESULT 217
+processname:backend groupname:backend pid:1787 channel:stdout
+[2024-02-01 12:16:47,656]  - APPLIED - {"id"="add-redis-plugin", "type"="execution", "author"="", "class"="DatabaseChangelog1", "method"="addRedisPlugin"}
+READY
+RESULT 184
+processname:backend groupname:backend pid:1787 channel:stdout
+[2024-02-01 12:16:47,661]  - method[addMsSqlPlugin] with arguments: [org.springframework.data.mongodb.core.MongoTemplate]
+READY
+RESULT 217
+processname:backend groupname:backend pid:1787 channel:stdout
+[2024-02-01 12:16:47,671]  - APPLIED - {"id"="add-msSql-plugin", "type"="execution", "author"="", "class"="DatabaseChangelog1", "method"="addMsSqlPlugin"}
+READY
+RESULT 205
+processname:backend groupname:backend pid:1787 channel:stdout
+[2024-02-01 12:16:47,675]  - method[addNewPageIndexAfterDroppingNewPage] with arguments: [org.springframework.data.mongodb.core.MongoTemplate]
+READY
+RESULT 260
+processname:backend groupname:backend pid:1787 channel:stdout
+[2024-02-01 12:16:47,710]  - APPLIED - {"id"="createNewPageIndexAfterDroppingNewPage", "type"="execution", "author"="", "class"="DatabaseChangelog1", "method"="addNewPageIndexAfterDroppingNewPage"}
+READY
+RESULT 209
+processname:backend groupname:backend pid:1787 channel:stdout
+[2024-02-01 12:16:47,713]  - method[addNewActionIndexAfterDroppingNewAction] with arguments: [org.springframework.data.mongodb.core.MongoTemplate]
+READY
+RESULT 268
+processname:backend groupname:backend pid:1787 channel:stdout
+[2024-02-01 12:16:47,752]  - APPLIED - {"id"="createNewActionIndexAfterDroppingNewAction", "type"="execution", "author"="", "class"="DatabaseChangelog1", "method"="addNewActionIndexAfterDroppingNewAction"}
+READY
+RESULT 202
+processname:backend groupname:backend pid:1787 channel:stdout
+[2024-02-01 12:16:47,756]  - method[addNewPageAndNewActionNewIndexes] with arguments: [org.springframework.data.mongodb.core.MongoTemplate]
+READY
+RESULT 250
+processname:backend groupname:backend pid:1787 channel:stdout
+[2024-02-01 12:16:47,773]  - APPLIED - {"id"="new-page-new-action-add-indexes", "type"="execution", "author"="", "class"="DatabaseChangelog1", "method"="addNewPageAndNewActionNewIndexes"}
+READY
+RESULT 210
+processname:backend groupname:backend pid:1787 channel:stdout
+[2024-02-01 12:16:47,776]  - method[updateActionIndexToSingleMultipleIndices] with arguments: [org.springframework.data.mongodb.core.MongoTemplate]
+READY
+RESULT 273
+processname:backend groupname:backend pid:1787 channel:stdout
+[2024-02-01 12:16:47,799]  - APPLIED - {"id"="update-action-index-to-single-multiple-indices", "type"="execution", "author"="", "class"="DatabaseChangelog1", "method"="updateActionIndexToSingleMultipleIndices"}
+READY
+RESULT 188
+processname:backend groupname:backend pid:1787 channel:stdout
+[2024-02-01 12:16:47,805]  - method[addFirestorePlugin] with arguments: [org.springframework.data.mongodb.core.MongoTemplate]
+READY
+RESULT 225
+processname:backend groupname:backend pid:1787 channel:stdout
+[2024-02-01 12:16:47,814]  - APPLIED - {"id"="add-firestore-plugin", "type"="execution", "author"="", "class"="DatabaseChangelog1", "method"="addFirestorePlugin"}
+READY
+RESULT 187
+processname:backend groupname:backend pid:1787 channel:stdout
+[2024-02-01 12:16:47,821]  - method[addRedshiftPlugin] with arguments: [org.springframework.data.mongodb.core.MongoTemplate]
+READY
+RESULT 223
+processname:backend groupname:backend pid:1787 channel:stdout
+[2024-02-01 12:16:47,830]  - APPLIED - {"id"="add-redshift-plugin", "type"="execution", "author"="", "class"="DatabaseChangelog1", "method"="addRedshiftPlugin"}
+READY
+RESULT 193
+processname:backend groupname:backend pid:1787 channel:stdout
+[2024-02-01 12:16:47,833]  - method[clearUserDataCollection] with arguments: [org.springframework.data.mongodb.core.MongoTemplate]
+READY
+RESULT 235
+processname:backend groupname:backend pid:1787 channel:stdout
+[2024-02-01 12:16:47,853]  - APPLIED - {"id"="clear-userdata-collection", "type"="execution", "author"="", "class"="DatabaseChangelog1", "method"="clearUserDataCollection"}
+READY
+RESULT 209
+processname:backend groupname:backend pid:1787 channel:stdout
+[2024-02-01 12:16:47,858]  - method[updateDatabaseDocumentationLinks_v1_2_1] with arguments: [org.springframework.data.mongodb.core.MongoTemplate]
+READY
+RESULT 268
+processname:backend groupname:backend pid:1787 channel:stdout
+[2024-02-01 12:16:47,891]  - APPLIED - {"id"="update-database-documentation-links-v1-2-1", "type"="execution", "author"="", "class"="DatabaseChangelog1", "method"="updateDatabaseDocumentationLinks_v1_2_1"}
+READY
+RESULT 187
+processname:backend groupname:backend pid:1787 channel:stdout
+[2024-02-01 12:16:47,895]  - method[addAmazonS3Plugin] with arguments: [org.springframework.data.mongodb.core.MongoTemplate]
+READY
+RESULT 223
+processname:backend groupname:backend pid:1787 channel:stdout
+[2024-02-01 12:16:47,913]  - APPLIED - {"id"="add-amazons3-plugin", "type"="execution", "author"="", "class"="DatabaseChangelog1", "method"="addAmazonS3Plugin"}
+READY
+RESULT 206
+processname:backend groupname:backend pid:1787 channel:stdout
+[2024-02-01 12:16:47,917]  - method[updatePluginDatasourceFormComponents] with arguments: [org.springframework.data.mongodb.core.MongoTemplate]
+READY
+RESULT 263
+processname:backend groupname:backend pid:1787 channel:stdout
+[2024-02-01 12:16:47,974]  - APPLIED - {"id"="update-plugin-datasource-form-components", "type"="execution", "author"="", "class"="DatabaseChangelog1", "method"="updatePluginDatasourceFormComponents"}
+READY
+RESULT 209
+processname:backend groupname:backend pid:1787 channel:stdout
+[2024-02-01 12:16:47,981]  - method[updateS3DatasourceConfigurationAndLabel] with arguments: [org.springframework.data.mongodb.core.MongoTemplate]
+READY
+RESULT 270
+processname:backend groupname:backend pid:1787 channel:stdout
+[2024-02-01 12:16:47,990]  - APPLIED - {"id"="update-s3-datasource-configuration-and-label", "type"="execution", "author"="", "class"="DatabaseChangelog1", "method"="updateS3DatasourceConfigurationAndLabel"}
+READY
+RESULT 191
+processname:backend groupname:backend pid:1787 channel:stdout
+[2024-02-01 12:16:47,997]  - method[addGoogleSheetsPlugin] with arguments: [org.springframework.data.mongodb.core.MongoTemplate]
+READY
+RESULT 232
+processname:backend groupname:backend pid:1787 channel:stdout
+[2024-02-01 12:16:48,006]  - APPLIED - {"id"="add-google-sheets-plugin", "type"="execution", "author"="", "class"="DatabaseChangelog1", "method"="addGoogleSheetsPlugin"}
+READY
+RESULT 196
+processname:backend groupname:backend pid:1787 channel:stdout
+[2024-02-01 12:16:48,012]  - method[markInstanceAsUnregistered] with arguments: [org.springframework.data.mongodb.core.MongoTemplate]
+READY
+RESULT 239
+processname:backend groupname:backend pid:1787 channel:stdout
+[2024-02-01 12:16:48,039]  - APPLIED - {"id"="mark-instance-unregistered", "type"="execution", "author"="", "class"="DatabaseChangelog1", "method"="markInstanceAsUnregistered"}
+READY
+RESULT 188
+processname:backend groupname:backend pid:1787 channel:stdout
+[2024-02-01 12:16:48,082]  - method[addSnowflakePlugin] with arguments: [org.springframework.data.mongodb.core.MongoTemplate]
+READY
+RESULT 225
+processname:backend groupname:backend pid:1787 channel:stdout
+[2024-02-01 12:16:48,100]  - APPLIED - {"id"="add-snowflake-plugin", "type"="execution", "author"="", "class"="DatabaseChangelog1", "method"="addSnowflakePlugin"}
+READY
+RESULT 263
+processname:keycloak groupname:keycloak pid:1764 channel:stdout
+2024-02-01 12:16:48,105 INFO  [org.keycloak.quarkus.runtime.storage.legacy.liquibase.QuarkusJpaUpdaterProvider] (main) Initializing database schema. Using changelog META-INF/jpa-changelog-master.xml
+READY
+RESULT 187
+processname:backend groupname:backend pid:1787 channel:stdout
+[2024-02-01 12:16:48,155]  - method[addArangoDBPlugin] with arguments: [org.springframework.data.mongodb.core.MongoTemplate]
+READY
+RESULT 223
+processname:backend groupname:backend pid:1787 channel:stdout
+[2024-02-01 12:16:48,179]  - APPLIED - {"id"="add-arangodb-plugin", "type"="execution", "author"="", "class"="DatabaseChangelog1", "method"="addArangoDBPlugin"}
+READY
+RESULT 193
+processname:backend groupname:backend pid:1787 channel:stdout
+[2024-02-01 12:16:48,205]  - method[setSvgLogoToPluginIcons] with arguments: [org.springframework.data.mongodb.core.MongoTemplate]
+READY
+RESULT 233
+processname:backend groupname:backend pid:1787 channel:stdout
+[2024-02-01 12:16:48,330]  - APPLIED - {"id"="set-svg-logo-to-plugins", "type"="execution", "author"="", "class"="DatabaseChangelog1", "method"="setSvgLogoToPluginIcons"}
+READY
+RESULT 210
+processname:backend groupname:backend pid:1787 channel:stdout
+[2024-02-01 12:16:48,350]  - method[createPluginReferenceForGenerateCRUDPage] with arguments: [org.springframework.data.mongodb.core.MongoTemplate]
+READY
+RESULT 273
+processname:backend groupname:backend pid:1787 channel:stdout
+[2024-02-01 12:16:48,448]  - APPLIED - {"id"="create-plugin-reference-for-genarate-CRUD-page", "type"="execution", "author"="", "class"="DatabaseChangelog1", "method"="createPluginReferenceForGenerateCRUDPage"}
+READY
+RESULT 221
+processname:backend groupname:backend pid:1787 channel:stdout
+[2024-02-01 12:16:48,459]  - method[createPluginReferenceForS3AndGSheetGenerateCRUDPage] with arguments: [org.springframework.data.mongodb.core.MongoTemplate]
+READY
+RESULT 294
+processname:backend groupname:backend pid:1787 channel:stdout
+[2024-02-01 12:16:48,511]  - APPLIED - {"id"="create-plugin-reference-for-S3-GSheet-genarate-CRUD-page", "type"="execution", "author"="", "class"="DatabaseChangelog1", "method"="createPluginReferenceForS3AndGSheetGenerateCRUDPage"}
+READY
+RESULT 181
+processname:backend groupname:backend pid:1787 channel:stdout
+[2024-02-01 12:16:48,516]  - method[addJSPlugin] with arguments: [org.springframework.data.mongodb.core.MongoTemplate]
+READY
+RESULT 211
+processname:backend groupname:backend pid:1787 channel:stdout
+[2024-02-01 12:16:48,529]  - APPLIED - {"id"="add-js-plugin", "type"="execution", "author"="", "class"="DatabaseChangelog1", "method"="addJSPlugin"}
+READY
+RESULT 231
+processname:backend groupname:backend pid:1787 channel:stdout
+[2024-02-01 12:16:48,533]  - method[updatePluginPackageNameIndexToPluginNamePackageNameAndVersion] with arguments: [org.springframework.data.mongodb.core.MongoTemplate]
+READY
+RESULT 280
+processname:backend groupname:backend pid:1787 channel:stdout
+[2024-02-01 12:16:48,690]  - APPLIED - {"id"="update-plugin-package-name-index", "type"="execution", "author"="", "class"="DatabaseChangelog1", "method"="updatePluginPackageNameIndexToPluginNamePackageNameAndVersion"}
+READY
+RESULT 190
+processname:backend groupname:backend pid:1787 channel:stdout
+[2024-02-01 12:16:48,717]  - method[migrateS3PluginToUqi] with arguments: [org.springframework.data.mongodb.core.MongoTemplate]
+READY
+RESULT 224
+processname:backend groupname:backend pid:1787 channel:stdout
+[2024-02-01 12:16:48,729]  - APPLIED - {"id"="migrate-s3-to-uqi", "type"="execution", "author"="", "class"="DatabaseChangelog1", "method"="migrateS3PluginToUqi"}
+READY
+RESULT 189
+processname:backend groupname:backend pid:1787 channel:stdout
+[2024-02-01 12:16:48,733]  - method[addSmtpPluginPlugin] with arguments: [org.springframework.data.mongodb.core.MongoTemplate]
+READY
+RESULT 221
+processname:backend groupname:backend pid:1787 channel:stdout
+[2024-02-01 12:16:48,764]  - APPLIED - {"id"="add-smtp-plugin", "type"="execution", "author"="", "class"="DatabaseChangelog1", "method"="addSmtpPluginPlugin"}
+READY
+RESULT 198
+processname:backend groupname:backend pid:1787 channel:stdout
+[2024-02-01 12:16:48,770]  - method[addPluginNameForGoogleSheets] with arguments: [org.springframework.data.mongodb.core.MongoTemplate]
+READY
+RESULT 244
+processname:backend groupname:backend pid:1787 channel:stdout
+[2024-02-01 12:16:48,780]  - APPLIED - {"id"="add-google-sheets-plugin-name", "type"="execution", "author"="", "class"="DatabaseChangelog1", "method"="addPluginNameForGoogleSheets"}
+READY
+RESULT 197
+processname:backend groupname:backend pid:1787 channel:stdout
+[2024-02-01 12:16:48,785]  - method[migrateFirestorePluginToUqi] with arguments: [org.springframework.data.mongodb.core.MongoTemplate]
+READY
+RESULT 238
+processname:backend groupname:backend pid:1787 channel:stdout
+[2024-02-01 12:16:48,798]  - APPLIED - {"id"="migrate-firestore-to-uqi", "type"="execution", "author"="", "class"="DatabaseChangelog1", "method"="migrateFirestorePluginToUqi"}
+READY
+RESULT 198
+processname:backend groupname:backend pid:1787 channel:stdout
+[2024-02-01 12:16:48,802]  - method[migrateFirestorePluginToUqi3] with arguments: [org.springframework.data.mongodb.core.MongoTemplate]
+READY
+RESULT 241
+processname:backend groupname:backend pid:1787 channel:stdout
+[2024-02-01 12:16:48,809]  - APPLIED - {"id"="migrate-firestore-to-uqi-3", "type"="execution", "author"="", "class"="DatabaseChangelog1", "method"="migrateFirestorePluginToUqi3"}
+READY
+RESULT 186
+processname:backend groupname:backend pid:1787 channel:stdout
+[2024-02-01 12:16:48,812]  - method[updateGitIndexes] with arguments: [org.springframework.data.mongodb.core.MongoTemplate]
+READY
+RESULT 223
+processname:backend groupname:backend pid:1787 channel:stdout
+[2024-02-01 12:16:48,874]  - APPLIED - {"id"="update-index-for-git", "type"="execution", "author"="", "class"="DatabaseChangelog1", "method"="updateGitIndexes"}
+READY
+RESULT 196
+processname:backend groupname:backend pid:1787 channel:stdout
+[2024-02-01 12:16:48,893]  - method[useAssetsCDNForPluginIcons] with arguments: [org.springframework.data.mongodb.core.MongoTemplate]
+READY
+RESULT 244
+processname:backend groupname:backend pid:1787 channel:stdout
+[2024-02-01 12:16:49,196]  - APPLIED - {"id"="use-assets-cdn-for-plugin-icons", "type"="execution", "author"="", "class"="DatabaseChangelog1", "method"="useAssetsCDNForPluginIcons"}
+READY
+RESULT 219
+processname:backend groupname:backend pid:1787 channel:stdout
+[2024-02-01 12:16:49,205]  - method[updateNewActionActionCollectionAndUserDataIndexes] with arguments: [org.springframework.data.mongodb.core.MongoTemplate]
+READY
+RESULT 288
+processname:backend groupname:backend pid:1787 channel:stdout
+[2024-02-01 12:16:49,270]  - APPLIED - {"id"="update-index-for-newAction-actionCollection-userData", "type"="execution", "author"="", "class"="DatabaseChangelog1", "method"="updateNewActionActionCollectionAndUserDataIndexes"}
+READY
+RESULT 194
+processname:backend groupname:backend pid:1787 channel:stdout
+[2024-02-01 12:16:49,278]  - method[markMSSQLCrudUnavailable] with arguments: [org.springframework.data.mongodb.core.MongoTemplate]
+READY
+RESULT 238
+processname:backend groupname:backend pid:1787 channel:stdout
+[2024-02-01 12:16:49,299]  - APPLIED - {"id"="mark-mssql-crud-unavailable", "type"="execution", "author"="", "class"="DatabaseChangelog1", "method"="markMSSQLCrudUnavailable"}
+READY
+RESULT 208
+processname:backend groupname:backend pid:1787 channel:stdout
+[2024-02-01 12:16:49,305]  - method[updateNewActionActionCollectionIndexes] with arguments: [org.springframework.data.mongodb.core.MongoTemplate]
+READY
+RESULT 268
+processname:backend groupname:backend pid:1787 channel:stdout
+[2024-02-01 12:16:49,739]  - APPLIED - {"id"="update-index-for-newAction-actionCollection", "type"="execution", "author"="", "class"="DatabaseChangelog1", "method"="updateNewActionActionCollectionIndexes"}
+READY
+RESULT 190
+processname:backend groupname:backend pid:1787 channel:stdout
+[2024-02-01 12:16:49,771]  - method[fixPluginTitleCasing] with arguments: [org.springframework.data.mongodb.core.MongoTemplate]
+READY
+RESULT 230
+processname:backend groupname:backend pid:1787 channel:stdout
+[2024-02-01 12:16:49,863]  - APPLIED - {"id"="fix-plugin-title-casing", "type"="execution", "author"="", "class"="DatabaseChangelog2", "method"="fixPluginTitleCasing"}
+READY
+RESULT 186
+processname:backend groupname:backend pid:1787 channel:stdout
+[2024-02-01 12:16:49,873]  - method[addIndexesForGit] with arguments: [org.springframework.data.mongodb.core.MongoTemplate]
+READY
+RESULT 221
+processname:backend groupname:backend pid:1787 channel:stdout
+[2024-02-01 12:16:49,957]  - APPLIED - {"id"="update-git-indexes", "type"="execution", "author"="", "class"="DatabaseChangelog2", "method"="addIndexesForGit"}
+READY
+RESULT 189
+processname:backend groupname:backend pid:1787 channel:stdout
+[2024-02-01 12:16:49,963]  - method[addWorkspaceIndexes] with arguments: [org.springframework.data.mongodb.core.MongoTemplate]
+READY
+RESULT 227
+processname:backend groupname:backend pid:1787 channel:stdout
+[2024-02-01 12:16:50,002]  - APPLIED - {"id"="add-workspace-indexes", "type"="execution", "author"="", "class"="DatabaseChangelog2", "method"="addWorkspaceIndexes"}
+READY
+RESULT 186
+processname:backend groupname:backend pid:1787 channel:stdout
+[2024-02-01 12:16:50,010]  - method[addDefaultTenant] with arguments: [org.springframework.data.mongodb.core.MongoTemplate]
+READY
+RESULT 221
+processname:backend groupname:backend pid:1787 channel:stdout
+[2024-02-01 12:16:50,101]  - APPLIED - {"id"="add-default-tenant", "type"="execution", "author"="", "class"="DatabaseChangelog2", "method"="addDefaultTenant"}
+READY
+RESULT 208
+processname:backend groupname:backend pid:1787 channel:stdout
+[2024-02-01 12:16:50,115]  - method[organizationToWorkspaceIndexesRecreate] with arguments: [org.springframework.data.mongodb.core.MongoTemplate]
+READY
+RESULT 267
+processname:backend groupname:backend pid:1787 channel:stdout
+[2024-02-01 12:16:50,241]  - APPLIED - {"id"="organization-to-workspace-indexes-recreate", "type"="execution", "author"="", "class"="DatabaseChangelog2", "method"="organizationToWorkspaceIndexesRecreate"}
+READY
+RESULT 194
+processname:backend groupname:backend pid:1787 channel:stdout
+[2024-02-01 12:16:50,257]  - method[clearRedisCache2] with arguments: [org.springframework.data.redis.core.ReactiveRedisOperations]
+READY
+RESULT 229
+processname:backend groupname:backend pid:1787 channel:stdout
+[2024-02-01 12:16:50,727]  - APPLIED - {"id"="flush-spring-redis-keys-2a", "type"="execution", "author"="", "class"="DatabaseChangelog2", "method"="clearRedisCache2"}
+READY
+RESULT 186
+processname:backend groupname:backend pid:1787 channel:stdout
+[2024-02-01 12:16:50,750]  - method[addAnonymousUser] with arguments: [org.springframework.data.mongodb.core.MongoTemplate]
+READY
+RESULT 220
+processname:backend groupname:backend pid:1787 channel:stdout
+[2024-02-01 12:16:50,809]  - APPLIED - {"id"="add-anonymousUser", "type"="execution", "author"="", "class"="DatabaseChangelog2", "method"="addAnonymousUser"}
+READY
+RESULT 205
+processname:backend groupname:backend pid:1787 channel:stdout
+[2024-02-01 12:16:50,816]  - method[addInstanceConfigurationPlaceHolder] with arguments: [org.springframework.data.mongodb.core.MongoTemplate]
+READY
+RESULT 248
+processname:backend groupname:backend pid:1787 channel:stdout
+[2024-02-01 12:16:50,864]  - APPLIED - {"id"="add-instance-config-object", "type"="execution", "author"="", "class"="DatabaseChangelog2", "method"="addInstanceConfigurationPlaceHolder"}
+READY
+RESULT 201
+processname:backend groupname:backend pid:1787 channel:stdout
+[2024-02-01 12:16:50,881]  - method[addAnonymousUserPermissionGroup] with arguments: [org.springframework.data.mongodb.core.MongoTemplate]
+READY
+RESULT 253
+processname:backend groupname:backend pid:1787 channel:stdout
+[2024-02-01 12:16:50,945]  - APPLIED - {"id"="add-anonymous-user-permission-group", "type"="execution", "author"="", "class"="DatabaseChangelog2", "method"="addAnonymousUserPermissionGroup"}
+READY
+RESULT 189
+processname:backend groupname:backend pid:1787 channel:stdout
+[2024-02-01 12:16:50,949]  - method[createThemesIndices] with arguments: [org.springframework.data.mongodb.core.MongoTemplate]
+READY
+RESULT 227
+processname:backend groupname:backend pid:1787 channel:stdout
+[2024-02-01 12:16:50,986]  - APPLIED - {"id"="create-themes-indices", "type"="execution", "author"="", "class"="DatabaseChangelog2", "method"="createThemesIndices"}
+READY
+RESULT 189
+processname:backend groupname:backend pid:1787 channel:stdout
+[2024-02-01 12:16:50,993]  - method[createSystemThemes3] with arguments: [org.springframework.data.mongodb.core.MongoTemplate]
+READY
+RESULT 229
+processname:backend groupname:backend pid:1787 channel:stdout
+[2024-02-01 12:16:51,225]  - APPLIED - {"id"="create-system-themes-v3", "type"="execution", "author"="", "class"="DatabaseChangelog2", "method"="createSystemThemes3"}
+READY
+RESULT 193
+processname:backend groupname:backend pid:1787 channel:stdout
+[2024-02-01 12:16:51,229]  - method[addPermissionGroupIndex] with arguments: [org.springframework.data.mongodb.core.MongoTemplate]
+READY
+RESULT 255
+processname:backend groupname:backend pid:1787 channel:stdout
+[2024-02-01 12:16:51,351]  - APPLIED - {"id"="create-indices-on-permissions-for-performance", "type"="execution", "author"="", "class"="DatabaseChangelog2", "method"="addPermissionGroupIndex"}
+READY
+RESULT 290
+processname:backend groupname:backend pid:1787 channel:stdout
+[2024-02-01 12:16:51,362]  - method[updateBadThemeState] with arguments: [org.springframework.data.mongodb.core.MongoTemplate, com.appsmith.server.acl.PolicyGenerator, com.appsmith.server.repositories.CacheableRepositoryHelper]
+READY
+RESULT 228
+processname:backend groupname:backend pid:1787 channel:stdout
+[2024-02-01 12:16:51,390]  - APPLIED - {"id"="update-bad-theme-state", "type"="execution", "author"="", "class"="DatabaseChangelog2", "method"="updateBadThemeState"}
+READY
+RESULT 260
+processname:backend groupname:backend pid:1787 channel:stdout
+[2024-02-01 12:16:51,399]  - method[addTenantAdminPermissionsToInstanceAdmin] with arguments: [org.springframework.data.mongodb.core.MongoTemplate, com.appsmith.server.solutions.PolicySolutionImpl]
+READY
+RESULT 270
+processname:backend groupname:backend pid:1787 channel:stdout
+[2024-02-01 12:16:51,450]  - APPLIED - {"id"="add-tenant-admin-permissions-instance-admin", "type"="execution", "author"="", "class"="DatabaseChangelog2", "method"="addTenantAdminPermissionsToInstanceAdmin"}
+READY
+RESULT 186
+processname:backend groupname:backend pid:1787 channel:stdout
+[2024-02-01 12:16:51,459]  - method[addGraphQLPlugin] with arguments: [org.springframework.data.mongodb.core.MongoTemplate]
+READY
+RESULT 221
+processname:backend groupname:backend pid:1787 channel:stdout
+[2024-02-01 12:16:51,470]  - APPLIED - {"id"="add-graphql-plugin", "type"="execution", "author"="", "class"="DatabaseChangelog2", "method"="addGraphQLPlugin"}
+READY
+RESULT 203
+processname:backend groupname:backend pid:1787 channel:stdout
+[2024-02-01 12:16:51,478]  - method[addIndicesRecommendedByMongoCloud] with arguments: [org.springframework.data.mongodb.core.MongoTemplate]
+READY
+RESULT 256
+processname:backend groupname:backend pid:1787 channel:stdout
+[2024-02-01 12:16:51,525]  - APPLIED - {"id"="indices-recommended-by-mongodb-cloud", "type"="execution", "author"="", "class"="DatabaseChangelog2", "method"="addIndicesRecommendedByMongoCloud"}
+READY
+RESULT 195
+processname:backend groupname:backend pid:1787 channel:stdout
+[2024-02-01 12:16:51,528]  - method[addUniqueIndexOnUidString] with arguments: [org.springframework.data.mongodb.core.MongoTemplate]
+READY
+RESULT 242
+processname:backend groupname:backend pid:1787 channel:stdout
+[2024-02-01 12:16:51,540]  - APPLIED - {"id"="add-unique-index-for-uidstring", "type"="execution", "author"="", "class"="DatabaseChangelog2", "method"="addUniqueIndexOnUidString"}
+READY
+RESULT 273
+processname:backend groupname:backend pid:1787 channel:stdout
+[2024-02-01 12:16:51,543]  - method[modifyReadPermissionGroupToReadPermissionGroupMembers] with arguments: [org.springframework.data.mongodb.core.MongoTemplate, com.appsmith.server.solutions.PolicySolutionImpl]
+READY
+RESULT 296
+processname:backend groupname:backend pid:1787 channel:stdout
+[2024-02-01 12:16:51,548]  - APPLIED - {"id"="change-readPermissionGroup-to-readPermissionGroupMembers", "type"="execution", "author"="", "class"="DatabaseChangelog2", "method"="modifyReadPermissionGroupToReadPermissionGroupMembers"}
+READY
+RESULT 205
+processname:backend groupname:backend pid:1787 channel:stdout
+[2024-02-01 12:16:51,553]  - method[deletePermissionsInPermissionGroups] with arguments: [org.springframework.data.mongodb.core.MongoTemplate]
+READY
+RESULT 260
+processname:backend groupname:backend pid:1787 channel:stdout
+[2024-02-01 12:16:51,558]  - APPLIED - {"id"="delete-permissions-in-permissionGroups", "type"="execution", "author"="", "class"="DatabaseChangelog2", "method"="deletePermissionsInPermissionGroups"}
+READY
+RESULT 268
+processname:backend groupname:backend pid:1787 channel:stdout
+[2024-02-01 12:16:51,562]  - method[removeUsagePulsesForAppsmithCloud] with arguments: [org.springframework.data.mongodb.core.MongoTemplate, com.appsmith.server.configurations.CommonConfig$$SpringCGLIB$$0]
+READY
+RESULT 258
+processname:backend groupname:backend pid:1787 channel:stdout
+[2024-02-01 12:16:51,563]  - APPLIED - {"id"="remove-usage-pulses-for-appsmith-cloud", "type"="execution", "author"="", "class"="DatabaseChangelog2", "method"="removeUsagePulsesForAppsmithCloud"}
+READY
+RESULT 214
+processname:backend groupname:backend pid:1787 channel:stdout
+[2024-02-01 12:16:51,567]  - method[addSslModeSettingsForExistingMssqlDatasource] with arguments: [org.springframework.data.mongodb.core.MongoTemplate]
+READY
+RESULT 283
+processname:backend groupname:backend pid:1787 channel:stdout
+[2024-02-01 12:16:51,576]  - APPLIED - {"id"="add-ssl-mode-settings-for-existing-mssql-datasources", "type"="execution", "author"="", "class"="DatabaseChangelog2", "method"="addSslModeSettingsForExistingMssqlDatasource"}
+READY
+RESULT 185
+processname:backend groupname:backend pid:1787 channel:stdout
+[2024-02-01 12:16:51,580]  - method[addOraclePlugin] with arguments: [org.springframework.data.mongodb.core.MongoTemplate]
+READY
+RESULT 219
+processname:backend groupname:backend pid:1787 channel:stdout
+[2024-02-01 12:16:51,587]  - APPLIED - {"id"="add-oracle-plugin", "type"="execution", "author"="", "class"="DatabaseChangelog2", "method"="addOraclePlugin"}
+READY
+RESULT 192
+processname:backend groupname:backend pid:1787 channel:stdout
+[2024-02-01 12:16:51,601]  - method[updateOraclePluginName] with arguments: [org.springframework.data.mongodb.core.MongoTemplate]
+READY
+RESULT 234
+processname:backend groupname:backend pid:1787 channel:stdout
+[2024-02-01 12:16:51,613]  - APPLIED - {"id"="update-oracle-plugin-name", "type"="execution", "author"="", "class"="DatabaseChangelog2", "method"="updateOraclePluginName"}
+READY
+RESULT 333
+processname:backend groupname:backend pid:1787 channel:stdout
+[2024-02-01 12:16:51,628]  - method[updateSuperUsers] with arguments: [org.springframework.data.mongodb.core.MongoTemplate, com.appsmith.server.repositories.CacheableRepositoryHelper, com.appsmith.server.solutions.PolicySolution, com.appsmith.server.acl.PolicyGenerator]
+READY
+RESULT 221
+processname:backend groupname:backend pid:1787 channel:stdout
+[2024-02-01 12:16:51,658]  - APPLIED - {"id"="update-super-users", "type"="execution", "author"="", "class"="DatabaseChangelog2", "method"="updateSuperUsers"}
+READY
+RESULT 260
+processname:backend groupname:backend pid:1787 channel:stdout
+[2024-02-01 12:16:51,661]  - method[addTenantAdminPermissionsToInstanceAdmin] with arguments: [org.springframework.data.mongodb.core.MongoTemplate, com.appsmith.server.solutions.PolicySolutionImpl]
+READY
+RESULT 274
+processname:backend groupname:backend pid:1787 channel:stdout
+[2024-02-01 12:16:51,676]  - APPLIED - {"id"="add-tenant-admin-permissions-instance-admin-ee", "type"="execution", "author"="", "class"="DatabaseChangelogEE", "method"="addTenantAdminPermissionsToInstanceAdmin"}
+READY
+RESULT 199
+processname:backend groupname:backend pid:1787 channel:stdout
+[2024-02-01 12:16:51,680]  - method[addIndexOnUserGroupCollection] with arguments: [org.springframework.data.mongodb.core.MongoTemplate]
+READY
+RESULT 238
+processname:backend groupname:backend pid:1787 channel:stdout
+[2024-02-01 12:16:51,699]  - APPLIED - {"id"="add-index-user-groups", "type"="execution", "author"="", "class"="DatabaseChangelogEE", "method"="addIndexOnUserGroupCollection"}
+READY
+RESULT 199
+processname:backend groupname:backend pid:1787 channel:stdout
+[2024-02-01 12:16:51,704]  - method[addIndexOnAuditLogsCollection] with arguments: [org.springframework.data.mongodb.core.MongoTemplate]
+READY
+RESULT 241
+processname:backend groupname:backend pid:1787 channel:stdout
+[2024-02-01 12:16:51,764]  - APPLIED - {"id"="add-index-for-audit-logs", "type"="execution", "author"="", "class"="DatabaseChangelogEE", "method"="addIndexOnAuditLogsCollection"}
+READY
+RESULT 197
+processname:backend groupname:backend pid:1787 channel:stdout
+[2024-02-01 12:16:51,767]  - method[addBrandTenantConfiguration] with arguments: [org.springframework.data.mongodb.core.MongoTemplate]
+READY
+RESULT 245
+processname:backend groupname:backend pid:1787 channel:stdout
+[2024-02-01 12:16:51,779]  - APPLIED - {"id"="add-brand-tenant-configuration", "type"="execution", "author"="", "class"="DatabaseChangelogEE", "method"="addBrandTenantConfiguration"}
+READY
+RESULT 208
+processname:backend groupname:backend pid:1787 channel:stdout
+[2024-02-01 12:16:51,781]  - method[addReadPermissionGroupForInstanceAdmin] with arguments: [org.springframework.data.mongodb.core.MongoTemplate]
+READY
+RESULT 256
+processname:backend groupname:backend pid:1787 channel:stdout
+[2024-02-01 12:16:51,789]  - APPLIED - {"id"="add-read-pg-to-instance-admins", "type"="execution", "author"="", "class"="DatabaseChangelogEE", "method"="addReadPermissionGroupForInstanceAdmin"}
+READY
+RESULT 208
+processname:backend groupname:backend pid:1787 channel:stdout
+[2024-02-01 12:16:51,791]  - method[addMissingPermissionsToExistingObjects] with arguments: [org.springframework.data.mongodb.core.MongoTemplate]
+READY
+RESULT 255
+processname:backend groupname:backend pid:1787 channel:stdout
+[2024-02-01 12:16:51,795]  - APPLIED - {"id"="introduce-missing-permissions", "type"="execution", "author"="", "class"="DatabaseChangelogEE", "method"="addMissingPermissionsToExistingObjects"}
+READY
+RESULT 217
+processname:backend groupname:backend pid:1787 channel:stdout
+[2024-02-01 12:16:51,798]  - method[removeReadPermissionForInternalPermissionGroups] with arguments: [org.springframework.data.mongodb.core.MongoTemplate]
+READY
+RESULT 283
+processname:backend groupname:backend pid:1787 channel:stdout
+[2024-02-01 12:16:51,802]  - APPLIED - {"id"="remove-internal-permission-group-read-permission", "type"="execution", "author"="", "class"="DatabaseChangelogEE", "method"="removeReadPermissionForInternalPermissionGroups"}
+READY
+RESULT 221
+processname:backend groupname:backend pid:1787 channel:stdout
+[2024-02-01 12:16:51,805]  - method[addInitialIndexforEnvironmentAndEnvironmentVariable] with arguments: [org.springframework.data.mongodb.core.MongoTemplate]
+READY
+RESULT 264
+processname:backend groupname:backend pid:1787 channel:stdout
+[2024-02-01 12:16:51,833]  - APPLIED - {"id"="add-index-for-environment", "type"="execution", "author"="", "class"="DatabaseChangelogEE", "method"="addInitialIndexforEnvironmentAndEnvironmentVariable"}
+READY
+RESULT 191
+processname:backend groupname:backend pid:1787 channel:stdout
+[2024-02-01 12:16:51,838]  - method[removeDefaultLogoURLs] with arguments: [org.springframework.data.mongodb.core.MongoTemplate]
+READY
+RESULT 233
+processname:backend groupname:backend pid:1787 channel:stdout
+[2024-02-01 12:16:51,850]  - APPLIED - {"id"="remove-default-logo-urls", "type"="execution", "author"="", "class"="DatabaseChangelogEE", "method"="removeDefaultLogoURLs"}
+READY
+RESULT 258
+processname:backend groupname:backend pid:1787 channel:stdout
+[2024-02-01 12:16:51,856]  - method[createDefaultRoleForAllUsers] with arguments: [org.springframework.data.mongodb.core.MongoTemplate, com.appsmith.server.repositories.CacheableRepositoryHelper]
+READY
+RESULT 249
+processname:backend groupname:backend pid:1787 channel:stdout
+[2024-02-01 12:16:51,876]  - APPLIED - {"id"="create-default-role-for-all-users", "type"="execution", "author"="", "class"="DatabaseChangelogEE", "method"="createDefaultRoleForAllUsers"}
+READY
+RESULT 206
+processname:backend groupname:backend pid:1787 channel:stdout
+[2024-02-01 12:16:51,879]  - method[setCreateDatasourceActionPermissions] with arguments: [org.springframework.data.mongodb.core.MongoTemplate]
+READY
+RESULT 263
+processname:backend groupname:backend pid:1787 channel:stdout
+[2024-02-01 12:16:51,884]  - APPLIED - {"id"="set-create-datasource-action-permission", "type"="execution", "author"="", "class"="DatabaseChangelogEE", "method"="setCreateDatasourceActionPermissions"}
+READY
+RESULT 191
+processname:backend groupname:backend pid:1787 channel:stdout
+[2024-02-01 12:16:51,888]  - method[updateUsagePulseIndex] with arguments: [org.springframework.data.mongodb.core.MongoTemplate]
+READY
+RESULT 233
+processname:backend groupname:backend pid:1787 channel:stdout
+[2024-02-01 12:16:51,901]  - APPLIED - {"id"="update-usage-pulse-index", "type"="execution", "author"="", "class"="DatabaseChangelogEE", "method"="updateUsagePulseIndex"}
+READY
+RESULT 192
+processname:backend groupname:backend pid:1787 channel:stdout
+[2024-02-01 12:16:51,905]  - method[removeStaleUsagePulses] with arguments: [org.springframework.data.mongodb.core.MongoTemplate]
+READY
+RESULT 235
+processname:backend groupname:backend pid:1787 channel:stdout
+[2024-02-01 12:16:51,913]  - APPLIED - {"id"="remove-stale-usage-pulses", "type"="execution", "author"="", "class"="DatabaseChangelogEE", "method"="removeStaleUsagePulses"}
+READY
+RESULT 254
+processname:backend groupname:backend pid:1787 channel:stdout
+[2024-02-01 12:16:51,930]  - method[moveLicenseKeyToDB] with arguments: [org.springframework.data.mongodb.core.MongoTemplate, com.appsmith.server.configurations.LicenseConfig$$SpringCGLIB$$0]
+READY
+RESULT 132
+processname:backend groupname:backend pid:1787 channel:stdout
+[2024-02-01 12:16:51,934]  - Unable to find license key in docker.env
+READY
+RESULT 228
+processname:backend groupname:backend pid:1787 channel:stdout
+[2024-02-01 12:16:51,934]  - APPLIED - {"id"="move-license-key-to-db", "type"="execution", "author"="", "class"="DatabaseChangelogEE", "method"="moveLicenseKeyToDB"}
+READY
+RESULT 189
+processname:backend groupname:backend pid:1787 channel:stdout
+[2024-02-01 12:16:51,938]  - method[updateLicenseStatus] with arguments: [org.springframework.data.mongodb.core.MongoTemplate]
+READY
+RESULT 245
+processname:backend groupname:backend pid:1787 channel:stdout
+[2024-02-01 12:16:51,941]  - APPLIED - {"id"="update-license-status-for-invalid-keys", "type"="execution", "author"="", "class"="DatabaseChangelogEE", "method"="updateLicenseStatus"}
+READY
+RESULT 255
+processname:backend groupname:backend pid:1787 channel:stdout
+[2024-02-01 12:16:51,946]  - method[com.appsmith.server.migrations.db.ce.Migration003AddInstanceNameToTenantConfiguration] with arguments: [org.springframework.data.mongodb.core.MongoTemplate]
+READY
+RESULT 161
+processname:backend groupname:backend pid:1787 channel:stdout
+[2024-02-01 12:16:51,946]  - method[addInstanceNameEnvVarToTenantConfiguration] with arguments: []
+READY
+RESULT 324
+processname:backend groupname:backend pid:1787 channel:stdout
+[2024-02-01 12:16:51,958]  - APPLIED - {"id"="add-instance-name-env-variable-tenant-configuration", "type"="execution", "author"="default_author", "class"="Migration003AddInstanceNameToTenantConfiguration", "method"="addInstanceNameEnvVarToTenantConfiguration"}
+READY
+RESULT 328
+processname:backend groupname:backend pid:1787 channel:stdout
+[2024-02-01 12:16:51,962]  - method[com.appsmith.server.migrations.db.Migration003EE01AddDeleteUserPolicyToAllUsersAndAddTenantPolicyToDefaultTenant] with arguments: [com.appsmith.server.solutions.PolicySolution, org.springframework.data.mongodb.core.MongoTemplate]
+READY
+RESULT 178
+processname:backend groupname:backend pid:1787 channel:stdout
+[2024-02-01 12:16:51,963]  - method[addDeleteUserPolicyToAllUsersAndUpdateTenantWithNewPolicies] with arguments: []
+READY
+RESULT 401
+processname:backend groupname:backend pid:1787 channel:stdout
+[2024-02-01 12:16:51,979]  - APPLIED - {"id"="migration-add-delete-user-policy-to-all-users-add-tenant-policy-to-default-tenant", "type"="execution", "author"="default_author", "class"="Migration003EE01AddDeleteUserPolicyToAllUsersAndAddTenantPolicyToDefaultTenant", "method"="addDeleteUserPolicyToAllUsersAndUpdateTenantWithNewPolicies"}
+READY
+RESULT 261
+processname:backend groupname:backend pid:1787 channel:stdout
+[2024-02-01 12:16:51,982]  - method[com.appsmith.server.migrations.db.ce.Migration004PermissionGroupDefaultWorkspaceIdMigration] with arguments: [org.springframework.data.mongodb.core.MongoTemplate]
+READY
+RESULT 146
+processname:backend groupname:backend pid:1787 channel:stdout
+[2024-02-01 12:16:51,983]  - method[defaultWorkspaceIdMigration] with arguments: []
+READY
+RESULT 98
+processname:backend groupname:backend pid:1787 channel:stdout
+No permissionGroup data to migrate.
+READY
+RESULT 313
+processname:backend groupname:backend pid:1787 channel:stdout
+[2024-02-01 12:16:51,986]  - APPLIED - {"id"="migrate-default-workspace-id-to-default-domain-id", "type"="execution", "author"="default_author", "class"="Migration004PermissionGroupDefaultWorkspaceIdMigration", "method"="defaultWorkspaceIdMigration"}
+READY
+RESULT 253
+processname:backend groupname:backend pid:1787 channel:stdout
+[2024-02-01 12:16:51,991]  - method[com.appsmith.server.migrations.db.Migration004EE01DropEnvironmentVariableCollection] with arguments: [org.springframework.data.mongodb.core.MongoTemplate]
+READY
+RESULT 152
+processname:backend groupname:backend pid:1787 channel:stdout
+[2024-02-01 12:16:51,991]  - method[dropEnvironmentVariableCollection] with arguments: []
+READY
+RESULT 301
+processname:backend groupname:backend pid:1787 channel:stdout
+[2024-02-01 12:16:51,995]  - APPLIED - {"id"="drop-environment-variable-collection", "type"="execution", "author"="default_author", "class"="Migration004EE01DropEnvironmentVariableCollection", "method"="dropEnvironmentVariableCollection"}
+READY
+RESULT 261
+processname:backend groupname:backend pid:1787 channel:stdout
+[2024-02-01 12:16:51,999]  - method[com.appsmith.server.migrations.db.ce.Migration005CreateIndexForApplicationSnapshotMigration] with arguments: [org.springframework.data.mongodb.core.MongoTemplate]
+READY
+RESULT 155
+processname:backend groupname:backend pid:1787 channel:stdout
+[2024-02-01 12:16:51,999]  - method[addIndexOnApplicationIdAndChunkOrder] with arguments: []
+READY
+RESULT 321
+processname:backend groupname:backend pid:1787 channel:stdout
+[2024-02-01 12:16:52,027]  - APPLIED - {"id"="create-index-for-application-snapshot-collection", "type"="execution", "author"="default_author", "class"="Migration005CreateIndexForApplicationSnapshotMigration", "method"="addIndexOnApplicationIdAndChunkOrder"}
+READY
+RESULT 263
+processname:backend groupname:backend pid:1787 channel:stdout
+[2024-02-01 12:16:52,030]  - method[com.appsmith.server.migrations.db.Migration005EE01AddSingleSessionEnvVarToTenantConfiguration] with arguments: [org.springframework.data.mongodb.core.MongoTemplate]
+READY
+RESULT 162
+processname:backend groupname:backend pid:1787 channel:stdout
+[2024-02-01 12:16:52,031]  - method[addSingleSessionEnvVarToTenantConfiguration] with arguments: []
+READY
+RESULT 337
+processname:backend groupname:backend pid:1787 channel:stdout
+[2024-02-01 12:16:52,039]  - APPLIED - {"id"="add-single-session-env-variable-tenant-configuration", "type"="execution", "author"="default_author", "class"="Migration005EE01AddSingleSessionEnvVarToTenantConfiguration", "method"="addSingleSessionEnvVarToTenantConfiguration"}
+READY
+RESULT 248
+processname:backend groupname:backend pid:1787 channel:stdout
+[2024-02-01 12:16:52,042]  - method[com.appsmith.server.migrations.db.ce.Migration006ResetOnPageLoadEdgesInLayouts] with arguments: [org.springframework.data.mongodb.core.MongoTemplate]
+READY
+RESULT 135
+processname:backend groupname:backend pid:1787 channel:stdout
+[2024-02-01 12:16:52,042]  - method[executeMigration] with arguments: []
+READY
+RESULT 275
+processname:backend groupname:backend pid:1787 channel:stdout
+[2024-02-01 12:16:52,046]  - APPLIED - {"id"="reset-on-page-load-edges-in-layouts", "type"="execution", "author"="default_author", "class"="Migration006ResetOnPageLoadEdgesInLayouts", "method"="executeMigration"}
+READY
+RESULT 289
+processname:backend groupname:backend pid:1787 channel:stdout
+[2024-02-01 12:16:52,049]  - method[com.appsmith.server.migrations.db.Migration006EE01AddFlagToWorkspaceBeforeInviteUsersPolicyToApplicationPolicyMigration] with arguments: [org.springframework.data.mongodb.core.MongoTemplate]
+READY
+RESULT 160
+processname:backend groupname:backend pid:1787 channel:stdout
+[2024-02-01 12:16:52,050]  - method[setFlagInWorkspaceForEnvironmentMigration] with arguments: []
+READY
+RESULT 476
+processname:backend groupname:backend pid:1787 channel:stdout
+[2024-02-01 12:16:52,065]  - Count of workspaces where flag needs to be set: 0. Query used: Query: { "flagForApplicationPolicyMigration" : { "$exists" : false}, "$and" : [{ "$and" : [{ "$or" : [{ "deleted" : { "$exists" : false}}, { "deleted" : false}]}, { "deletedAt" : null}]}, { "defaultPermissionGroups" : { "$exists" : true}}, { "defaultPermissionGroups" : { "$not" : { "$size" : 0}}}]}, Fields: {}, Sort: {}
+READY
+RESULT 472
+processname:backend groupname:backend pid:1787 channel:stdout
+[2024-02-01 12:16:52,067]  - Count of workspaces where flag has been set: 0. Query used: Query: { "flagForApplicationPolicyMigration" : { "$exists" : true}, "$and" : [{ "$and" : [{ "$or" : [{ "deleted" : { "$exists" : false}}, { "deleted" : false}]}, { "deletedAt" : null}]}, { "defaultPermissionGroups" : { "$exists" : true}}, { "defaultPermissionGroups" : { "$not" : { "$size" : 0}}}]}, Fields: {}, Sort: {}
+READY
+RESULT 389
+processname:backend groupname:backend pid:1787 channel:stdout
+[2024-02-01 12:16:52,068]  - APPLIED - {"id"="add-flag-to-workspace-before-invite-users-policy-to-application-policy-migration", "type"="execution", "author"="default_author", "class"="Migration006EE01AddFlagToWorkspaceBeforeInviteUsersPolicyToApplicationPolicyMigration", "method"="setFlagInWorkspaceForEnvironmentMigration"}
+READY
+RESULT 252
+processname:backend groupname:backend pid:1787 channel:stdout
+[2024-02-01 12:16:52,071]  - method[com.appsmith.server.migrations.db.ce.Migration007OptOutUnsupportedPluginsForAirGap] with arguments: [org.springframework.data.mongodb.core.MongoTemplate]
+READY
+RESULT 160
+processname:backend groupname:backend pid:1787 channel:stdout
+[2024-02-01 12:16:52,071]  - method[optOutUnsupportedPluginsForAirGapInstance] with arguments: []
+READY
+RESULT 312
+processname:backend groupname:backend pid:1787 channel:stdout
+[2024-02-01 12:16:52,091]  - APPLIED - {"id"="opt-out-unsupported-plugins-airgap-instance", "type"="execution", "author"="default_author", "class"="Migration007OptOutUnsupportedPluginsForAirGap", "method"="optOutUnsupportedPluginsForAirGapInstance"}
+READY
+RESULT 272
+processname:backend groupname:backend pid:1787 channel:stdout
+[2024-02-01 12:16:52,095]  - method[com.appsmith.server.migrations.db.Migration007EE01AddInviteUsersApplicationPolicyToApplicationPolicies] with arguments: [org.springframework.data.mongodb.core.MongoTemplate]
+READY
+RESULT 169
+processname:backend groupname:backend pid:1787 channel:stdout
+[2024-02-01 12:16:52,095]  - method[addInviteUsersApplicationPolicyToApplicationPolicy] with arguments: []
+READY
+RESULT 140
+processname:backend groupname:backend pid:1787 channel:stdout
+[2024-02-01 12:16:52,096]  - Check if performant workspace query can be used.
+READY
+RESULT 115
+processname:backend groupname:backend pid:1787 channel:stdout
+[2024-02-01 12:16:52,104]  - Using performant query.
+READY
+RESULT 512
+processname:backend groupname:backend pid:1787 channel:stdout
+[2024-02-01 12:16:52,106]  - Count of workspaces where applications will be migrated: 0, Query used: Query: { "$and" : [{ "$and" : [{ "$or" : [{ "deleted" : { "$exists" : false}}, { "deleted" : false}]}, { "deletedAt" : null}]}, { "flagForApplicationPolicyMigration" : true}, { "defaultPermissionGroups" : { "$exists" : true}}, { "defaultPermissionGroups" : { "$not" : { "$size" : 0}}}]}, Fields: { "id" : 1, "defaultPermissionGroups" : 1}, Sort: {}
+READY
+RESULT 358
+processname:backend groupname:backend pid:1787 channel:stdout
+[2024-02-01 12:16:52,109]  - APPLIED - {"id"="add-invite-users-application-policy-to-application-policy", "type"="execution", "author"="default_author", "class"="Migration007EE01AddInviteUsersApplicationPolicyToApplicationPolicies", "method"="addInviteUsersApplicationPolicyToApplicationPolicy"}
+READY
+RESULT 340
+processname:backend groupname:backend pid:1787 channel:stdout
+[2024-02-01 12:16:52,112]  - method[com.appsmith.server.migrations.db.ce.Migration008SupportNonHostedPluginsForAirgap] with arguments: [org.springframework.data.mongodb.core.MongoTemplate]
+[2024-02-01 12:16:52,112]  - method[supportNonHostedPluginsForAirgap] with arguments: []
+READY
+RESULT 301
+processname:backend groupname:backend pid:1787 channel:stdout
+[2024-02-01 12:16:52,133]  - APPLIED - {"id"="support-non-self-hosted-plugins-for-airgap", "type"="execution", "author"="default_author", "class"="Migration008SupportNonHostedPluginsForAirgap", "method"="supportNonHostedPluginsForAirgap"}
+READY
+RESULT 392
+processname:backend groupname:backend pid:1787 channel:stdout
+[2024-02-01 12:16:52,138]  - method[com.appsmith.server.migrations.db.Migration008EE01FixEE00301DeleteUserTenantPolicy] with arguments: [com.appsmith.server.solutions.PolicySolution, org.springframework.data.mongodb.core.MongoTemplate]
+[2024-02-01 12:16:52,138]  - method[fixTenantPolicyWithTenantReadAllUsers] with arguments: []
+READY
+RESULT 345
+processname:backend groupname:backend pid:1787 channel:stdout
+[2024-02-01 12:16:52,147]  - APPLIED - {"id"="migration-fix-migration-102-EE-tenant-read-all-users-policy-to-default-tenant", "type"="execution", "author"="default_author", "class"="Migration008EE01FixEE00301DeleteUserTenantPolicy", "method"="fixTenantPolicyWithTenantReadAllUsers"}
+READY
+RESULT 240
+processname:backend groupname:backend pid:1787 channel:stdout
+[2024-02-01 12:16:52,151]  - method[com.appsmith.server.migrations.db.ce.Migration009UpdateOracleLogoToSVG] with arguments: [org.springframework.data.mongodb.core.MongoTemplate]
+READY
+RESULT 140
+processname:backend groupname:backend pid:1787 channel:stdout
+[2024-02-01 12:16:52,151]  - method[updateOracleLogoToSVG] with arguments: []
+READY
+RESULT 262
+processname:backend groupname:backend pid:1787 channel:stdout
+[2024-02-01 12:16:52,155]  - APPLIED - {"id"="update-oracle-logo-to-svg", "type"="execution", "author"="default_author", "class"="Migration009UpdateOracleLogoToSVG", "method"="updateOracleLogoToSVG"}
+READY
+RESULT 321
+processname:backend groupname:backend pid:1787 channel:stdout
+[2024-02-01 12:16:52,159]  - method[com.appsmith.server.migrations.db.Migration009EE01CreateDefaultLogoAsset] with arguments: [org.springframework.data.mongodb.core.MongoTemplate]
+[2024-02-01 12:16:52,159]  - method[createDefaultLogoAsset] with arguments: []
+READY
+RESULT 277
+processname:backend groupname:backend pid:1787 channel:stdout
+[2024-02-01 12:16:52,191]  - APPLIED - {"id"="create-default-appsmith-logo-asset", "type"="execution", "author"="default_author", "class"="Migration009EE01CreateDefaultLogoAsset", "method"="createDefaultLogoAsset"}
+READY
+RESULT 326
+processname:backend groupname:backend pid:1787 channel:stdout
+[2024-02-01 12:16:52,200]  - method[com.appsmith.server.migrations.db.ce.Migration010UpdatePluginDocsLink] with arguments: [org.springframework.data.mongodb.core.MongoTemplate]
+[2024-02-01 12:16:52,201]  - method[updatePluginDocumentationLinks] with arguments: []
+READY
+RESULT 269
+processname:backend groupname:backend pid:1787 channel:stdout
+[2024-02-01 12:16:52,284]  - APPLIED - {"id"="update-plugins-docs-link", "type"="execution", "author"="default_author", "class"="Migration010UpdatePluginDocsLink", "method"="updatePluginDocumentationLinks"}
+READY
+RESULT 309
+processname:backend groupname:backend pid:1787 channel:stdout
+[2024-02-01 12:16:52,288]  - method[com.appsmith.server.migrations.db.Migration010EE01AssignSuperUsersToDefaultRole] with arguments: [org.springframework.data.mongodb.core.MongoTemplate, com.appsmith.server.repositories.CacheableRepositoryHelper]
+READY
+RESULT 151
+processname:backend groupname:backend pid:1787 channel:stdout
+[2024-02-01 12:16:52,289]  - method[assignAllSuperUsersToDefaultRole] with arguments: []
+READY
+RESULT 294
+processname:backend groupname:backend pid:1787 channel:stdout
+[2024-02-01 12:16:52,298]  - APPLIED - {"id"="assign-super-users-to-default-role", "type"="execution", "author"="default_author", "class"="Migration010EE01AssignSuperUsersToDefaultRole", "method"="assignAllSuperUsersToDefaultRole"}
+READY
+RESULT 289
+processname:backend groupname:backend pid:1787 channel:stdout
+[2024-02-01 12:16:52,301]  - method[com.appsmith.server.migrations.db.ce.Migration011CreateIndexDefaultDomainIdDefaultDomainTypeDropIndexDefaultWorkspaceId] with arguments: [org.springframework.data.mongodb.core.MongoTemplate]
+READY
+RESULT 198
+processname:backend groupname:backend pid:1787 channel:stdout
+[2024-02-01 12:16:52,301]  - method[createNewIndexDefaultDomainIdDefaultDomainTypeAndDropOldIndexDefaultWorkspaceId] with arguments: []
+READY
+RESULT 394
+processname:backend groupname:backend pid:1787 channel:stdout
+[2024-02-01 12:16:52,433]  - APPLIED - {"id"="create-index-default-domain-id-default-domain-type", "type"="execution", "author"="default_author", "class"="Migration011CreateIndexDefaultDomainIdDefaultDomainTypeDropIndexDefaultWorkspaceId", "method"="createNewIndexDefaultDomainIdDefaultDomainTypeAndDropOldIndexDefaultWorkspaceId"}
+READY
+RESULT 264
+processname:backend groupname:backend pid:1787 channel:stdout
+[2024-02-01 12:16:52,439]  - method[com.appsmith.server.migrations.db.Migration011EE01AddFlagToWorkspaceBeforeCreatingEnvironments] with arguments: [org.springframework.data.mongodb.core.MongoTemplate]
+READY
+RESULT 135
+processname:backend groupname:backend pid:1787 channel:stdout
+[2024-02-01 12:16:52,440]  - method[executeMigration] with arguments: []
+READY
+RESULT 313
+processname:backend groupname:backend pid:1787 channel:stdout
+[2024-02-01 12:16:52,445]  - APPLIED - {"id"="adding-flag-to-workspaces-before-creating-environments", "type"="execution", "author"="default_author", "class"="Migration011EE01AddFlagToWorkspaceBeforeCreatingEnvironments", "method"="executeMigration"}
+READY
+RESULT 255
+processname:backend groupname:backend pid:1787 channel:stdout
+[2024-02-01 12:16:52,447]  - method[com.appsmith.server.migrations.db.Migration011EE02AddEnvironmentsToExistingWorkspaces] with arguments: [org.springframework.data.mongodb.core.MongoTemplate]
+READY
+RESULT 135
+processname:backend groupname:backend pid:1787 channel:stdout
+[2024-02-01 12:16:52,448]  - method[executeMigration] with arguments: []
+READY
+RESULT 130
+processname:backend groupname:backend pid:1787 channel:stdout
+[2024-02-01 12:16:52,451]  - Check if performant query can be used.
+READY
+RESULT 115
+processname:backend groupname:backend pid:1787 channel:stdout
+[2024-02-01 12:16:52,454]  - Using performant query.
+READY
+RESULT 300
+processname:backend groupname:backend pid:1787 channel:stdout
+[2024-02-01 12:16:52,456]  - APPLIED - {"id"="adding-default-environments-to-existing-workspaces", "type"="execution", "author"="default_author", "class"="Migration011EE02AddEnvironmentsToExistingWorkspaces", "method"="executeMigration"}
+READY
+RESULT 382
+processname:backend groupname:backend pid:1787 channel:stdout
+[2024-02-01 12:16:52,468]  - method[com.appsmith.server.migrations.db.ce.Migration012RemoveStructureFromWithinDatasource] with arguments: [org.springframework.data.mongodb.core.MongoOperations, org.springframework.data.mongodb.core.MongoTemplate]
+[2024-02-01 12:16:52,468]  - method[executeMigration] with arguments: []
+READY
+RESULT 294
+processname:backend groupname:backend pid:1787 channel:stdout
+[2024-02-01 12:16:52,490]  - APPLIED - {"id"="remove-structure-from-within-datasource-modified", "type"="execution", "author"="default_author", "class"="Migration012RemoveStructureFromWithinDatasource", "method"="executeMigration"}
+READY
+RESULT 324
+processname:backend groupname:backend pid:1787 channel:stdout
+[2024-02-01 12:16:52,493]  - method[com.appsmith.server.migrations.db.ce.Migration013AddEmailBodyTypeToSMTPPlugin] with arguments: [org.springframework.data.mongodb.core.MongoTemplate]
+[2024-02-01 12:16:52,493]  - method[addSmtpEmailBodyType] with arguments: []
+READY
+RESULT 267
+processname:backend groupname:backend pid:1787 channel:stdout
+[2024-02-01 12:16:52,504]  - APPLIED - {"id"="add-smtp-email-body-type", "type"="execution", "author"="default_author", "class"="Migration013AddEmailBodyTypeToSMTPPlugin", "method"="addSmtpEmailBodyType"}
+READY
+RESULT 246
+processname:backend groupname:backend pid:1787 channel:stdout
+[2024-02-01 12:16:52,509]  - method[com.appsmith.server.migrations.db.ce.Migration014AddIndexToDatasourceStorage] with arguments: [org.springframework.data.mongodb.core.MongoTemplate]
+READY
+RESULT 149
+processname:backend groupname:backend pid:1787 channel:stdout
+[2024-02-01 12:16:52,510]  - method[addingIndexToDatasourceStorage] with arguments: []
+READY
+RESULT 280
+processname:backend groupname:backend pid:1787 channel:stdout
+[2024-02-01 12:16:52,522]  - APPLIED - {"id"="index-for-datasource-storage", "type"="execution", "author"="default_author", "class"="Migration014AddIndexToDatasourceStorage", "method"="addingIndexToDatasourceStorage"}
+READY
+RESULT 337
+processname:backend groupname:backend pid:1787 channel:stdout
+[2024-02-01 12:16:52,525]  - method[com.appsmith.server.migrations.db.ce.Migration015AddPluginTypeIndexToNewActionCollection] with arguments: [org.springframework.data.mongodb.core.MongoTemplate]
+[2024-02-01 12:16:52,526]  - method[addingIndexToNewAction] with arguments: []
+READY
+RESULT 295
+processname:backend groupname:backend pid:1787 channel:stdout
+[2024-02-01 12:16:52,550]  - APPLIED - {"id"="app-id-plugin-type-index-for-new-action", "type"="execution", "author"="default_author", "class"="Migration015AddPluginTypeIndexToNewActionCollection", "method"="addingIndexToNewAction"}
+READY
+RESULT 245
+processname:backend groupname:backend pid:1787 channel:stdout
+[2024-02-01 12:16:52,558]  - method[com.appsmith.server.migrations.db.ce.Migration016RenameIndexesWithLongNames] with arguments: [org.springframework.data.mongodb.core.MongoTemplate]
+READY
+RESULT 135
+processname:backend groupname:backend pid:1787 channel:stdout
+[2024-02-01 12:16:52,559]  - method[executeMigration] with arguments: []
+READY
+RESULT 267
+processname:backend groupname:backend pid:1787 channel:stdout
+[2024-02-01 12:16:52,734]  - APPLIED - {"id"="rename-indexes-with-long-names", "type"="execution", "author"="default_author", "class"="Migration016RenameIndexesWithLongNames", "method"="executeMigration"}
+READY
+RESULT 248
+processname:backend groupname:backend pid:1787 channel:stdout
+[2024-02-01 12:16:52,736]  - method[com.appsmith.server.migrations.db.ce.Migration017UnsetEncryptionVersion2Fields] with arguments: [org.springframework.data.mongodb.core.MongoTemplate]
+READY
+RESULT 188
+processname:backend groupname:backend pid:1787 channel:stdout
+[2024-02-01 12:16:52,737]  - method[executeMigration] with arguments: [org.springframework.data.mongodb.core.MongoOperations]
+READY
+RESULT 287
+processname:backend groupname:backend pid:1787 channel:stdout
+[2024-02-01 12:16:52,743]  - APPLIED - {"id"="unset-not-encrypted-encryption-version-2-fields", "type"="execution", "author"="default_author", "class"="Migration017UnsetEncryptionVersion2Fields", "method"="executeMigration"}
+READY
+RESULT 254
+processname:backend groupname:backend pid:1787 channel:stdout
+[2024-02-01 12:16:52,746]  - method[com.appsmith.server.migrations.db.ce.Migration018UpdateOraclePluginDocumentationLink] with arguments: [org.springframework.data.mongodb.core.MongoTemplate]
+READY
+RESULT 148
+processname:backend groupname:backend pid:1787 channel:stdout
+[2024-02-01 12:16:52,746]  - method[updateOracleDocumentationLink] with arguments: []
+READY
+RESULT 281
+processname:backend groupname:backend pid:1787 channel:stdout
+[2024-02-01 12:16:52,751]  - APPLIED - {"id"="update-oracle-doc-link", "type"="execution", "author"="default_author", "class"="Migration018UpdateOraclePluginDocumentationLink", "method"="updateOracleDocumentationLink"}
+READY
+RESULT 262
+processname:backend groupname:backend pid:1787 channel:stdout
+[2024-02-01 12:16:52,754]  - method[com.appsmith.server.migrations.db.ce.Migration019RemoveNullEnvIdDatasourceStructureDocuments] with arguments: [org.springframework.data.mongodb.core.MongoTemplate]
+READY
+RESULT 135
+processname:backend groupname:backend pid:1787 channel:stdout
+[2024-02-01 12:16:52,754]  - method[executeMigration] with arguments: []
+READY
+RESULT 284
+processname:backend groupname:backend pid:1787 channel:stdout
+[2024-02-01 12:16:52,766]  - APPLIED - {"id"="delete-null-envId-key-document", "type"="execution", "author"="default_author", "class"="Migration019RemoveNullEnvIdDatasourceStructureDocuments", "method"="executeMigration"}
+READY
+RESULT 324
+processname:backend groupname:backend pid:1787 channel:stdout
+[2024-02-01 12:16:52,768]  - method[com.appsmith.server.migrations.db.Migration020EE01UpdateDefaultAppsmithLogo] with arguments: [org.springframework.data.mongodb.core.MongoTemplate]
+[2024-02-01 12:16:52,769]  - method[updateDefaultLogoAsset] with arguments: []
+READY
+RESULT 280
+processname:backend groupname:backend pid:1787 channel:stdout
+[2024-02-01 12:16:52,816]  - APPLIED - {"id"="update-default-appsmith-logo-asset", "type"="execution", "author"="default_author", "class"="Migration020EE01UpdateDefaultAppsmithLogo", "method"="updateDefaultLogoAsset"}
+READY
+RESULT 254
+processname:backend groupname:backend pid:1787 channel:stdout
+[2024-02-01 12:16:52,820]  - method[com.appsmith.server.migrations.db.Migration020EE02StorageMigrationForOneClickUpgrade] with arguments: [org.springframework.data.mongodb.core.MongoTemplate]
+READY
+RESULT 135
+processname:backend groupname:backend pid:1787 channel:stdout
+[2024-02-01 12:16:52,821]  - method[executeMigration] with arguments: []
+READY
+RESULT 130
+processname:backend groupname:backend pid:1787 channel:stdout
+[2024-02-01 12:16:52,822]  - Check if performant query can be used.
+READY
+RESULT 115
+processname:backend groupname:backend pid:1787 channel:stdout
+[2024-02-01 12:16:52,826]  - Using performant query.
+READY
+RESULT 130
+processname:backend groupname:backend pid:1787 channel:stdout
+[2024-02-01 12:16:52,836]  - Check if performant query can be used.
+READY
+RESULT 115
+processname:backend groupname:backend pid:1787 channel:stdout
+[2024-02-01 12:16:52,839]  - Using performant query.
+READY
+RESULT 130
+processname:backend groupname:backend pid:1787 channel:stdout
+[2024-02-01 12:16:52,844]  - Check if performant query can be used.
+READY
+RESULT 115
+processname:backend groupname:backend pid:1787 channel:stdout
+[2024-02-01 12:16:52,847]  - Using performant query.
+READY
+RESULT 286
+processname:backend groupname:backend pid:1787 channel:stdout
+[2024-02-01 12:16:52,850]  - APPLIED - {"id"="update-data-storage-one-click-upgrade", "type"="execution", "author"="default_author", "class"="Migration020EE02StorageMigrationForOneClickUpgrade", "method"="executeMigration"}
+READY
+RESULT 244
+processname:backend groupname:backend pid:1787 channel:stdout
+[2024-02-01 12:16:52,853]  - method[com.appsmith.server.migrations.db.Migration020EE03AddIndexForUserGroupName] with arguments: [org.springframework.data.mongodb.core.MongoTemplate]
+READY
+RESULT 146
+processname:backend groupname:backend pid:1787 channel:stdout
+[2024-02-01 12:16:52,853]  - method[createNewIndexUserGroupName] with arguments: []
+READY
+RESULT 282
+processname:backend groupname:backend pid:1787 channel:stdout
+[2024-02-01 12:16:52,866]  - APPLIED - {"id"="create-index-for-user-group-name", "type"="execution", "author"="default_author", "class"="Migration020EE03AddIndexForUserGroupName", "method"="createNewIndexUserGroupName"}
+READY
+RESULT 335
+processname:backend groupname:backend pid:1787 channel:stdout
+[2024-02-01 12:16:52,868]  - method[com.appsmith.server.migrations.db.Migration020EE04AddWorkspaceIdIndexInEnvironmentCollection] with arguments: [org.springframework.data.mongodb.core.MongoTemplate]
+[2024-02-01 12:16:52,868]  - method[executeMigration] with arguments: []
+READY
+RESULT 287
+processname:backend groupname:backend pid:1787 channel:stdout
+[2024-02-01 12:16:52,876]  - APPLIED - {"id"="add-ws-id-index-to-environment", "type"="execution", "author"="default_author", "class"="Migration020EE04AddWorkspaceIdIndexInEnvironmentCollection", "method"="executeMigration"}
+READY
+RESULT 258
+processname:backend groupname:backend pid:1787 channel:stdout
+[2024-02-01 12:16:52,879]  - method[com.appsmith.server.migrations.db.Migration020EE05AddPublicPermissionGroupToEnvironments] with arguments: [org.springframework.data.mongodb.core.MongoTemplate]
+READY
+RESULT 135
+processname:backend groupname:backend pid:1787 channel:stdout
+[2024-02-01 12:16:52,879]  - method[executeMigration] with arguments: []
+READY
+RESULT 130
+processname:backend groupname:backend pid:1787 channel:stdout
+[2024-02-01 12:16:52,881]  - Check if performant query can be used.
+READY
+RESULT 115
+processname:backend groupname:backend pid:1787 channel:stdout
+[2024-02-01 12:16:52,883]  - Using performant query.
+READY
+RESULT 276
+processname:backend groupname:backend pid:1787 channel:stdout
+[2024-02-01 12:16:52,888]  - APPLIED - {"id"="add-public-perm-to-envs", "type"="execution", "author"="default_author", "class"="Migration020EE05AddPublicPermissionGroupToEnvironments", "method"="executeMigration"}
+READY
+RESULT 298
+processname:backend groupname:backend pid:1787 channel:stdout
+[2024-02-01 12:16:52,891]  - method[com.appsmith.server.migrations.db.Migration020EE06CreateProvisioningUserRoleConfig] with arguments: [org.springframework.data.mongodb.core.MongoTemplate, com.appsmith.server.solutions.PolicySolution]
+READY
+RESULT 154
+processname:backend groupname:backend pid:1787 channel:stdout
+[2024-02-01 12:16:52,891]  - method[createProvisioningUserRoleAndConfig] with arguments: []
+READY
+RESULT 302
+processname:backend groupname:backend pid:1787 channel:stdout
+[2024-02-01 12:16:52,922]  - APPLIED - {"id"="create-provisioning-user-role-config", "type"="execution", "author"="default_author", "class"="Migration020EE06CreateProvisioningUserRoleConfig", "method"="createProvisioningUserRoleAndConfig"}
+READY
+RESULT 267
+processname:backend groupname:backend pid:1787 channel:stdout
+[2024-02-01 12:16:52,925]  - method[com.appsmith.server.migrations.db.Migration020EE07AddCustomPermissionGroupsToExistingEnvironments] with arguments: [org.springframework.data.mongodb.core.MongoTemplate]
+READY
+RESULT 135
+processname:backend groupname:backend pid:1787 channel:stdout
+[2024-02-01 12:16:52,925]  - method[executeMigration] with arguments: []
+READY
+RESULT 130
+processname:backend groupname:backend pid:1787 channel:stdout
+[2024-02-01 12:16:52,930]  - Check if performant query can be used.
+READY
+RESULT 115
+processname:backend groupname:backend pid:1787 channel:stdout
+[2024-02-01 12:16:52,932]  - Using performant query.
+READY
+RESULT 130
+processname:backend groupname:backend pid:1787 channel:stdout
+[2024-02-01 12:16:52,936]  - Check if performant query can be used.
+READY
+RESULT 115
+processname:backend groupname:backend pid:1787 channel:stdout
+[2024-02-01 12:16:52,938]  - Using performant query.
+READY
+RESULT 130
+processname:backend groupname:backend pid:1787 channel:stdout
+[2024-02-01 12:16:52,942]  - Check if performant query can be used.
+READY
+RESULT 115
+processname:backend groupname:backend pid:1787 channel:stdout
+[2024-02-01 12:16:52,945]  - Using performant query.
+READY
+RESULT 305
+processname:backend groupname:backend pid:1787 channel:stdout
+[2024-02-01 12:16:52,949]  - APPLIED - {"id"="adding-all-custom-permission-groups-to-envs", "type"="execution", "author"="default_author", "class"="Migration020EE07AddCustomPermissionGroupsToExistingEnvironments", "method"="executeMigration"}
+READY
+RESULT 379
+processname:backend groupname:backend pid:1787 channel:stdout
+[2024-02-01 12:16:52,954]  - method[com.appsmith.server.migrations.db.ce.Migration021MoveGoogleMapsKeyToTenantConfiguration] with arguments: [org.springframework.data.mongodb.core.MongoTemplate, com.appsmith.server.configurations.CommonConfig]
+[2024-02-01 12:16:52,954]  - method[executeMigration] with arguments: []
+READY
+RESULT 293
+processname:backend groupname:backend pid:1787 channel:stdout
+[2024-02-01 12:16:52,954]  - APPLIED - {"id"="move-google-maps-key-to-tenant-configuration", "type"="execution", "author"="default_author", "class"="Migration021MoveGoogleMapsKeyToTenantConfiguration", "method"="executeMigration"}
+READY
+RESULT 242
+processname:backend groupname:backend pid:1787 channel:stdout
+[2024-02-01 12:16:52,957]  - method[com.appsmith.server.migrations.db.Migration021EE01AddTTLIndexForAuditLog] with arguments: [org.springframework.data.mongodb.core.MongoTemplate]
+READY
+RESULT 155
+processname:backend groupname:backend pid:1787 channel:stdout
+[2024-02-01 12:16:52,957]  - method[createNewTTLIndexCreatedTimeAuditLog] with arguments: []
+READY
+RESULT 280
+processname:backend groupname:backend pid:1787 channel:stdout
+[2024-02-01 12:16:52,976]  - APPLIED - {"id"="ttl-index-for-audit-log", "type"="execution", "author"="default_author", "class"="Migration021EE01AddTTLIndexForAuditLog", "method"="createNewTTLIndexCreatedTimeAuditLog"}
+READY
+RESULT 351
+processname:backend groupname:backend pid:1787 channel:stdout
+[2024-02-01 12:16:52,991]  - method[com.appsmith.server.migrations.db.Migration021EE01MergeTenantPoliciesWithSamePermission] with arguments: [org.springframework.data.mongodb.core.MongoTemplate]
+[2024-02-01 12:16:52,991]  - method[mergeTenantPoliciesWithSamePermission] with arguments: []
+READY
+RESULT 315
+processname:backend groupname:backend pid:1787 channel:stdout
+[2024-02-01 12:16:53,037]  - APPLIED - {"id"="merge-tenant-policies-with-same-permission", "type"="execution", "author"="default_author", "class"="Migration021EE01MergeTenantPoliciesWithSamePermission", "method"="mergeTenantPoliciesWithSamePermission"}
+READY
+RESULT 288
+processname:backend groupname:backend pid:1787 channel:stdout
+[2024-02-01 12:16:53,052]  - method[com.appsmith.server.migrations.db.Migration021EE02UpdatePolicyForUserMissedDuringSuperUserCreationReadDeletePermission] with arguments: [org.springframework.data.mongodb.core.MongoTemplate]
+READY
+RESULT 167
+processname:backend groupname:backend pid:1787 channel:stdout
+[2024-02-01 12:16:53,052]  - method[updatePolicyForUserMissedDuringSuperUserCreation] with arguments: []
+READY
+RESULT 394
+processname:backend groupname:backend pid:1787 channel:stdout
+[2024-02-01 12:16:53,087]  - APPLIED - {"id"="update-policy-for-user-missed-during-super-user-creation-read-delete-permission", "type"="execution", "author"="default_author", "class"="Migration021EE02UpdatePolicyForUserMissedDuringSuperUserCreationReadDeletePermission", "method"="updatePolicyForUserMissedDuringSuperUserCreation"}
+READY
+RESULT 332
+processname:backend groupname:backend pid:1787 channel:stdout
+[2024-02-01 12:16:53,100]  - method[com.appsmith.server.migrations.db.Migration021EE03RemoveStagingEnvAccessForAllCustomRoles] with arguments: [org.springframework.data.mongodb.core.MongoTemplate]
+[2024-02-01 12:16:53,100]  - method[executeMigration] with arguments: []
+READY
+RESULT 292
+processname:backend groupname:backend pid:1787 channel:stdout
+[2024-02-01 12:16:53,143]  - APPLIED - {"id"="remove-staging-access-for-custom-roles", "type"="execution", "author"="default_author", "class"="Migration021EE03RemoveStagingEnvAccessForAllCustomRoles", "method"="executeMigration"}
+READY
+RESULT 292
+processname:backend groupname:backend pid:1787 channel:stdout
+[2024-02-01 12:16:53,146]  - method[com.appsmith.server.migrations.db.Migration021EE03UpdateActionCollectionPoliciesWhereDefaultDeveloperApplicationRolesExist] with arguments: [org.springframework.data.mongodb.core.MongoTemplate]
+READY
+RESULT 195
+processname:backend groupname:backend pid:1787 channel:stdout
+[2024-02-01 12:16:53,146]  - method[updatePoliciesForActionCollectionsWhereDefaultDeveloperApplicationRolesExist] with arguments: []
+READY
+RESULT 428
+processname:backend groupname:backend pid:1787 channel:stdout
+[2024-02-01 12:16:53,149]  - APPLIED - {"id"="update-action-collection-policies-where-default-developer-application-roles-exist", "type"="execution", "author"="default_author", "class"="Migration021EE03UpdateActionCollectionPoliciesWhereDefaultDeveloperApplicationRolesExist", "method"="updatePoliciesForActionCollectionsWhereDefaultDeveloperApplicationRolesExist"}
+READY
+RESULT 336
+processname:backend groupname:backend pid:1787 channel:stdout
+[2024-02-01 12:16:53,155]  - method[com.appsmith.server.migrations.db.Migration021EE04UpdateLicensePlanForDefaultTenant] with arguments: [org.springframework.data.mongodb.core.MongoTemplate]
+[2024-02-01 12:16:53,155]  - method[updateLicensePlanForTenant] with arguments: []
+READY
+RESULT 288
+processname:backend groupname:backend pid:1787 channel:stdout
+[2024-02-01 12:16:53,160]  - APPLIED - {"id"="update-license-plan-for-tenant", "type"="execution", "author"="default_author", "class"="Migration021EE04UpdateLicensePlanForDefaultTenant", "method"="updateLicensePlanForTenant"}
+READY
+RESULT 370
+processname:backend groupname:backend pid:1787 channel:stdout
+[2024-02-01 12:16:53,163]  - method[com.appsmith.server.migrations.db.ce.Migration022AddConnectionMethodDefaultValueToAllMySQLDatasources] with arguments: [org.springframework.data.mongodb.core.MongoTemplate]
+[2024-02-01 12:16:53,163]  - method[updateConnectionMethodDefaultValueForMySQL] with arguments: []
+READY
+RESULT 334
+processname:backend groupname:backend pid:1787 channel:stdout
+[2024-02-01 12:16:53,167]  - APPLIED - {"id"="add-connection-method-default-value-for-mysql", "type"="execution", "author"="default_author", "class"="Migration022AddConnectionMethodDefaultValueToAllMySQLDatasources", "method"="updateConnectionMethodDefaultValueForMySQL"}
+READY
+RESULT 244
+processname:backend groupname:backend pid:1787 channel:stdout
+[2024-02-01 12:16:53,170]  - method[com.appsmith.server.migrations.db.Migration022EE01AddIndexToKnowledgeStore] with arguments: [org.springframework.data.mongodb.core.MongoTemplate]
+READY
+RESULT 146
+processname:backend groupname:backend pid:1787 channel:stdout
+[2024-02-01 12:16:53,170]  - method[createNewIndexUserGroupName] with arguments: []
+READY
+RESULT 279
+processname:backend groupname:backend pid:1787 channel:stdout
+[2024-02-01 12:16:53,199]  - APPLIED - {"id"="add-index-for-knowledge-store", "type"="execution", "author"="default_author", "class"="Migration022EE01AddIndexToKnowledgeStore", "method"="createNewIndexUserGroupName"}
+READY
+RESULT 310
+processname:backend groupname:backend pid:1787 channel:stdout
+[2024-02-01 12:16:53,206]  - method[com.appsmith.server.migrations.db.ce.Migration023UpdateJSPluginIcon] with arguments: [org.springframework.data.mongodb.core.MongoTemplate]
+[2024-02-01 12:16:53,206]  - method[executeMigration] with arguments: []
+READY
+RESULT 250
+processname:backend groupname:backend pid:1787 channel:stdout
+[2024-02-01 12:16:53,214]  - APPLIED - {"id"="update-js-plugin-icon", "type"="execution", "author"="default_author", "class"="Migration023UpdateJSPluginIcon", "method"="executeMigration"}
+READY
+RESULT 240
+processname:backend groupname:backend pid:1787 channel:stdout
+[2024-02-01 12:16:53,220]  - method[com.appsmith.server.migrations.db.Migration023EE01AddIndexesForPackage] with arguments: [org.springframework.data.mongodb.core.MongoTemplate]
+READY
+RESULT 155
+processname:backend groupname:backend pid:1787 channel:stdout
+[2024-02-01 12:16:53,221]  - method[createCompositeUniqueIndexForPackage] with arguments: []
+READY
+RESULT 283
+processname:backend groupname:backend pid:1787 channel:stdout
+[2024-02-01 12:16:53,298]  - APPLIED - {"id"="composite-indexes-on-package", "type"="execution", "author"="default_author", "class"="Migration023EE01AddIndexesForPackage", "method"="createCompositeUniqueIndexForPackage"}
+READY
+RESULT 261
+processname:backend groupname:backend pid:1787 channel:stdout
+[2024-02-01 12:16:53,303]  - method[com.appsmith.server.migrations.db.ce.Migration024EnableGenerateCRUDPageToggleForMssqlPlugin] with arguments: [org.springframework.data.mongodb.core.MongoTemplate]
+READY
+RESULT 147
+processname:backend groupname:backend pid:1787 channel:stdout
+[2024-02-01 12:16:53,303]  - method[enableGenerateCRUDPageToggle] with arguments: []
+READY
+RESULT 300
+processname:backend groupname:backend pid:1787 channel:stdout
+[2024-02-01 12:16:53,310]  - APPLIED - {"id"="enable-generate-crud-page-for-mssql", "type"="execution", "author"="default_author", "class"="Migration024EnableGenerateCRUDPageToggleForMssqlPlugin", "method"="enableGenerateCRUDPageToggle"}
+READY
+RESULT 247
+processname:backend groupname:backend pid:1787 channel:stdout
+[2024-02-01 12:16:53,314]  - method[com.appsmith.server.migrations.db.ce.Migration025AddIndexDeletedInApplication] with arguments: [org.springframework.data.mongodb.core.MongoTemplate]
+READY
+RESULT 153
+processname:backend groupname:backend pid:1787 channel:stdout
+[2024-02-01 12:16:53,316]  - method[createIndexInApplicationCollection] with arguments: []
+READY
+RESULT 286
+processname:backend groupname:backend pid:1787 channel:stdout
+[2024-02-01 12:16:53,330]  - APPLIED - {"id"="add-index-application-deleted", "type"="execution", "author"="default_author", "class"="Migration025AddIndexDeletedInApplication", "method"="createIndexInApplicationCollection"}
+READY
+RESULT 336
+processname:backend groupname:backend pid:1787 channel:stdout
+[2024-02-01 12:16:53,333]  - method[com.appsmith.server.migrations.db.ce.Migration025RemoveUnassignPermissionFromUnnecessaryRoles] with arguments: [org.springframework.data.mongodb.core.MongoTemplate]
+[2024-02-01 12:16:53,334]  - method[executeMigration] with arguments: []
+READY
+RESULT 130
+processname:backend groupname:backend pid:1787 channel:stdout
+[2024-02-01 12:16:53,334]  - Check if performant query can be used.
+READY
+RESULT 115
+processname:backend groupname:backend pid:1787 channel:stdout
+[2024-02-01 12:16:53,336]  - Using performant query.
+READY
+RESULT 313
+processname:backend groupname:backend pid:1787 channel:stdout
+[2024-02-01 12:16:53,340]  - APPLIED - {"id"="remove-unassign-permission-from-workspace-dev-viewer-roles", "type"="execution", "author"="default_author", "class"="Migration025RemoveUnassignPermissionFromUnnecessaryRoles", "method"="executeMigration"}
+READY
+RESULT 412
+processname:backend groupname:backend pid:1787 channel:stdout
+[2024-02-01 12:16:53,343]  - method[com.appsmith.server.migrations.db.Migration025EE01RemoveUnassignPermissionFromApplicationDefaultRoles] with arguments: [org.springframework.data.mongodb.core.MongoTemplate]
+[2024-02-01 12:16:53,343]  - method[executeMigration] with arguments: []
+[2024-02-01 12:16:53,343]  - Check if performant query can be used.
+READY
+RESULT 115
+processname:backend groupname:backend pid:1787 channel:stdout
+[2024-02-01 12:16:53,345]  - Using performant query.
+READY
+RESULT 323
+processname:backend groupname:backend pid:1787 channel:stdout
+[2024-02-01 12:16:53,357]  - APPLIED - {"id"="remove-unassign-permission-from-application-default-roles", "type"="execution", "author"="default_author", "class"="Migration025EE01RemoveUnassignPermissionFromApplicationDefaultRoles", "method"="executeMigration"}
+READY
+RESULT 254
+processname:backend groupname:backend pid:1787 channel:stdout
+[2024-02-01 12:16:53,365]  - method[com.appsmith.server.migrations.db.ce.Migration026AddIndexTenantAndDeletedInWorkspace] with arguments: [org.springframework.data.mongodb.core.MongoTemplate]
+READY
+RESULT 148
+processname:backend groupname:backend pid:1787 channel:stdout
+[2024-02-01 12:16:53,366]  - method[addIndexInWorkspaceCollection] with arguments: []
+READY
+RESULT 293
+processname:backend groupname:backend pid:1787 channel:stdout
+[2024-02-01 12:16:53,389]  - APPLIED - {"id"="add-index-workspace-tenant-deleted", "type"="execution", "author"="default_author", "class"="Migration026AddIndexTenantAndDeletedInWorkspace", "method"="addIndexInWorkspaceCollection"}
+READY
+RESULT 343
+processname:backend groupname:backend pid:1787 channel:stdout
+[2024-02-01 12:16:53,402]  - method[com.appsmith.server.migrations.db.ce.Migration027AddIndexDatasourceIdAndDeletedInAction] with arguments: [org.springframework.data.mongodb.core.MongoTemplate]
+[2024-02-01 12:16:53,403]  - method[addIndexInNewActionCollection] with arguments: []
+READY
+RESULT 301
+processname:backend groupname:backend pid:1787 channel:stdout
+[2024-02-01 12:16:53,429]  - APPLIED - {"id"="new-action-compound-index-datasource-id", "type"="execution", "author"="default_author", "class"="Migration027AddIndexDatasourceIdAndDeletedInAction", "method"="addIndexInNewActionCollection"}
+READY
+RESULT 310
+processname:backend groupname:backend pid:1787 channel:stdout
+[2024-02-01 12:16:53,436]  - method[com.appsmith.server.migrations.db.Migration027EEAddHideWatermarkEnvVarToTenantConfiguration] with arguments: [org.springframework.data.mongodb.core.MongoTemplate, com.appsmith.server.configurations.CommonConfig]
+READY
+RESULT 135
+processname:backend groupname:backend pid:1787 channel:stdout
+[2024-02-01 12:16:53,437]  - method[executeMigration] with arguments: []
+READY
+RESULT 308
+processname:backend groupname:backend pid:1787 channel:stdout
+[2024-02-01 12:16:53,448]  - APPLIED - {"id"="add-hide-watermark-env-variable-tenant-configuration", "type"="execution", "author"="default_author", "class"="Migration027EEAddHideWatermarkEnvVarToTenantConfiguration", "method"="executeMigration"}
+READY
+RESULT 378
+processname:backend groupname:backend pid:1787 channel:stdout
+[2024-02-01 12:16:53,451]  - method[com.appsmith.server.migrations.db.ce.Migration028TagUserManagementRolesWithoutDefaultDomainTypeAndId] with arguments: [org.springframework.data.mongodb.core.MongoTemplate]
+[2024-02-01 12:16:53,451]  - method[tagUserManagementRolesWithoutDefaultDomainTypeAndId] with arguments: []
+READY
+RESULT 357
+processname:backend groupname:backend pid:1787 channel:stdout
+[2024-02-01 12:16:53,463]  - APPLIED - {"id"="tag-user-management-roles-without-default-domain-type-and-id", "type"="execution", "author"="default_author", "class"="Migration028TagUserManagementRolesWithoutDefaultDomainTypeAndId", "method"="tagUserManagementRolesWithoutDefaultDomainTypeAndId"}
+READY
+RESULT 256
+processname:backend groupname:backend pid:1787 channel:stdout
+[2024-02-01 12:16:53,466]  - method[com.appsmith.server.migrations.db.Migration028EE01AddMigrationFlagForCustomEnvironment] with arguments: [org.springframework.data.mongodb.core.MongoTemplate]
+READY
+RESULT 136
+processname:backend groupname:backend pid:1787 channel:stdout
+[2024-02-01 12:16:53,467]  - method[addMigrationFlags] with arguments: []
+READY
+RESULT 289
+processname:backend groupname:backend pid:1787 channel:stdout
+[2024-02-01 12:16:53,472]  - APPLIED - {"id"="add-migration-flags-custom-envs-rerun", "type"="execution", "author"="default_author", "class"="Migration028EE01AddMigrationFlagForCustomEnvironment", "method"="addMigrationFlags"}
+READY
+RESULT 263
+processname:backend groupname:backend pid:1787 channel:stdout
+[2024-02-01 12:16:53,475]  - method[com.appsmith.server.migrations.db.Migration028EE02AddNewPermissionToWorkspacesAndEnvironments] with arguments: [org.springframework.data.mongodb.core.MongoTemplate]
+READY
+RESULT 159
+processname:backend groupname:backend pid:1787 channel:stdout
+[2024-02-01 12:16:53,475]  - method[addPermissionToWorkspacesAndEnvironments] with arguments: []
+READY
+RESULT 130
+processname:backend groupname:backend pid:1787 channel:stdout
+[2024-02-01 12:16:53,479]  - Check if performant query can be used.
+READY
+RESULT 115
+processname:backend groupname:backend pid:1787 channel:stdout
+[2024-02-01 12:16:53,482]  - Using performant query.
+READY
+RESULT 130
+processname:backend groupname:backend pid:1787 channel:stdout
+[2024-02-01 12:16:53,488]  - Check if performant query can be used.
+READY
+RESULT 115
+processname:backend groupname:backend pid:1787 channel:stdout
+[2024-02-01 12:16:53,492]  - Using performant query.
+READY
+RESULT 325
+processname:backend groupname:backend pid:1787 channel:stdout
+[2024-02-01 12:16:53,495]  - APPLIED - {"id"="add-new-environment-perm-to-workspace-rerun", "type"="execution", "author"="default_author", "class"="Migration028EE02AddNewPermissionToWorkspacesAndEnvironments", "method"="addPermissionToWorkspacesAndEnvironments"}
+READY
+RESULT 263
+processname:backend groupname:backend pid:1787 channel:stdout
+[2024-02-01 12:16:53,498]  - method[com.appsmith.server.migrations.db.ce.Migration029PopulateDefaultDomainIdInUserManagementRoles] with arguments: [org.springframework.data.mongodb.core.MongoTemplate]
+READY
+RESULT 163
+processname:backend groupname:backend pid:1787 channel:stdout
+[2024-02-01 12:16:53,498]  - method[populateDefaultDomainIdInUserManagementRoles] with arguments: []
+READY
+RESULT 334
+processname:backend groupname:backend pid:1787 channel:stdout
+[2024-02-01 12:16:53,507]  - APPLIED - {"id"="populate-default-domain-id-in-user-management-roles", "type"="execution", "author"="default_author", "class"="Migration029PopulateDefaultDomainIdInUserManagementRoles", "method"="populateDefaultDomainIdInUserManagementRoles"}
+READY
+RESULT 252
+processname:backend groupname:backend pid:1787 channel:stdout
+[2024-02-01 12:16:53,513]  - method[com.appsmith.server.migrations.db.ce.Migration030TagUsersWithNoUserManagementRoles] with arguments: [org.springframework.data.mongodb.core.MongoTemplate]
+READY
+RESULT 152
+processname:backend groupname:backend pid:1787 channel:stdout
+[2024-02-01 12:16:53,513]  - method[tagUsersWithNoUserManagementRoles] with arguments: []
+READY
+RESULT 300
+processname:backend groupname:backend pid:1787 channel:stdout
+[2024-02-01 12:16:53,537]  - APPLIED - {"id"="tag-users-with-no-user-management-roles", "type"="execution", "author"="default_author", "class"="Migration030TagUsersWithNoUserManagementRoles", "method"="tagUsersWithNoUserManagementRoles"}
+READY
+RESULT 487
+processname:backend groupname:backend pid:1787 channel:stdout
+[2024-02-01 12:16:53,544]  - method[com.appsmith.server.migrations.db.ce.Migration031CreateUserManagementRolesForUsersTaggedIn030] with arguments: [org.springframework.data.mongodb.core.MongoTemplate, com.appsmith.server.solutions.PolicySolution]
+[2024-02-01 12:16:53,544]  - method[createUserManagementRolesForUsersTaggedInMigration030] with arguments: []
+[2024-02-01 12:16:53,544]  - Check if performant query can be used.
+READY
+RESULT 115
+processname:backend groupname:backend pid:1787 channel:stdout
+[2024-02-01 12:16:53,546]  - Using performant query.
+READY
+RESULT 354
+processname:backend groupname:backend pid:1787 channel:stdout
+[2024-02-01 12:16:53,548]  - APPLIED - {"id"="create-user-management-roles-for-users-tagged-in-migration-030", "type"="execution", "author"="default_author", "class"="Migration031CreateUserManagementRolesForUsersTaggedIn030", "method"="createUserManagementRolesForUsersTaggedInMigration030"}
+READY
+RESULT 347
+processname:backend groupname:backend pid:1787 channel:stdout
+[2024-02-01 12:16:53,551]  - method[com.appsmith.server.migrations.db.ce.Migration032AddingXmlParserToApplicationLibraries] with arguments: [org.springframework.data.mongodb.core.MongoTemplate]
+[2024-02-01 12:16:53,552]  - method[addXmlParserEntryToEachApplication] with arguments: []
+READY
+RESULT 143
+processname:backend groupname:backend pid:1787 channel:stdout
+[2024-02-01 12:16:53,564]  - Going to add Xml Parser uid in all application DTOs
+READY
+RESULT 302
+processname:backend groupname:backend pid:1787 channel:stdout
+[2024-02-01 12:16:53,572]  - APPLIED - {"id"="add-xml-parser-to-application-jslibs", "type"="execution", "author"="default_author", "class"="Migration032AddingXmlParserToApplicationLibraries", "method"="addXmlParserEntryToEachApplication"}
+READY
+RESULT 316
+processname:backend groupname:backend pid:1787 channel:stdout
+[2024-02-01 12:16:53,575]  - method[com.appsmith.server.migrations.db.ce.Migration033AddOpenAIPlugin] with arguments: [org.springframework.data.mongodb.core.MongoTemplate]
+[2024-02-01 12:16:53,575]  - method[addPluginToDbAndWorkspace] with arguments: []
+READY
+RESULT 253
+processname:backend groupname:backend pid:1787 channel:stdout
+[2024-02-01 12:16:53,580]  - APPLIED - {"id"="add-open-ai-plugin", "type"="execution", "author"="default_author", "class"="Migration033AddOpenAIPlugin", "method"="addPluginToDbAndWorkspace"}
+READY
+RESULT 339
+processname:backend groupname:backend pid:1787 channel:stdout
+[2024-02-01 12:16:53,583]  - method[com.appsmith.server.migrations.db.ce.Migration034ChangeOpenAIIntegrationDocumentationLink] with arguments: [org.springframework.data.mongodb.core.MongoTemplate]
+[2024-02-01 12:16:53,583]  - method[changeDocumentationLink] with arguments: []
+READY
+RESULT 303
+processname:backend groupname:backend pid:1787 channel:stdout
+[2024-02-01 12:16:53,589]  - APPLIED - {"id"="change-open-ai-integration-documentation-link", "type"="execution", "author"="default_author", "class"="Migration034ChangeOpenAIIntegrationDocumentationLink", "method"="changeDocumentationLink"}
+READY
+RESULT 319
+processname:backend groupname:backend pid:1787 channel:stdout
+[2024-02-01 12:16:53,592]  - method[com.appsmith.server.migrations.db.ce.Migration035AddAnthropicPlugin] with arguments: [org.springframework.data.mongodb.core.MongoTemplate]
+[2024-02-01 12:16:53,593]  - method[addPluginToDbAndWorkspace] with arguments: []
+READY
+RESULT 258
+processname:backend groupname:backend pid:1787 channel:stdout
+[2024-02-01 12:16:53,598]  - APPLIED - {"id"="add-anthropic-plugin", "type"="execution", "author"="default_author", "class"="Migration035AddAnthropicPlugin", "method"="addPluginToDbAndWorkspace"}
+READY
+RESULT 451
+processname:backend groupname:backend pid:1787 channel:stdout
+[2024-02-01 12:16:53,605]  - method[com.appsmith.server.migrations.db.ce.Migration035RemoveMockDbEndPointInDatasourceInSelfHostedInstance] with arguments: [org.springframework.data.mongodb.core.MongoTemplate, com.appsmith.server.configurations.CommonConfig, com.appsmith.server.solutions.EnvManager]
+[2024-02-01 12:16:53,605]  - method[removeMockDbEndpointInDatasource] with arguments: []
+READY
+RESULT 241
+processname:keycloak groupname:keycloak pid:1764 channel:stdout
+
+UPDATE SUMMARY
+Run:                        117
+Previously run:               0
+Filtered out:                 0
+-------------------------------
+Total change sets:          117
+
+READY
+RESULT 336
+processname:backend groupname:backend pid:1787 channel:stdout
+[2024-02-01 12:16:53,610]  - APPLIED - {"id"="remove-mockdb-endpoint-in-datasource-self-hosted-instance", "type"="execution", "author"="default_author", "class"="Migration035RemoveMockDbEndPointInDatasourceInSelfHostedInstance", "method"="removeMockDbEndpointInDatasource"}
+READY
+RESULT 253
+processname:backend groupname:backend pid:1787 channel:stdout
+[2024-02-01 12:16:53,612]  - method[com.appsmith.server.migrations.db.ce.Migration036AddRecentlyUsedEntitiesForUserData] with arguments: [org.springframework.data.mongodb.core.MongoTemplate]
+READY
+RESULT 153
+processname:backend groupname:backend pid:1787 channel:stdout
+[2024-02-01 12:16:53,613]  - method[addRecentlyUsedEntitiesForUserData] with arguments: []
+READY
+RESULT 298
+processname:backend groupname:backend pid:1787 channel:stdout
+[2024-02-01 12:16:53,615]  - APPLIED - {"id"="add-recently-used-entities-for-user", "type"="execution", "author"="default_author", "class"="Migration036AddRecentlyUsedEntitiesForUserData", "method"="addRecentlyUsedEntitiesForUserData"}
+READY
+RESULT 254
+processname:backend groupname:backend pid:1787 channel:stdout
+[2024-02-01 12:16:53,617]  - method[com.appsmith.server.migrations.db.ce.Migration037AddCompoundIndexForNameAndDeletedAt] with arguments: [org.springframework.data.mongodb.core.MongoTemplate]
+READY
+RESULT 163
+processname:backend groupname:backend pid:1787 channel:stdout
+[2024-02-01 12:16:53,618]  - method[addIndexInWorkspaceAndApplicationsCollection] with arguments: []
+READY
+RESULT 305
+processname:backend groupname:backend pid:1787 channel:stdout
+[2024-02-01 12:16:53,635]  - APPLIED - {"id"="add-compound-index-name-deleted", "type"="execution", "author"="default_author", "class"="Migration037AddCompoundIndexForNameAndDeletedAt", "method"="addIndexInWorkspaceAndApplicationsCollection"}
+READY
+RESULT 253
+processname:backend groupname:backend pid:1787 channel:stdout
+[2024-02-01 12:16:53,640]  - method[com.appsmith.server.migrations.db.ce.Migration037MarkAnonymousUserAsSystemGenerated] with arguments: [org.springframework.data.mongodb.core.MongoTemplate]
+READY
+RESULT 135
+processname:backend groupname:backend pid:1787 channel:stdout
+[2024-02-01 12:16:53,642]  - method[executeMigration] with arguments: []
+READY
+RESULT 136
+processname:backend groupname:backend pid:1787 channel:stdout
+[2024-02-01 12:16:53,650]  - Marked 1 anonymous users as system generated
+READY
+RESULT 284
+processname:backend groupname:backend pid:1787 channel:stdout
+[2024-02-01 12:16:53,650]  - APPLIED - {"id"="mark-anonymous-user-as-system-generated", "type"="execution", "author"="default_author", "class"="Migration037MarkAnonymousUserAsSystemGenerated", "method"="executeMigration"}
+READY
+RESULT 254
+processname:backend groupname:backend pid:1787 channel:stdout
+[2024-02-01 12:16:53,653]  - method[com.appsmith.server.migrations.db.Migration037EE01MarkProvisionUserAsSystemGenerated] with arguments: [org.springframework.data.mongodb.core.MongoTemplate]
+READY
+RESULT 135
+processname:backend groupname:backend pid:1787 channel:stdout
+[2024-02-01 12:16:53,653]  - method[executeMigration] with arguments: []
+READY
+RESULT 138
+processname:backend groupname:backend pid:1787 channel:stdout
+[2024-02-01 12:16:53,656]  - Marked 1 provisioning user as system generated
+READY
+RESULT 288
+processname:backend groupname:backend pid:1787 channel:stdout
+[2024-02-01 12:16:53,656]  - APPLIED - {"id"="mark-provision-user-as-system-generated", "type"="execution", "author"="default_author", "class"="Migration037EE01MarkProvisionUserAsSystemGenerated", "method"="executeMigration"}
+READY
+RESULT 254
+processname:backend groupname:backend pid:1787 channel:stdout
+[2024-02-01 12:16:53,657]  - method[com.appsmith.server.migrations.db.ce.Migration038AddCompoundIndexForActionCollection] with arguments: [org.springframework.data.mongodb.core.MongoTemplate]
+READY
+RESULT 145
+processname:backend groupname:backend pid:1787 channel:stdout
+[2024-02-01 12:16:53,658]  - method[addIndexInActionCollection] with arguments: []
+READY
+RESULT 292
+processname:backend groupname:backend pid:1787 channel:stdout
+[2024-02-01 12:16:53,669]  - APPLIED - {"id"="add-compound-index-action-collection", "type"="execution", "author"="default_author", "class"="Migration038AddCompoundIndexForActionCollection", "method"="addIndexInActionCollection"}
+READY
+RESULT 236
+processname:backend groupname:backend pid:1787 channel:stdout
+[2024-02-01 12:16:53,671]  - method[com.appsmith.server.migrations.db.ce.Migration038AddGoogleAIPlugin] with arguments: [org.springframework.data.mongodb.core.MongoTemplate]
+READY
+RESULT 144
+processname:backend groupname:backend pid:1787 channel:stdout
+[2024-02-01 12:16:53,671]  - method[addPluginToDbAndWorkspace] with arguments: []
+READY
+RESULT 257
+processname:backend groupname:backend pid:1787 channel:stdout
+[2024-02-01 12:16:53,675]  - APPLIED - {"id"="add-google-ai-plugin", "type"="execution", "author"="default_author", "class"="Migration038AddGoogleAIPlugin", "method"="addPluginToDbAndWorkspace"}
+READY
+RESULT 255
+processname:backend groupname:backend pid:1787 channel:stdout
+[2024-02-01 12:16:53,677]  - method[com.appsmith.server.migrations.db.ce.Migration039AddCompoundIndexForDatasourceStorage] with arguments: [org.springframework.data.mongodb.core.MongoTemplate]
+READY
+RESULT 156
+processname:backend groupname:backend pid:1787 channel:stdout
+[2024-02-01 12:16:53,677]  - method[addIndexInDatasourceStorageCollection] with arguments: []
+READY
+RESULT 305
+processname:backend groupname:backend pid:1787 channel:stdout
+[2024-02-01 12:16:53,687]  - APPLIED - {"id"="add-compound-index-datasource-storage", "type"="execution", "author"="default_author", "class"="Migration039AddCompoundIndexForDatasourceStorage", "method"="addIndexInDatasourceStorageCollection"}
+READY
+RESULT 238
+processname:backend groupname:backend pid:1787 channel:stdout
+[2024-02-01 12:16:53,689]  - method[com.appsmith.server.migrations.db.ce.Migration039AddDatabricksPlugin] with arguments: [org.springframework.data.mongodb.core.MongoTemplate]
+READY
+RESULT 144
+processname:backend groupname:backend pid:1787 channel:stdout
+[2024-02-01 12:16:53,690]  - method[addPluginToDbAndWorkspace] with arguments: []
+READY
+RESULT 260
+processname:backend groupname:backend pid:1787 channel:stdout
+[2024-02-01 12:16:53,693]  - APPLIED - {"id"="add-databricks-plugin", "type"="execution", "author"="default_author", "class"="Migration039AddDatabricksPlugin", "method"="addPluginToDbAndWorkspace"}
+READY
+RESULT 241
+processname:backend groupname:backend pid:1787 channel:stdout
+[2024-02-01 12:16:53,695]  - method[com.appsmith.server.migrations.db.ce.Migration039OpenAIMessagesJsToggle] with arguments: [org.springframework.data.mongodb.core.MongoTemplate]
+READY
+RESULT 161
+processname:backend groupname:backend pid:1787 channel:stdout
+[2024-02-01 12:16:53,695]  - method[moveMessagesToDataKeyForSupportingJsToggle] with arguments: []
+READY
+RESULT 294
+processname:backend groupname:backend pid:1787 channel:stdout
+[2024-02-01 12:16:53,698]  - APPLIED - {"id"="move-messages-to-data-key-in-openai", "type"="execution", "author"="default_author", "class"="Migration039OpenAIMessagesJsToggle", "method"="moveMessagesToDataKeyForSupportingJsToggle"}
+READY
+RESULT 237
+processname:backend groupname:backend pid:1787 channel:stdout
+[2024-02-01 12:16:53,701]  - method[com.appsmith.server.migrations.db.ce.Migration040AddAWSLambdaPlugin] with arguments: [org.springframework.data.mongodb.core.MongoTemplate]
+READY
+RESULT 144
+processname:backend groupname:backend pid:1787 channel:stdout
+[2024-02-01 12:16:53,701]  - method[addPluginToDbAndWorkspace] with arguments: []
+READY
+RESULT 259
+processname:backend groupname:backend pid:1787 channel:stdout
+[2024-02-01 12:16:53,705]  - APPLIED - {"id"="add-aws-lambda-plugin", "type"="execution", "author"="default_author", "class"="Migration040AddAWSLambdaPlugin", "method"="addPluginToDbAndWorkspace"}
+READY
+RESULT 238
+processname:backend groupname:backend pid:1787 channel:stdout
+[2024-02-01 12:16:53,708]  - method[com.appsmith.server.migrations.db.ce.Migration040AddAppsmithAiPlugin] with arguments: [org.springframework.data.mongodb.core.MongoTemplate]
+READY
+RESULT 144
+processname:backend groupname:backend pid:1787 channel:stdout
+[2024-02-01 12:16:53,708]  - method[addPluginToDbAndWorkspace] with arguments: []
+READY
+RESULT 261
+processname:backend groupname:backend pid:1787 channel:stdout
+[2024-02-01 12:16:53,712]  - APPLIED - {"id"="add-appsmith-ai-plugin", "type"="execution", "author"="default_author", "class"="Migration040AddAppsmithAiPlugin", "method"="addPluginToDbAndWorkspace"}
+READY
+RESULT 267
+processname:backend groupname:backend pid:1787 channel:stdout
+[2024-02-01 12:16:53,714]  - method[com.appsmith.server.migrations.db.ce.Migration041TagWorkspacesForGitOperationsPermissionMigration] with arguments: [org.springframework.data.mongodb.core.MongoTemplate]
+READY
+RESULT 168
+processname:backend groupname:backend pid:1787 channel:stdout
+[2024-02-01 12:16:53,715]  - method[addPermissionForGitOperationsToExistingWorkspaces] with arguments: []
+READY
+RESULT 340
+processname:backend groupname:backend pid:1787 channel:stdout
+[2024-02-01 12:16:53,719]  - APPLIED - {"id"="tag-workspaces-to-migrate-adding-git-permissions", "type"="execution", "author"="default_author", "class"="Migration041TagWorkspacesForGitOperationsPermissionMigration", "method"="addPermissionForGitOperationsToExistingWorkspaces"}
+READY
+RESULT 249
+processname:backend groupname:backend pid:1787 channel:stdout
+[2024-02-01 12:16:53,721]  - method[com.appsmith.server.migrations.db.ce.Migration042AddPermissionsForGitOperations] with arguments: [org.springframework.data.mongodb.core.MongoTemplate]
+READY
+RESULT 170
+processname:backend groupname:backend pid:1787 channel:stdout
+[2024-02-01 12:16:53,722]  - method[addPermissionForGitOperationsToExistingApplications] with arguments: []
+READY
+RESULT 310
+processname:backend groupname:backend pid:1787 channel:stdout
+[2024-02-01 12:16:53,724]  - APPLIED - {"id"="add-permissions-for-git-operations", "type"="execution", "author"="default_author", "class"="Migration042AddPermissionsForGitOperations", "method"="addPermissionForGitOperationsToExistingApplications"}
+READY
+RESULT 237
+processname:backend groupname:backend pid:1787 channel:stdout
+[2024-02-01 12:16:53,726]  - method[com.appsmith.server.migrations.db.Migration042EE01AddWorkflowPlugin] with arguments: [org.springframework.data.mongodb.core.MongoTemplate]
+READY
+RESULT 144
+processname:backend groupname:backend pid:1787 channel:stdout
+[2024-02-01 12:16:53,727]  - method[addPluginToDbAndWorkspace] with arguments: []
+READY
+RESULT 260
+processname:backend groupname:backend pid:1787 channel:stdout
+[2024-02-01 12:16:53,731]  - APPLIED - {"id"="add-workflow-plugin", "type"="execution", "author"="default_author", "class"="Migration042EE01AddWorkflowPlugin", "method"="addPluginToDbAndWorkspace"}
+READY
+RESULT 249
+processname:backend groupname:backend pid:1787 channel:stdout
+[2024-02-01 12:16:53,734]  - method[com.appsmith.server.migrations.db.ce.Migration043AddIndexActionCollectionPageID] with arguments: [org.springframework.data.mongodb.core.MongoTemplate]
+READY
+RESULT 155
+processname:backend groupname:backend pid:1787 channel:stdout
+[2024-02-01 12:16:53,734]  - method[addIndexToActionCollectionCollection] with arguments: []
+READY
+RESULT 316
+processname:backend groupname:backend pid:1787 channel:stdout
+[2024-02-01 12:16:53,759]  - APPLIED - {"id"="add-index-to-action-collection-default-resources-pageid", "type"="execution", "author"="default_author", "class"="Migration043AddIndexActionCollectionPageID", "method"="addIndexToActionCollectionCollection"}
+READY
+RESULT 245
+processname:backend groupname:backend pid:1787 channel:stdout
+[2024-02-01 12:16:53,764]  - method[com.appsmith.server.migrations.db.Migration043EE01AddPermissionsForPackages] with arguments: [org.springframework.data.mongodb.core.MongoTemplate]
+READY
+RESULT 144
+processname:backend groupname:backend pid:1787 channel:stdout
+[2024-02-01 12:16:53,766]  - method[addPermissionToWorkspaces] with arguments: []
+READY
+RESULT 284
+processname:backend groupname:backend pid:1787 channel:stdout
+[2024-02-01 12:16:53,792]  - APPLIED - {"id"="add-default-permission-for-packages", "type"="execution", "author"="default_author", "class"="Migration043EE01AddPermissionsForPackages", "method"="addPermissionToWorkspaces"}
+READY
+RESULT 229
+processname:keycloak groupname:keycloak pid:1764 channel:stdout
+2024-02-01 12:16:53,792 INFO  [org.keycloak.connections.infinispan.DefaultInfinispanConnectionProviderFactory] (main) Node name: 5714cbb260bd-26669, Site name: null
+READY
+RESULT 252
+processname:backend groupname:backend pid:1787 channel:stdout
+[2024-02-01 12:16:53,800]  - method[com.appsmith.server.migrations.db.Migration043EE02AddPermissionsForModuleInstances] with arguments: [org.springframework.data.mongodb.core.MongoTemplate]
+READY
+RESULT 144
+processname:backend groupname:backend pid:1787 channel:stdout
+[2024-02-01 12:16:53,800]  - method[addPermissionToWorkspaces] with arguments: []
+READY
+RESULT 290
+processname:backend groupname:backend pid:1787 channel:stdout
+[2024-02-01 12:16:53,802]  - APPLIED - {"id"="add-default-permission-for-modules", "type"="execution", "author"="default_author", "class"="Migration043EE02AddPermissionsForModuleInstances", "method"="addPermissionToWorkspaces"}
+READY
+RESULT 268
+processname:backend groupname:backend pid:1787 channel:stdout
+[2024-02-01 12:16:53,804]  - method[com.appsmith.server.migrations.db.Migration043EE03AddCreateInstancePermissionsForWorkspacePackages] with arguments: [org.springframework.data.mongodb.core.MongoTemplate]
+READY
+RESULT 144
+processname:backend groupname:backend pid:1787 channel:stdout
+[2024-02-01 12:16:53,805]  - method[addPermissionToWorkspaces] with arguments: []
+READY
+RESULT 318
+processname:backend groupname:backend pid:1787 channel:stdout
+[2024-02-01 12:16:53,806]  - APPLIED - {"id"="add-create-instance-permission-for-ws-packages", "type"="execution", "author"="default_author", "class"="Migration043EE03AddCreateInstancePermissionsForWorkspacePackages", "method"="addPermissionToWorkspaces"}
+READY
+RESULT 275
+processname:backend groupname:backend pid:1787 channel:stdout
+[2024-02-01 12:16:53,809]  - method[com.appsmith.server.migrations.db.Migration043EE04AddCreateAndReadInstancePermissionsForWorkspacePackages] with arguments: [org.springframework.data.mongodb.core.MongoTemplate]
+READY
+RESULT 144
+processname:backend groupname:backend pid:1787 channel:stdout
+[2024-02-01 12:16:53,809]  - method[addPermissionToWorkspaces] with arguments: []
+READY
+RESULT 330
+processname:backend groupname:backend pid:1787 channel:stdout
+[2024-02-01 12:16:53,811]  - APPLIED - {"id"="add-create-read-instance-permission-for-ws-packages", "type"="execution", "author"="default_author", "class"="Migration043EE04AddCreateAndReadInstancePermissionsForWorkspacePackages", "method"="addPermissionToWorkspaces"}
+READY
+RESULT 244
+processname:backend groupname:backend pid:1787 channel:stdout
+[2024-02-01 12:16:53,813]  - method[com.appsmith.server.migrations.db.ce.Migration044AddIndexesToDomainObjects] with arguments: [org.springframework.data.mongodb.core.MongoTemplate]
+READY
+RESULT 142
+processname:backend groupname:backend pid:1787 channel:stdout
+[2024-02-01 12:16:53,813]  - method[addIndexToDomainObjects] with arguments: []
+READY
+RESULT 270
+processname:backend groupname:backend pid:1787 channel:stdout
+[2024-02-01 12:16:53,842]  - APPLIED - {"id"="add-index-to-domain-objects", "type"="execution", "author"="default_author", "class"="Migration044AddIndexesToDomainObjects", "method"="addIndexToDomainObjects"}
+READY
+RESULT 246
+processname:backend groupname:backend pid:1787 channel:stdout
+[2024-02-01 12:16:53,845]  - method[com.appsmith.server.migrations.db.ce.Migration020TransferToDatasourceStorage] with arguments: [org.springframework.data.mongodb.core.MongoTemplate]
+READY
+RESULT 135
+processname:backend groupname:backend pid:1787 channel:stdout
+[2024-02-01 12:16:53,845]  - method[executeMigration] with arguments: []
+READY
+RESULT 130
+processname:backend groupname:backend pid:1787 channel:stdout
+[2024-02-01 12:16:53,845]  - Check if performant query can be used.
+READY
+RESULT 115
+processname:backend groupname:backend pid:1787 channel:stdout
+[2024-02-01 12:16:53,847]  - Using performant query.
+READY
+RESULT 130
+processname:backend groupname:backend pid:1787 channel:stdout
+[2024-02-01 12:16:53,849]  - Check if performant query can be used.
+READY
+RESULT 115
+processname:backend groupname:backend pid:1787 channel:stdout
+[2024-02-01 12:16:53,851]  - Using performant query.
+READY
+RESULT 279
+processname:backend groupname:backend pid:1787 channel:stdout
+[2024-02-01 12:16:53,854]  - APPLIED - {"id"="migrate-configurations-to-data-storage-v2", "type"="execution", "author"="default_author", "class"="Migration020TransferToDatasourceStorage", "method"="executeMigration"}
+READY
+RESULT 118
+processname:backend groupname:backend pid:1787 channel:stdout
+[2024-02-01 12:16:53,855]  - Mongock releasing the lock
+READY
+RESULT 118
+processname:backend groupname:backend pid:1787 channel:stdout
+[2024-02-01 12:16:53,855]  - Mongock releasing the lock
+READY
+RESULT 117
+processname:backend groupname:backend pid:1787 channel:stdout
+[2024-02-01 12:16:53,857]  - Mongock released the lock
+READY
+RESULT 112
+processname:backend groupname:backend pid:1787 channel:stdout
+[2024-02-01 12:16:53,857]  - Mongock has finished
+READY
+RESULT 168
+processname:keycloak groupname:keycloak pid:1764 channel:stdout
+2024-02-01 12:16:53,926 INFO  [org.keycloak.services] (main) KC-SERVICES0050: Initializing master realm
+READY
+RESULT 144
+processname:backend groupname:backend pid:1787 channel:stdout
+[2024-02-01 12:16:54,674]  - Exposing 2 endpoint(s) beneath base path '/actuator'
+READY
+RESULT 715
+processname:editor groupname:editor pid:1801 channel:stdout
+{"level":"info","ts":1706789814.812831,"logger":"http.log.access.log0","msg":"handled request","request":{"remote_ip":"127.0.0.1","remote_port":"51856","client_ip":"127.0.0.1","proto":"HTTP/1.1","method":"GET","host":"localhost","uri":"/","headers":{"User-Agent":["curl/7.68.0"],"Accept":["*/*"]}},"bytes_read":0,"user_id":"","duration":0.001792709,"size":2026,"status":200,"resp_headers":{"X-Content-Type-Options":["nosniff"],"Etag":["\"s86faf1ka\""],"Content-Type":["text/html; charset=utf-8"],"Last-Modified":["Thu, 01 Feb 2024 12:13:27 GMT"],"Accept-Ranges":["bytes"],"Content-Length":["2026"],"Content-Security-Policy":["frame-ancestors 'self' *"]}}
+READY
+RESULT 118
+processname:backend groupname:backend pid:1787 channel:stdout
+[2024-02-01 12:16:55,297]  - Netty started on port 8080
+READY
+RESULT 163
+processname:backend groupname:backend pid:1787 channel:stdout
+[2024-02-01 12:16:55,318]  - Started ServerApplication in 24.833 seconds (process running for 26.01)
+READY
+RESULT 139
+processname:backend groupname:backend pid:1787 channel:stdout
+[2024-02-01 12:16:55,337]  - Performing RTS health check of this instance...
+READY
+RESULT 203
+processname:backend groupname:backend pid:1787 channel:stdout
+[2024-02-01 12:16:55,374]  - In memory cache miss for anonymous user permission groups. Fetching from DB and adding it to in memory storage.
+READY
+RESULT 146
+processname:backend groupname:backend pid:1787 channel:stdout
+[2024-02-01 12:16:55,430]  - Fetched and set conenncted mongo db version as: 5.0.24
+READY
+RESULT 135
+processname:backend groupname:backend pid:1787 channel:stdout
+[2024-02-01 12:16:55,489]  - Triggering registration of this instance...
+READY
+RESULT 642
+processname:keycloak groupname:keycloak pid:1764 channel:stdout
+2024-02-01 12:16:56,401 INFO  [io.quarkus] (main) Keycloak 23.0.4 on JVM (powered by Quarkus 3.2.9.Final) started in 18.322s. Listening on: http://0.0.0.0:8081
+2024-02-01 12:16:56,403 INFO  [io.quarkus] (main) Profile prod activated. 
+2024-02-01 12:16:56,403 INFO  [io.quarkus] (main) Installed features: [agroal, cdi, hibernate-orm, jdbc-h2, jdbc-mariadb, jdbc-mssql, jdbc-mysql, jdbc-oracle, jdbc-postgresql, keycloak, logging-gelf, micrometer, narayana-jta, reactive-routes, resteasy-reactive, resteasy-reactive-jackson, smallrye-context-propagation, smallrye-health, vertx]
+READY
+RESULT 179
+processname:keycloak groupname:keycloak pid:1764 channel:stdout
+2024-02-01 12:16:56,687 INFO  [org.keycloak.services] (main) KC-SERVICES0009: Added user 'admin' to realm 'master'
+READY
+RESULT 135
+processname:backend groupname:backend pid:1787 channel:stdout
+[2024-02-01 12:16:57,902]  - Registration successful, updating state ...
+READY
+RESULT 118
+processname:backend groupname:backend pid:1787 channel:stdout
+[2024-02-01 12:16:57,974]  - RTS health check succeeded
+READY
+RESULT 2385
+processname:backend groupname:backend pid:1787 channel:stdout
+
+ █████╗ ██████╗ ██████╗ ███████╗███╗   ███╗██╗████████╗██╗  ██╗    ██╗███████╗    ██████╗ ██╗   ██╗███╗   ██╗███╗   ██╗██╗███╗   ██╗ ██████╗ ██╗
+██╔══██╗██╔══██╗██╔══██╗██╔════╝████╗ ████║██║╚══██╔══╝██║  ██║    ██║██╔════╝    ██╔══██╗██║   ██║████╗  ██║████╗  ██║██║████╗  ██║██╔════╝ ██║
+███████║██████╔╝██████╔╝███████╗██╔████╔██║██║   ██║   ███████║    ██║███████╗    ██████╔╝██║   ██║██╔██╗ ██║██╔██╗ ██║██║██╔██╗ ██║██║  ███╗██║
+██╔══██║██╔═══╝ ██╔═══╝ ╚════██║██║╚██╔╝██║██║   ██║   ██╔══██║    ██║╚════██║    ██╔══██╗██║   ██║██║╚██╗██║██║╚██╗██║██║██║╚██╗██║██║   ██║╚═╝
+██║  ██║██║     ██║     ███████║██║ ╚═╝ ██║██║   ██║   ██║  ██║    ██║███████║    ██║  ██║╚██████╔╝██║ ╚████║██║ ╚████║██║██║ ╚████║╚██████╔╝██╗
+╚═╝  ╚═╝╚═╝     ╚═╝     ╚══════╝╚═╝     ╚═╝╚═╝   ╚═╝   ╚═╝  ╚═╝    ╚═╝╚══════╝    ╚═╝  ╚═╝ ╚═════╝ ╚═╝  ╚═══╝╚═╝  ╚═══╝╚═╝╚═╝  ╚═══╝ ╚═════╝ ╚═╝
+
+Please open http://localhost:<port> in your browser to experience Appsmith!
+
+READY
+RESULT 159
+processname:backend groupname:backend pid:1787 channel:stdout
+[2024-02-01 12:16:57,984]  - Initiating online license check for tenant 65bb8bb2a5c20e5894f88fbe
+READY
+RESULT 149
+processname:backend groupname:backend pid:1787 channel:stdout
+[2024-02-01 12:16:57,984]  - License key not found for tenant 65bb8bb2a5c20e5894f88fbe
+READY
+RESULT 143
+processname:backend groupname:backend pid:1787 channel:stdout
+[2024-02-01 12:16:57,990]  - License verification completed with status: invalid
+READY
+RESULT 153
+processname:backend groupname:backend pid:1787 channel:stdout
+[2024-02-01 12:16:58,009]  - Cache miss for key tenantNewFeatures:65bb8bb2a5c20e5894f88fbe
+READY
+RESULT 160
+processname:backend groupname:backend pid:1787 channel:stdout
+[2024-02-01 12:16:58,357]  - Cache entry added for key tenantNewFeatures:65bb8bb2a5c20e5894f88fbe
+READY
+RESULT 127
+processname:redis groupname:redis pid:1763 channel:stdout
+1763:M 01 Feb 2024 12:16:58.471 * 1 changes in 15 seconds. Saving...
+READY
+RESULT 130
+processname:redis groupname:redis pid:1763 channel:stdout
+1763:M 01 Feb 2024 12:16:58.472 * Background saving started by pid 2388
+READY
+RESULT 109
+processname:redis groupname:redis pid:1763 channel:stdout
+2388:C 01 Feb 2024 12:16:58.474 * DB saved on disk
+READY
+RESULT 134
+processname:redis groupname:redis pid:1763 channel:stdout
+2388:C 01 Feb 2024 12:16:58.475 * RDB: 0 MB of memory used by copy-on-write
+READY
+RESULT 134
+processname:redis groupname:redis pid:1763 channel:stdout
+1763:M 01 Feb 2024 12:16:58.573 * Background saving terminated with success
+READY
+RESULT 128
+processname:backend groupname:backend pid:1787 channel:stdout
+[2024-02-01 12:17:05,327]  - Fetching features for default tenant
+READY
+RESULT 121
+processname:backend groupname:backend pid:1787 channel:stdout
+[2024-02-01 12:17:06,271]  - Cancelled mongock lock daemon
+READY
+RESULT 716
+processname:editor groupname:editor pid:1801 channel:stdout
+{"level":"info","ts":1706789830.0366275,"logger":"http.log.access.log0","msg":"handled request","request":{"remote_ip":"127.0.0.1","remote_port":"49132","client_ip":"127.0.0.1","proto":"HTTP/1.1","method":"GET","host":"localhost","uri":"/","headers":{"User-Agent":["curl/7.68.0"],"Accept":["*/*"]}},"bytes_read":0,"user_id":"","duration":0.001203043,"size":7155,"status":200,"resp_headers":{"Etag":["\"s86fff5ir\""],"Content-Type":["text/html; charset=utf-8"],"Last-Modified":["Thu, 01 Feb 2024 12:16:27 GMT"],"Accept-Ranges":["bytes"],"Content-Length":["7155"],"X-Content-Type-Options":["nosniff"],"Content-Security-Policy":["frame-ancestors 'self' *"]}}
+READY
+RESULT 714
+processname:editor groupname:editor pid:1801 channel:stdout
+{"level":"info","ts":1706789845.2576709,"logger":"http.log.access.log0","msg":"handled request","request":{"remote_ip":"127.0.0.1","remote_port":"49618","client_ip":"127.0.0.1","proto":"HTTP/1.1","method":"GET","host":"localhost","uri":"/","headers":{"User-Agent":["curl/7.68.0"],"Accept":["*/*"]}},"bytes_read":0,"user_id":"","duration":0.0010435,"size":7155,"status":200,"resp_headers":{"Etag":["\"s86fff5ir\""],"Content-Type":["text/html; charset=utf-8"],"Last-Modified":["Thu, 01 Feb 2024 12:16:27 GMT"],"Accept-Ranges":["bytes"],"Content-Length":["7155"],"Content-Security-Policy":["frame-ancestors 'self' *"],"X-Content-Type-Options":["nosniff"]}}
+READY
+RESULT 716
+processname:editor groupname:editor pid:1801 channel:stdout
+{"level":"info","ts":1706789860.5370095,"logger":"http.log.access.log0","msg":"handled request","request":{"remote_ip":"127.0.0.1","remote_port":"57970","client_ip":"127.0.0.1","proto":"HTTP/1.1","method":"GET","host":"localhost","uri":"/","headers":{"User-Agent":["curl/7.68.0"],"Accept":["*/*"]}},"bytes_read":0,"user_id":"","duration":0.000773792,"size":7155,"status":200,"resp_headers":{"Etag":["\"s86fff5ir\""],"Content-Type":["text/html; charset=utf-8"],"Last-Modified":["Thu, 01 Feb 2024 12:16:27 GMT"],"Accept-Ranges":["bytes"],"Content-Length":["7155"],"Content-Security-Policy":["frame-ancestors 'self' *"],"X-Content-Type-Options":["nosniff"]}}
+READY
+RESULT 715
+processname:editor groupname:editor pid:1801 channel:stdout
+{"level":"info","ts":1706789875.770889,"logger":"http.log.access.log0","msg":"handled request","request":{"remote_ip":"127.0.0.1","remote_port":"35398","client_ip":"127.0.0.1","proto":"HTTP/1.1","method":"GET","host":"localhost","uri":"/","headers":{"User-Agent":["curl/7.68.0"],"Accept":["*/*"]}},"bytes_read":0,"user_id":"","duration":0.001167626,"size":7155,"status":200,"resp_headers":{"Content-Security-Policy":["frame-ancestors 'self' *"],"X-Content-Type-Options":["nosniff"],"Etag":["\"s86fff5ir\""],"Content-Type":["text/html; charset=utf-8"],"Last-Modified":["Thu, 01 Feb 2024 12:16:27 GMT"],"Accept-Ranges":["bytes"],"Content-Length":["7155"]}}
+READY
+RESULT 716
+processname:editor groupname:editor pid:1801 channel:stdout
+{"level":"info","ts":1706789891.0065587,"logger":"http.log.access.log0","msg":"handled request","request":{"remote_ip":"127.0.0.1","remote_port":"45122","client_ip":"127.0.0.1","proto":"HTTP/1.1","method":"GET","host":"localhost","uri":"/","headers":{"User-Agent":["curl/7.68.0"],"Accept":["*/*"]}},"bytes_read":0,"user_id":"","duration":0.001018167,"size":7155,"status":200,"resp_headers":{"Last-Modified":["Thu, 01 Feb 2024 12:16:27 GMT"],"Accept-Ranges":["bytes"],"Content-Length":["7155"],"Content-Security-Policy":["frame-ancestors 'self' *"],"X-Content-Type-Options":["nosniff"],"Etag":["\"s86fff5ir\""],"Content-Type":["text/html; charset=utf-8"]}}
+READY
+RESULT 715
+processname:editor groupname:editor pid:1801 channel:stdout
+{"level":"info","ts":1706789906.256904,"logger":"http.log.access.log0","msg":"handled request","request":{"remote_ip":"127.0.0.1","remote_port":"46250","client_ip":"127.0.0.1","proto":"HTTP/1.1","method":"GET","host":"localhost","uri":"/","headers":{"User-Agent":["curl/7.68.0"],"Accept":["*/*"]}},"bytes_read":0,"user_id":"","duration":0.001202333,"size":7155,"status":200,"resp_headers":{"Content-Type":["text/html; charset=utf-8"],"Last-Modified":["Thu, 01 Feb 2024 12:16:27 GMT"],"Accept-Ranges":["bytes"],"Content-Length":["7155"],"X-Content-Type-Options":["nosniff"],"Content-Security-Policy":["frame-ancestors 'self' *"],"Etag":["\"s86fff5ir\""]}}
+READY
+RESULT 715
+processname:editor groupname:editor pid:1801 channel:stdout
+{"level":"info","ts":1706789921.499061,"logger":"http.log.access.log0","msg":"handled request","request":{"remote_ip":"127.0.0.1","remote_port":"40546","client_ip":"127.0.0.1","proto":"HTTP/1.1","method":"GET","host":"localhost","uri":"/","headers":{"User-Agent":["curl/7.68.0"],"Accept":["*/*"]}},"bytes_read":0,"user_id":"","duration":0.000884959,"size":7155,"status":200,"resp_headers":{"Content-Security-Policy":["frame-ancestors 'self' *"],"X-Content-Type-Options":["nosniff"],"Etag":["\"s86fff5ir\""],"Content-Type":["text/html; charset=utf-8"],"Last-Modified":["Thu, 01 Feb 2024 12:16:27 GMT"],"Accept-Ranges":["bytes"],"Content-Length":["7155"]}}
+READY
+RESULT 716
+processname:editor groupname:editor pid:1801 channel:stdout
+{"level":"info","ts":1706789936.7731862,"logger":"http.log.access.log0","msg":"handled request","request":{"remote_ip":"127.0.0.1","remote_port":"52242","client_ip":"127.0.0.1","proto":"HTTP/1.1","method":"GET","host":"localhost","uri":"/","headers":{"Accept":["*/*"],"User-Agent":["curl/7.68.0"]}},"bytes_read":0,"user_id":"","duration":0.009796129,"size":7155,"status":200,"resp_headers":{"X-Content-Type-Options":["nosniff"],"Etag":["\"s86fff5ir\""],"Content-Type":["text/html; charset=utf-8"],"Last-Modified":["Thu, 01 Feb 2024 12:16:27 GMT"],"Accept-Ranges":["bytes"],"Content-Length":["7155"],"Content-Security-Policy":["frame-ancestors 'self' *"]}}
+READY
+RESULT 715
+processname:editor groupname:editor pid:1801 channel:stdout
+{"level":"info","ts":1706789952.0900657,"logger":"http.log.access.log0","msg":"handled request","request":{"remote_ip":"127.0.0.1","remote_port":"46816","client_ip":"127.0.0.1","proto":"HTTP/1.1","method":"GET","host":"localhost","uri":"/","headers":{"User-Agent":["curl/7.68.0"],"Accept":["*/*"]}},"bytes_read":0,"user_id":"","duration":0.01043117,"size":7155,"status":200,"resp_headers":{"X-Content-Type-Options":["nosniff"],"Etag":["\"s86fff5ir\""],"Content-Type":["text/html; charset=utf-8"],"Last-Modified":["Thu, 01 Feb 2024 12:16:27 GMT"],"Accept-Ranges":["bytes"],"Content-Length":["7155"],"Content-Security-Policy":["frame-ancestors 'self' *"]}}
+READY
+RESULT 715
+processname:editor groupname:editor pid:1801 channel:stdout
+{"level":"info","ts":1706789967.354281,"logger":"http.log.access.log0","msg":"handled request","request":{"remote_ip":"127.0.0.1","remote_port":"56070","client_ip":"127.0.0.1","proto":"HTTP/1.1","method":"GET","host":"localhost","uri":"/","headers":{"User-Agent":["curl/7.68.0"],"Accept":["*/*"]}},"bytes_read":0,"user_id":"","duration":0.003218334,"size":7155,"status":200,"resp_headers":{"Etag":["\"s86fff5ir\""],"Content-Type":["text/html; charset=utf-8"],"Last-Modified":["Thu, 01 Feb 2024 12:16:27 GMT"],"Accept-Ranges":["bytes"],"Content-Length":["7155"],"Content-Security-Policy":["frame-ancestors 'self' *"],"X-Content-Type-Options":["nosniff"]}}
+READY
+RESULT 716
+processname:editor groupname:editor pid:1801 channel:stdout
+{"level":"info","ts":1706789982.5959973,"logger":"http.log.access.log0","msg":"handled request","request":{"remote_ip":"127.0.0.1","remote_port":"58146","client_ip":"127.0.0.1","proto":"HTTP/1.1","method":"GET","host":"localhost","uri":"/","headers":{"User-Agent":["curl/7.68.0"],"Accept":["*/*"]}},"bytes_read":0,"user_id":"","duration":0.003354043,"size":7155,"status":200,"resp_headers":{"Accept-Ranges":["bytes"],"Content-Length":["7155"],"X-Content-Type-Options":["nosniff"],"Content-Security-Policy":["frame-ancestors 'self' *"],"Etag":["\"s86fff5ir\""],"Content-Type":["text/html; charset=utf-8"],"Last-Modified":["Thu, 01 Feb 2024 12:16:27 GMT"]}}
+READY
+RESULT 125
+processname:backend groupname:backend pid:1787 channel:stdout
+[2024-02-01 12:19:55,327]  - Initiating Periodic License Check
+READY
+RESULT 159
+processname:backend groupname:backend pid:1787 channel:stdout
+[2024-02-01 12:19:55,428]  - Initiating online license check for tenant 65bb8bb2a5c20e5894f88fbe
+READY
+RESULT 149
+processname:backend groupname:backend pid:1787 channel:stdout
+[2024-02-01 12:19:55,429]  - License key not found for tenant 65bb8bb2a5c20e5894f88fbe
+READY
+RESULT 716
+processname:editor groupname:editor pid:1801 channel:stdout
+{"level":"info","ts":1706789997.9763455,"logger":"http.log.access.log0","msg":"handled request","request":{"remote_ip":"127.0.0.1","remote_port":"56566","client_ip":"127.0.0.1","proto":"HTTP/1.1","method":"GET","host":"localhost","uri":"/","headers":{"User-Agent":["curl/7.68.0"],"Accept":["*/*"]}},"bytes_read":0,"user_id":"","duration":0.001672167,"size":7155,"status":200,"resp_headers":{"Etag":["\"s86fff5ir\""],"Content-Type":["text/html; charset=utf-8"],"Last-Modified":["Thu, 01 Feb 2024 12:16:27 GMT"],"Accept-Ranges":["bytes"],"Content-Length":["7155"],"Content-Security-Policy":["frame-ancestors 'self' *"],"X-Content-Type-Options":["nosniff"]}}
+READY
+RESULT 716
+processname:editor groupname:editor pid:1801 channel:stdout
+{"level":"info","ts":1706790013.2004454,"logger":"http.log.access.log0","msg":"handled request","request":{"remote_ip":"127.0.0.1","remote_port":"48220","client_ip":"127.0.0.1","proto":"HTTP/1.1","method":"GET","host":"localhost","uri":"/","headers":{"User-Agent":["curl/7.68.0"],"Accept":["*/*"]}},"bytes_read":0,"user_id":"","duration":0.001106083,"size":7155,"status":200,"resp_headers":{"Accept-Ranges":["bytes"],"Content-Length":["7155"],"Content-Security-Policy":["frame-ancestors 'self' *"],"X-Content-Type-Options":["nosniff"],"Etag":["\"s86fff5ir\""],"Content-Type":["text/html; charset=utf-8"],"Last-Modified":["Thu, 01 Feb 2024 12:16:27 GMT"]}}
+READY
+RESULT 715
+processname:editor groupname:editor pid:1801 channel:stdout
+{"level":"info","ts":1706790028.537218,"logger":"http.log.access.log0","msg":"handled request","request":{"remote_ip":"127.0.0.1","remote_port":"60982","client_ip":"127.0.0.1","proto":"HTTP/1.1","method":"GET","host":"localhost","uri":"/","headers":{"User-Agent":["curl/7.68.0"],"Accept":["*/*"]}},"bytes_read":0,"user_id":"","duration":0.001635875,"size":7155,"status":200,"resp_headers":{"Etag":["\"s86fff5ir\""],"Content-Type":["text/html; charset=utf-8"],"Last-Modified":["Thu, 01 Feb 2024 12:16:27 GMT"],"Accept-Ranges":["bytes"],"Content-Length":["7155"],"Content-Security-Policy":["frame-ancestors 'self' *"],"X-Content-Type-Options":["nosniff"]}}
+READY
+RESULT 716
+processname:editor groupname:editor pid:1801 channel:stdout
+{"level":"info","ts":1706790043.8024266,"logger":"http.log.access.log0","msg":"handled request","request":{"remote_ip":"127.0.0.1","remote_port":"58792","client_ip":"127.0.0.1","proto":"HTTP/1.1","method":"GET","host":"localhost","uri":"/","headers":{"User-Agent":["curl/7.68.0"],"Accept":["*/*"]}},"bytes_read":0,"user_id":"","duration":0.000977334,"size":7155,"status":200,"resp_headers":{"Content-Type":["text/html; charset=utf-8"],"Last-Modified":["Thu, 01 Feb 2024 12:16:27 GMT"],"Accept-Ranges":["bytes"],"Content-Length":["7155"],"Content-Security-Policy":["frame-ancestors 'self' *"],"X-Content-Type-Options":["nosniff"],"Etag":["\"s86fff5ir\""]}}
+READY
+RESULT 111
+processname:backend groupname:backend pid:1787 channel:stdout
+[2024-02-01 12:20:55,322]  - Sending Usage Pulse
+READY
+RESULT 121
+processname:backend groupname:backend pid:1787 channel:stdout
+[2024-02-01 12:20:55,433]  - Completed Sending Usage Pulse
+READY
+RESULT 716
+processname:editor groupname:editor pid:1801 channel:stdout
+{"level":"info","ts":1706790059.0418992,"logger":"http.log.access.log0","msg":"handled request","request":{"remote_ip":"127.0.0.1","remote_port":"44472","client_ip":"127.0.0.1","proto":"HTTP/1.1","method":"GET","host":"localhost","uri":"/","headers":{"User-Agent":["curl/7.68.0"],"Accept":["*/*"]}},"bytes_read":0,"user_id":"","duration":0.000899001,"size":7155,"status":200,"resp_headers":{"X-Content-Type-Options":["nosniff"],"Etag":["\"s86fff5ir\""],"Content-Type":["text/html; charset=utf-8"],"Last-Modified":["Thu, 01 Feb 2024 12:16:27 GMT"],"Accept-Ranges":["bytes"],"Content-Length":["7155"],"Content-Security-Policy":["frame-ancestors 'self' *"]}}
+READY
+RESULT 715
+processname:editor groupname:editor pid:1801 channel:stdout
+{"level":"info","ts":1706790074.259855,"logger":"http.log.access.log0","msg":"handled request","request":{"remote_ip":"127.0.0.1","remote_port":"59138","client_ip":"127.0.0.1","proto":"HTTP/1.1","method":"GET","host":"localhost","uri":"/","headers":{"User-Agent":["curl/7.68.0"],"Accept":["*/*"]}},"bytes_read":0,"user_id":"","duration":0.000969584,"size":7155,"status":200,"resp_headers":{"Etag":["\"s86fff5ir\""],"Content-Type":["text/html; charset=utf-8"],"Last-Modified":["Thu, 01 Feb 2024 12:16:27 GMT"],"Accept-Ranges":["bytes"],"Content-Length":["7155"],"Content-Security-Policy":["frame-ancestors 'self' *"],"X-Content-Type-Options":["nosniff"]}}
+READY
+RESULT 716
+processname:editor groupname:editor pid:1801 channel:stdout
+{"level":"info","ts":1706790089.4570873,"logger":"http.log.access.log0","msg":"handled request","request":{"remote_ip":"127.0.0.1","remote_port":"50710","client_ip":"127.0.0.1","proto":"HTTP/1.1","method":"GET","host":"localhost","uri":"/","headers":{"User-Agent":["curl/7.68.0"],"Accept":["*/*"]}},"bytes_read":0,"user_id":"","duration":0.000446792,"size":7155,"status":200,"resp_headers":{"Etag":["\"s86fff5ir\""],"Content-Type":["text/html; charset=utf-8"],"Last-Modified":["Thu, 01 Feb 2024 12:16:27 GMT"],"Accept-Ranges":["bytes"],"Content-Length":["7155"],"Content-Security-Policy":["frame-ancestors 'self' *"],"X-Content-Type-Options":["nosniff"]}}
+READY
+RESULT 715
+processname:editor groupname:editor pid:1801 channel:stdout
+{"level":"info","ts":1706790104.800217,"logger":"http.log.access.log0","msg":"handled request","request":{"remote_ip":"127.0.0.1","remote_port":"33236","client_ip":"127.0.0.1","proto":"HTTP/1.1","method":"GET","host":"localhost","uri":"/","headers":{"Accept":["*/*"],"User-Agent":["curl/7.68.0"]}},"bytes_read":0,"user_id":"","duration":0.001229667,"size":7155,"status":200,"resp_headers":{"Accept-Ranges":["bytes"],"Content-Length":["7155"],"Content-Security-Policy":["frame-ancestors 'self' *"],"X-Content-Type-Options":["nosniff"],"Etag":["\"s86fff5ir\""],"Content-Type":["text/html; charset=utf-8"],"Last-Modified":["Thu, 01 Feb 2024 12:16:27 GMT"]}}
+READY
